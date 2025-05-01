@@ -72,9 +72,9 @@ My interdisciplinary background allows me to integrate technical systems, applie
 
 ## 📫 Contact
 
-- LinkedIn: www.linkedin.com/in/alromora
-- GitHub: github.com/xymora/repository
-- Email: **rodrigowifi@gmail.com**
+LinkedIn: [www.linkedin.com/in/alromora](https://www.linkedin.com/in/alromora)  
+GitHub: [github.com/xymora/repository](https://github.com/xymora/repository)  
+Email: [rodrigowifi@gmail.com](mailto:rodrigowifi@gmail.com)
 
 ---
 
