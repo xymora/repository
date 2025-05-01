@@ -21,6 +21,14 @@ Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Intel
 - 📊 A churn prediction model to identify high-risk clients and trigger retention actions, reducing customer loss in subscription-based services.
 - 🛒 A recommendation engine for retail product placement based on purchase history, seasonal trends, and collaborative filtering.
 - 📦 A supply chain demand sensing system leveraging real-time data to adjust inventory levels and reduce holding costs in logistics operations.
+- 🏷️ A dynamic pricing model for online retail that adjusts prices in real-time based on demand elasticity, competitor pricing, and inventory levels.
+- 💳 A fraud detection system for digital transactions using anomaly detection and behavioral modeling to reduce financial risk in e-commerce platforms.
+- 🗣️ A sentiment analysis engine applied to customer reviews to assess product perception and guide inventory and marketing strategies.
+- 🧾 A customer lifetime value (CLV) prediction model to support strategic investment in high-value users and retention campaigns.
+- 📉 A customer churn survival analysis model using Kaplan-Meier estimators and Cox regression to understand time-to-attrition patterns in subscription services.
+- 📊 A business intelligence dashboard built with Shiny to visualize KPIs, client segmentation, and regional sales performance in real time.
+- 🧪 A bioinformatics pipeline in R for gene expression analysis using microarray and RNA-seq datasets, supporting diagnostic research decisions.
+- 💰 A predictive credit risk scoring model using logistic regression, ROC analysis, and AUC evaluation tailored to small business loan applications.
 - 📊 A multidimensional data analytics system for pattern detection, visualization, and insight generation using structured datasets.
 - 📈 A time-series forecasting model for operational metrics and strategic planning in data-rich environments.
 - 🗃️ A scalable data ingestion and transformation pipeline for high-volume datasets using distributed storage and parallel processing.
@@ -31,6 +39,7 @@ Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Intel
 - 🧬 A molecular modeling tool to simulate gene-editing therapies based on immune resistance pathways.
 - 🛠️ A modular automation framework enabling intelligent agents to reconfigure and optimize workflows in response to environmental inputs.
 - 🔍 A profile-based inference engine combining multi-source datasets for rule-based analysis and risk assessment.
+
 
 ## 🚀 Featured Projects
 
