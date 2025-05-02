@@ -1,0 +1,1001 @@
+ReviewID,ProductID,Rating,ReviewText
+R1,P012,4,Highly recommended
+R2,P012,5,Excellent product!
+R3,P004,3,Serves the purpose
+R4,P016,5,Great value for money
+R5,P004,5,Very useful and good quality
+R6,P005,2,Won't buy again
+R7,P005,3,Average quality
+R8,P008,3,Serves the purpose
+R9,P010,3,It's okay
+R10,P017,5,Highly recommended
+R11,P009,4,"Fantastic, will buy again"
+R12,P019,3,It's okay
+R13,P014,5,Excellent product!
+R14,P008,2,Not worth it
+R15,P009,4,Very useful and good quality
+R16,P011,2,Won't buy again
+R17,P001,4,Excellent product!
+R18,P014,5,Very useful and good quality
+R19,P005,1,Defective on arrival
+R20,P014,4,Very useful and good quality
+R21,P004,2,Bad experience
+R22,P001,5,Great value for money
+R23,P019,4,Excellent product!
+R24,P008,1,Very disappointed
+R25,P015,1,Defective on arrival
+R26,P015,3,Nothing special
+R27,P009,3,Nothing special
+R28,P009,2,Very disappointed
+R29,P010,4,Very useful and good quality
+R30,P020,4,Five stars
+R31,P009,3,It's okay
+R32,P003,4,Highly recommended
+R33,P020,4,"Fantastic, will buy again"
+R34,P011,1,Not worth it
+R35,P006,3,Nothing special
+R36,P002,5,Five stars
+R37,P007,3,Neither good nor bad
+R38,P018,5,Great value for money
+R39,P002,1,Terrible product
+R40,P017,2,Bad experience
+R41,P011,4,Highly recommended
+R42,P012,1,Defective on arrival
+R43,P019,4,Highly recommended
+R44,P007,2,Poor quality
+R45,P020,2,One star
+R46,P006,1,Won't buy again
+R47,P001,2,Not worth it
+R48,P017,5,Excellent product!
+R49,P011,2,Won't buy again
+R50,P018,4,Great value for money
+R51,P017,4,Highly recommended
+R52,P007,4,Very useful and good quality
+R53,P017,4,Highly recommended
+R54,P020,5,"Fantastic, will buy again"
+R55,P009,3,Nothing special
+R56,P017,1,Bad experience
+R57,P020,4,Five stars
+R58,P008,2,Very disappointed
+R59,P017,4,Five stars
+R60,P007,2,One star
+R61,P001,2,Won't buy again
+R62,P013,4,Great value for money
+R63,P019,5,Highly recommended
+R64,P019,2,Very disappointed
+R65,P017,2,Won't buy again
+R66,P013,4,Loved it
+R67,P016,2,Bad experience
+R68,P008,2,Defective on arrival
+R69,P019,4,Great value for money
+R70,P018,4,Very useful and good quality
+R71,P001,1,One star
+R72,P014,5,Excellent product!
+R73,P019,5,Very useful and good quality
+R74,P015,2,Terrible product
+R75,P018,5,Five stars
+R76,P002,2,Defective on arrival
+R77,P017,1,Poor quality
+R78,P018,4,Highly recommended
+R79,P006,4,Very useful and good quality
+R80,P019,4,Five stars
+R81,P004,5,Very useful and good quality
+R82,P001,1,Bad experience
+R83,P008,5,"Fantastic, will buy again"
+R84,P007,5,Exactly what I needed
+R85,P003,1,Very disappointed
+R86,P010,1,Poor quality
+R87,P010,1,Very disappointed
+R88,P019,1,Won't buy again
+R89,P014,4,Great value for money
+R90,P002,3,Serves the purpose
+R91,P001,3,Neither good nor bad
+R92,P018,1,Defective on arrival
+R93,P007,3,Neither good nor bad
+R94,P008,3,Meh
+R95,P001,1,One star
+R96,P003,3,Average quality
+R97,P008,5,Loved it
+R98,P015,2,Bad experience
+R99,P005,2,Not worth it
+R100,P003,1,Terrible product
+R101,P019,4,Highly recommended
+R102,P001,1,Very disappointed
+R103,P015,4,Loved it
+R104,P008,2,Defective on arrival
+R105,P002,1,Not worth it
+R106,P003,5,"Fantastic, will buy again"
+R107,P014,3,Meh
+R108,P014,4,Exactly what I needed
+R109,P011,3,Neither good nor bad
+R110,P016,3,Nothing special
+R111,P004,1,Terrible product
+R112,P020,3,Serves the purpose
+R113,P005,5,Highly recommended
+R114,P014,3,Serves the purpose
+R115,P016,1,Poor quality
+R116,P018,5,Five stars
+R117,P007,2,Not worth it
+R118,P010,3,Nothing special
+R119,P007,1,Defective on arrival
+R120,P001,2,Very disappointed
+R121,P019,2,Bad experience
+R122,P016,4,Excellent product!
+R123,P019,5,Great value for money
+R124,P004,3,Neither good nor bad
+R125,P018,1,Very disappointed
+R126,P002,4,Highly recommended
+R127,P001,5,Great value for money
+R128,P015,4,Very useful and good quality
+R129,P005,5,Loved it
+R130,P020,5,Five stars
+R131,P011,3,Satisfactory
+R132,P010,5,Loved it
+R133,P002,4,Excellent product!
+R134,P003,5,Five stars
+R135,P012,3,Meh
+R136,P020,3,It's okay
+R137,P005,4,Highly recommended
+R138,P005,2,One star
+R139,P006,2,Poor quality
+R140,P009,5,Very useful and good quality
+R141,P002,1,Terrible product
+R142,P012,5,Very useful and good quality
+R143,P003,4,Highly recommended
+R144,P020,4,Highly recommended
+R145,P012,4,Exactly what I needed
+R146,P017,4,Highly recommended
+R147,P010,4,Loved it
+R148,P014,3,Average quality
+R149,P017,2,Bad experience
+R150,P018,4,Loved it
+R151,P019,1,Poor quality
+R152,P017,1,Defective on arrival
+R153,P014,1,Won't buy again
+R154,P009,1,Won't buy again
+R155,P008,3,Serves the purpose
+R156,P002,1,Poor quality
+R157,P013,4,"Fantastic, will buy again"
+R158,P007,5,Five stars
+R159,P009,1,Bad experience
+R160,P011,3,Neither good nor bad
+R161,P014,3,Meh
+R162,P004,1,Not worth it
+R163,P013,5,Very useful and good quality
+R164,P002,1,Won't buy again
+R165,P005,3,It's okay
+R166,P011,2,One star
+R167,P006,4,Excellent product!
+R168,P018,3,Neither good nor bad
+R169,P010,1,Won't buy again
+R170,P004,4,Very useful and good quality
+R171,P009,1,Terrible product
+R172,P006,1,Not worth it
+R173,P002,2,Terrible product
+R174,P017,4,Very useful and good quality
+R175,P005,4,Highly recommended
+R176,P006,2,Terrible product
+R177,P012,3,Satisfactory
+R178,P010,1,One star
+R179,P006,5,Highly recommended
+R180,P008,1,Won't buy again
+R181,P002,1,Poor quality
+R182,P012,3,Serves the purpose
+R183,P013,1,Bad experience
+R184,P007,2,Won't buy again
+R185,P010,2,Very disappointed
+R186,P013,4,Exactly what I needed
+R187,P017,5,Very useful and good quality
+R188,P014,1,Bad experience
+R189,P002,1,Defective on arrival
+R190,P011,3,Average quality
+R191,P001,2,Not worth it
+R192,P019,5,Highly recommended
+R193,P004,4,"Fantastic, will buy again"
+R194,P019,2,One star
+R195,P011,4,"Fantastic, will buy again"
+R196,P008,3,Meh
+R197,P011,3,Meh
+R198,P004,1,Terrible product
+R199,P017,5,Highly recommended
+R200,P007,4,Excellent product!
+R201,P008,2,Defective on arrival
+R202,P003,3,Serves the purpose
+R203,P002,1,One star
+R204,P015,1,Not worth it
+R205,P005,4,Very useful and good quality
+R206,P001,3,Average quality
+R207,P004,5,Very useful and good quality
+R208,P015,3,Neither good nor bad
+R209,P020,4,Exactly what I needed
+R210,P019,4,Loved it
+R211,P003,3,Meh
+R212,P020,4,Loved it
+R213,P011,3,Nothing special
+R214,P017,2,Bad experience
+R215,P013,3,Average quality
+R216,P011,3,Satisfactory
+R217,P002,4,Highly recommended
+R218,P009,4,Exactly what I needed
+R219,P002,1,Not worth it
+R220,P009,1,Terrible product
+R221,P009,2,Terrible product
+R222,P008,1,Not worth it
+R223,P017,3,Satisfactory
+R224,P001,4,Very useful and good quality
+R225,P011,1,Very disappointed
+R226,P008,1,Defective on arrival
+R227,P010,2,Bad experience
+R228,P007,2,Bad experience
+R229,P003,3,Average quality
+R230,P003,4,"Fantastic, will buy again"
+R231,P018,2,Terrible product
+R232,P005,1,Very disappointed
+R233,P012,4,"Fantastic, will buy again"
+R234,P012,4,Excellent product!
+R235,P019,1,Defective on arrival
+R236,P006,2,Poor quality
+R237,P002,1,Bad experience
+R238,P012,4,Great value for money
+R239,P019,5,"Fantastic, will buy again"
+R240,P005,5,Exactly what I needed
+R241,P012,3,Average quality
+R242,P017,1,Won't buy again
+R243,P017,1,Poor quality
+R244,P010,3,Average quality
+R245,P017,3,It's okay
+R246,P015,3,Neither good nor bad
+R247,P012,4,Excellent product!
+R248,P016,1,One star
+R249,P019,4,Excellent product!
+R250,P008,3,It's okay
+R251,P017,1,Bad experience
+R252,P005,4,Loved it
+R253,P016,4,Excellent product!
+R254,P006,3,Neither good nor bad
+R255,P008,1,Not worth it
+R256,P018,3,Satisfactory
+R257,P012,1,Very disappointed
+R258,P015,5,Highly recommended
+R259,P009,2,Not worth it
+R260,P013,2,Won't buy again
+R261,P015,2,Defective on arrival
+R262,P010,3,It's okay
+R263,P016,5,Very useful and good quality
+R264,P007,1,Terrible product
+R265,P017,4,Highly recommended
+R266,P007,1,Defective on arrival
+R267,P014,4,Five stars
+R268,P015,1,Poor quality
+R269,P007,5,Very useful and good quality
+R270,P009,4,Five stars
+R271,P019,3,Average quality
+R272,P016,1,Poor quality
+R273,P008,1,Defective on arrival
+R274,P018,4,Loved it
+R275,P018,3,Serves the purpose
+R276,P020,3,Serves the purpose
+R277,P007,5,Great value for money
+R278,P003,3,Meh
+R279,P018,3,Nothing special
+R280,P010,3,Satisfactory
+R281,P007,2,Not worth it
+R282,P017,5,Excellent product!
+R283,P014,1,Bad experience
+R284,P003,4,Highly recommended
+R285,P012,1,Not worth it
+R286,P013,5,Very useful and good quality
+R287,P002,4,Great value for money
+R288,P003,5,Loved it
+R289,P005,3,Nothing special
+R290,P011,4,Highly recommended
+R291,P008,3,Average quality
+R292,P012,1,One star
+R293,P007,1,Poor quality
+R294,P015,4,Loved it
+R295,P017,4,Exactly what I needed
+R296,P004,5,Great value for money
+R297,P013,5,Excellent product!
+R298,P018,3,Serves the purpose
+R299,P001,4,Great value for money
+R300,P016,1,Not worth it
+R301,P013,5,Loved it
+R302,P010,5,Great value for money
+R303,P012,1,Not worth it
+R304,P002,5,Highly recommended
+R305,P003,3,Serves the purpose
+R306,P010,4,Loved it
+R307,P002,1,Poor quality
+R308,P013,4,Great value for money
+R309,P013,5,Very useful and good quality
+R310,P018,5,Five stars
+R311,P003,1,Won't buy again
+R312,P007,3,Serves the purpose
+R313,P014,2,Poor quality
+R314,P020,1,Bad experience
+R315,P017,2,Poor quality
+R316,P012,2,Terrible product
+R317,P016,3,It's okay
+R318,P012,2,Defective on arrival
+R319,P015,2,Poor quality
+R320,P010,3,It's okay
+R321,P007,2,Terrible product
+R322,P020,2,One star
+R323,P005,2,Very disappointed
+R324,P001,1,Poor quality
+R325,P017,1,Very disappointed
+R326,P003,1,Bad experience
+R327,P013,3,Neither good nor bad
+R328,P014,5,"Fantastic, will buy again"
+R329,P018,2,Terrible product
+R330,P004,2,Not worth it
+R331,P018,3,It's okay
+R332,P005,2,Very disappointed
+R333,P016,1,Terrible product
+R334,P001,5,Five stars
+R335,P014,4,Loved it
+R336,P015,2,Defective on arrival
+R337,P009,1,Very disappointed
+R338,P015,4,Excellent product!
+R339,P017,5,Great value for money
+R340,P004,4,Five stars
+R341,P012,1,Terrible product
+R342,P005,4,Five stars
+R343,P005,3,Average quality
+R344,P011,4,Very useful and good quality
+R345,P006,2,Not worth it
+R346,P007,2,One star
+R347,P014,3,Satisfactory
+R348,P011,1,Defective on arrival
+R349,P013,2,Very disappointed
+R350,P002,5,Very useful and good quality
+R351,P007,2,Very disappointed
+R352,P020,2,Very disappointed
+R353,P004,1,Defective on arrival
+R354,P008,4,Excellent product!
+R355,P020,2,Very disappointed
+R356,P019,3,Serves the purpose
+R357,P013,4,Five stars
+R358,P014,5,"Fantastic, will buy again"
+R359,P010,1,Won't buy again
+R360,P011,5,Great value for money
+R361,P002,4,Loved it
+R362,P009,4,Highly recommended
+R363,P017,4,"Fantastic, will buy again"
+R364,P003,5,Excellent product!
+R365,P006,4,Exactly what I needed
+R366,P005,5,Very useful and good quality
+R367,P005,4,Very useful and good quality
+R368,P015,3,Satisfactory
+R369,P017,4,Exactly what I needed
+R370,P009,5,Five stars
+R371,P003,2,Poor quality
+R372,P020,4,Very useful and good quality
+R373,P017,2,Won't buy again
+R374,P010,3,It's okay
+R375,P003,1,Won't buy again
+R376,P018,3,Meh
+R377,P018,4,Five stars
+R378,P017,2,Poor quality
+R379,P003,2,Not worth it
+R380,P003,5,Great value for money
+R381,P006,2,One star
+R382,P013,5,"Fantastic, will buy again"
+R383,P015,1,One star
+R384,P009,4,Excellent product!
+R385,P004,5,Highly recommended
+R386,P014,1,Poor quality
+R387,P005,2,Very disappointed
+R388,P002,2,Poor quality
+R389,P011,1,Terrible product
+R390,P009,2,Not worth it
+R391,P003,1,Defective on arrival
+R392,P009,5,Five stars
+R393,P003,5,Five stars
+R394,P002,1,Defective on arrival
+R395,P012,5,Highly recommended
+R396,P010,5,"Fantastic, will buy again"
+R397,P009,5,Very useful and good quality
+R398,P015,3,Nothing special
+R399,P008,4,Excellent product!
+R400,P005,2,Defective on arrival
+R401,P011,3,It's okay
+R402,P002,5,Very useful and good quality
+R403,P015,1,One star
+R404,P006,5,"Fantastic, will buy again"
+R405,P008,4,Highly recommended
+R406,P005,5,Five stars
+R407,P016,1,One star
+R408,P018,4,Highly recommended
+R409,P006,5,Great value for money
+R410,P005,4,Great value for money
+R411,P016,2,Defective on arrival
+R412,P013,2,One star
+R413,P005,5,"Fantastic, will buy again"
+R414,P013,4,Great value for money
+R415,P017,1,Very disappointed
+R416,P018,5,Very useful and good quality
+R417,P008,2,Defective on arrival
+R418,P013,2,Defective on arrival
+R419,P019,5,Loved it
+R420,P003,4,Great value for money
+R421,P008,2,Defective on arrival
+R422,P002,4,Excellent product!
+R423,P008,2,Poor quality
+R424,P013,2,Poor quality
+R425,P013,3,Average quality
+R426,P001,2,Defective on arrival
+R427,P006,1,One star
+R428,P019,5,Exactly what I needed
+R429,P016,5,Exactly what I needed
+R430,P008,4,Exactly what I needed
+R431,P001,2,Won't buy again
+R432,P016,1,Bad experience
+R433,P009,4,Loved it
+R434,P013,3,Serves the purpose
+R435,P011,4,Highly recommended
+R436,P013,4,Great value for money
+R437,P010,2,One star
+R438,P004,3,It's okay
+R439,P006,4,Very useful and good quality
+R440,P007,1,Poor quality
+R441,P005,1,Won't buy again
+R442,P011,5,Very useful and good quality
+R443,P013,3,Average quality
+R444,P019,3,It's okay
+R445,P010,5,Excellent product!
+R446,P010,4,Very useful and good quality
+R447,P011,3,Meh
+R448,P007,1,Not worth it
+R449,P018,1,Bad experience
+R450,P004,2,Defective on arrival
+R451,P002,3,Serves the purpose
+R452,P014,4,Very useful and good quality
+R453,P013,5,"Fantastic, will buy again"
+R454,P012,5,Exactly what I needed
+R455,P007,4,"Fantastic, will buy again"
+R456,P002,2,Won't buy again
+R457,P013,5,Loved it
+R458,P014,3,Serves the purpose
+R459,P017,2,Terrible product
+R460,P009,3,Satisfactory
+R461,P017,1,Not worth it
+R462,P008,2,Defective on arrival
+R463,P002,5,Very useful and good quality
+R464,P013,2,Very disappointed
+R465,P003,2,Bad experience
+R466,P016,2,Terrible product
+R467,P006,2,Won't buy again
+R468,P019,3,Satisfactory
+R469,P007,1,Not worth it
+R470,P010,4,Exactly what I needed
+R471,P009,2,Very disappointed
+R472,P002,5,Exactly what I needed
+R473,P015,2,One star
+R474,P005,5,Exactly what I needed
+R475,P004,3,Neither good nor bad
+R476,P020,5,"Fantastic, will buy again"
+R477,P004,4,Exactly what I needed
+R478,P018,1,Very disappointed
+R479,P004,5,Exactly what I needed
+R480,P017,5,Exactly what I needed
+R481,P012,1,Poor quality
+R482,P017,4,Very useful and good quality
+R483,P010,2,Poor quality
+R484,P001,5,Exactly what I needed
+R485,P018,1,Won't buy again
+R486,P018,3,Nothing special
+R487,P014,1,Bad experience
+R488,P015,3,It's okay
+R489,P012,4,Great value for money
+R490,P004,2,Won't buy again
+R491,P003,1,Poor quality
+R492,P020,5,Five stars
+R493,P012,4,Five stars
+R494,P007,1,Not worth it
+R495,P011,5,Loved it
+R496,P001,1,Very disappointed
+R497,P006,3,Average quality
+R498,P015,1,Defective on arrival
+R499,P015,1,Very disappointed
+R500,P019,1,Won't buy again
+R501,P011,4,Highly recommended
+R502,P002,1,Defective on arrival
+R503,P014,5,"Fantastic, will buy again"
+R504,P002,3,Nothing special
+R505,P004,3,Neither good nor bad
+R506,P017,1,Bad experience
+R507,P003,4,"Fantastic, will buy again"
+R508,P013,4,Excellent product!
+R509,P009,5,Very useful and good quality
+R510,P007,1,Defective on arrival
+R511,P015,3,Meh
+R512,P011,4,Excellent product!
+R513,P020,1,Defective on arrival
+R514,P002,4,Exactly what I needed
+R515,P015,4,Excellent product!
+R516,P014,3,Nothing special
+R517,P020,2,Poor quality
+R518,P011,5,"Fantastic, will buy again"
+R519,P003,5,"Fantastic, will buy again"
+R520,P017,3,Neither good nor bad
+R521,P012,4,Very useful and good quality
+R522,P015,1,Bad experience
+R523,P016,4,Very useful and good quality
+R524,P005,3,Nothing special
+R525,P020,5,"Fantastic, will buy again"
+R526,P006,4,Exactly what I needed
+R527,P019,5,Excellent product!
+R528,P005,1,Defective on arrival
+R529,P003,5,Five stars
+R530,P001,5,"Fantastic, will buy again"
+R531,P006,2,Very disappointed
+R532,P015,2,Bad experience
+R533,P002,2,Very disappointed
+R534,P003,5,Excellent product!
+R535,P017,3,Meh
+R536,P012,5,Excellent product!
+R537,P018,3,It's okay
+R538,P015,3,Serves the purpose
+R539,P012,2,Defective on arrival
+R540,P016,4,Loved it
+R541,P008,1,Bad experience
+R542,P014,2,Very disappointed
+R543,P017,2,Terrible product
+R544,P008,4,Great value for money
+R545,P015,1,Defective on arrival
+R546,P014,5,Five stars
+R547,P018,5,Very useful and good quality
+R548,P020,2,Bad experience
+R549,P007,1,One star
+R550,P003,2,One star
+R551,P012,3,Satisfactory
+R552,P003,2,Defective on arrival
+R553,P020,2,Poor quality
+R554,P014,5,"Fantastic, will buy again"
+R555,P015,5,Great value for money
+R556,P014,5,Highly recommended
+R557,P007,3,Meh
+R558,P017,5,Excellent product!
+R559,P012,1,Terrible product
+R560,P020,4,Five stars
+R561,P004,1,Won't buy again
+R562,P009,1,Not worth it
+R563,P006,5,Excellent product!
+R564,P016,4,Excellent product!
+R565,P002,4,Very useful and good quality
+R566,P008,4,Very useful and good quality
+R567,P011,3,Satisfactory
+R568,P013,5,Excellent product!
+R569,P017,4,Loved it
+R570,P008,3,Average quality
+R571,P018,2,Very disappointed
+R572,P018,2,Bad experience
+R573,P014,3,Serves the purpose
+R574,P015,3,It's okay
+R575,P006,5,Very useful and good quality
+R576,P011,5,Exactly what I needed
+R577,P013,2,Poor quality
+R578,P001,4,Five stars
+R579,P006,2,Very disappointed
+R580,P009,4,Highly recommended
+R581,P008,4,Loved it
+R582,P011,5,Great value for money
+R583,P019,1,Not worth it
+R584,P009,1,Terrible product
+R585,P017,3,Nothing special
+R586,P012,5,"Fantastic, will buy again"
+R587,P014,4,"Fantastic, will buy again"
+R588,P015,1,Won't buy again
+R589,P016,4,Highly recommended
+R590,P020,1,Won't buy again
+R591,P001,1,Not worth it
+R592,P010,1,Poor quality
+R593,P008,5,Highly recommended
+R594,P018,2,Terrible product
+R595,P001,4,Five stars
+R596,P002,5,"Fantastic, will buy again"
+R597,P001,5,Five stars
+R598,P001,5,Highly recommended
+R599,P009,5,Five stars
+R600,P013,5,Excellent product!
+R601,P001,3,Satisfactory
+R602,P013,4,"Fantastic, will buy again"
+R603,P020,5,Exactly what I needed
+R604,P007,4,Highly recommended
+R605,P002,3,Meh
+R606,P006,3,Nothing special
+R607,P007,4,Exactly what I needed
+R608,P014,1,Very disappointed
+R609,P018,2,Defective on arrival
+R610,P015,1,Very disappointed
+R611,P002,1,Poor quality
+R612,P010,1,Bad experience
+R613,P012,5,Exactly what I needed
+R614,P017,3,Meh
+R615,P008,1,Poor quality
+R616,P011,3,Nothing special
+R617,P003,4,Very useful and good quality
+R618,P006,2,Not worth it
+R619,P009,4,Great value for money
+R620,P006,4,Exactly what I needed
+R621,P009,5,Very useful and good quality
+R622,P007,2,Bad experience
+R623,P009,4,"Fantastic, will buy again"
+R624,P018,4,Five stars
+R625,P012,2,Terrible product
+R626,P008,2,Bad experience
+R627,P008,4,Five stars
+R628,P018,2,Very disappointed
+R629,P020,4,Exactly what I needed
+R630,P015,4,Very useful and good quality
+R631,P007,5,Five stars
+R632,P011,1,Poor quality
+R633,P020,4,Five stars
+R634,P016,3,Nothing special
+R635,P004,1,Poor quality
+R636,P006,1,Terrible product
+R637,P003,1,Won't buy again
+R638,P009,5,Highly recommended
+R639,P010,4,Very useful and good quality
+R640,P014,5,"Fantastic, will buy again"
+R641,P011,4,Exactly what I needed
+R642,P018,5,Very useful and good quality
+R643,P012,5,Exactly what I needed
+R644,P012,3,Serves the purpose
+R645,P013,5,Exactly what I needed
+R646,P013,2,Bad experience
+R647,P019,3,Satisfactory
+R648,P019,5,Excellent product!
+R649,P014,1,Not worth it
+R650,P004,2,Poor quality
+R651,P013,2,Won't buy again
+R652,P008,2,Defective on arrival
+R653,P019,3,Serves the purpose
+R654,P012,5,Very useful and good quality
+R655,P018,5,Great value for money
+R656,P006,1,One star
+R657,P018,1,Bad experience
+R658,P019,2,One star
+R659,P005,1,Defective on arrival
+R660,P009,3,Serves the purpose
+R661,P003,5,Five stars
+R662,P010,2,One star
+R663,P019,1,Bad experience
+R664,P003,3,Nothing special
+R665,P015,3,Nothing special
+R666,P001,1,Poor quality
+R667,P007,5,Very useful and good quality
+R668,P012,1,Not worth it
+R669,P017,2,Won't buy again
+R670,P020,1,One star
+R671,P005,3,It's okay
+R672,P004,1,Very disappointed
+R673,P012,5,Very useful and good quality
+R674,P020,4,Very useful and good quality
+R675,P018,1,Bad experience
+R676,P017,5,Great value for money
+R677,P019,5,Great value for money
+R678,P009,3,It's okay
+R679,P004,5,Very useful and good quality
+R680,P002,5,Great value for money
+R681,P004,5,Very useful and good quality
+R682,P002,5,Five stars
+R683,P015,2,Very disappointed
+R684,P002,2,Poor quality
+R685,P004,3,It's okay
+R686,P006,1,Very disappointed
+R687,P007,5,Great value for money
+R688,P010,1,Terrible product
+R689,P019,1,Terrible product
+R690,P019,3,Neither good nor bad
+R691,P012,5,Great value for money
+R692,P003,5,Loved it
+R693,P013,4,Exactly what I needed
+R694,P018,1,Not worth it
+R695,P008,1,Terrible product
+R696,P015,2,Poor quality
+R697,P001,4,Exactly what I needed
+R698,P003,2,Bad experience
+R699,P008,2,Bad experience
+R700,P004,2,One star
+R701,P016,3,Average quality
+R702,P010,3,It's okay
+R703,P012,2,Poor quality
+R704,P014,4,Exactly what I needed
+R705,P014,1,Not worth it
+R706,P002,4,Highly recommended
+R707,P005,5,"Fantastic, will buy again"
+R708,P005,3,Meh
+R709,P006,1,Not worth it
+R710,P013,1,Terrible product
+R711,P009,5,Loved it
+R712,P015,5,Loved it
+R713,P014,2,Poor quality
+R714,P007,3,It's okay
+R715,P020,3,Average quality
+R716,P002,4,Highly recommended
+R717,P007,2,Defective on arrival
+R718,P006,2,Won't buy again
+R719,P017,2,Defective on arrival
+R720,P002,2,Bad experience
+R721,P003,3,Meh
+R722,P005,3,Nothing special
+R723,P005,2,Defective on arrival
+R724,P001,4,Great value for money
+R725,P008,1,Terrible product
+R726,P012,1,Not worth it
+R727,P004,4,Very useful and good quality
+R728,P013,2,Won't buy again
+R729,P015,3,Nothing special
+R730,P011,1,Not worth it
+R731,P010,5,Loved it
+R732,P003,5,Very useful and good quality
+R733,P014,4,Loved it
+R734,P016,2,Not worth it
+R735,P010,1,Very disappointed
+R736,P010,2,Terrible product
+R737,P012,1,Defective on arrival
+R738,P009,4,Exactly what I needed
+R739,P001,4,Exactly what I needed
+R740,P005,5,Great value for money
+R741,P020,2,Terrible product
+R742,P008,5,Very useful and good quality
+R743,P011,2,Poor quality
+R744,P012,5,Great value for money
+R745,P001,3,Serves the purpose
+R746,P020,3,Satisfactory
+R747,P011,3,Meh
+R748,P005,3,It's okay
+R749,P015,1,Won't buy again
+R750,P005,3,Nothing special
+R751,P012,4,Very useful and good quality
+R752,P005,4,"Fantastic, will buy again"
+R753,P017,1,Not worth it
+R754,P017,3,Neither good nor bad
+R755,P012,3,Average quality
+R756,P015,3,Serves the purpose
+R757,P015,5,Loved it
+R758,P006,2,Poor quality
+R759,P012,5,Loved it
+R760,P020,2,Not worth it
+R761,P018,3,It's okay
+R762,P014,3,Average quality
+R763,P002,5,Great value for money
+R764,P009,5,Great value for money
+R765,P005,2,Bad experience
+R766,P020,4,Highly recommended
+R767,P001,2,Bad experience
+R768,P003,5,Great value for money
+R769,P006,5,"Fantastic, will buy again"
+R770,P005,1,Poor quality
+R771,P005,5,Exactly what I needed
+R772,P001,1,Bad experience
+R773,P017,4,Highly recommended
+R774,P019,2,Terrible product
+R775,P014,2,Defective on arrival
+R776,P012,1,One star
+R777,P010,2,Poor quality
+R778,P020,5,Excellent product!
+R779,P018,3,It's okay
+R780,P011,1,Won't buy again
+R781,P002,2,Terrible product
+R782,P018,1,Poor quality
+R783,P007,1,Terrible product
+R784,P015,3,Satisfactory
+R785,P011,5,Loved it
+R786,P018,1,Bad experience
+R787,P012,2,Bad experience
+R788,P006,4,Great value for money
+R789,P020,1,Very disappointed
+R790,P013,1,Defective on arrival
+R791,P020,3,Serves the purpose
+R792,P016,5,Exactly what I needed
+R793,P018,4,Highly recommended
+R794,P010,2,Bad experience
+R795,P008,4,Five stars
+R796,P018,2,Defective on arrival
+R797,P001,5,Five stars
+R798,P008,2,One star
+R799,P006,3,Serves the purpose
+R800,P005,3,It's okay
+R801,P015,3,Satisfactory
+R802,P015,3,Average quality
+R803,P002,4,Five stars
+R804,P001,5,"Fantastic, will buy again"
+R805,P011,2,Bad experience
+R806,P010,2,Poor quality
+R807,P018,3,Serves the purpose
+R808,P018,3,Meh
+R809,P017,1,Terrible product
+R810,P008,5,Exactly what I needed
+R811,P015,4,Highly recommended
+R812,P008,2,One star
+R813,P017,1,Poor quality
+R814,P012,1,One star
+R815,P008,2,Not worth it
+R816,P014,4,"Fantastic, will buy again"
+R817,P004,1,Terrible product
+R818,P001,1,Bad experience
+R819,P001,5,"Fantastic, will buy again"
+R820,P019,4,Excellent product!
+R821,P016,1,Won't buy again
+R822,P014,4,Five stars
+R823,P016,2,Bad experience
+R824,P005,3,Serves the purpose
+R825,P009,1,Bad experience
+R826,P002,5,Excellent product!
+R827,P018,2,Won't buy again
+R828,P006,4,Great value for money
+R829,P009,2,Very disappointed
+R830,P001,1,Poor quality
+R831,P009,4,Exactly what I needed
+R832,P016,3,Serves the purpose
+R833,P013,2,Bad experience
+R834,P009,1,Not worth it
+R835,P013,5,Excellent product!
+R836,P009,4,Very useful and good quality
+R837,P011,2,Very disappointed
+R838,P004,2,Poor quality
+R839,P002,3,Neither good nor bad
+R840,P006,3,It's okay
+R841,P014,5,"Fantastic, will buy again"
+R842,P004,5,Highly recommended
+R843,P006,1,Won't buy again
+R844,P019,1,Not worth it
+R845,P006,5,Exactly what I needed
+R846,P002,5,Highly recommended
+R847,P018,4,Loved it
+R848,P013,3,Meh
+R849,P009,1,Poor quality
+R850,P019,3,Neither good nor bad
+R851,P013,3,Serves the purpose
+R852,P011,5,Great value for money
+R853,P001,4,"Fantastic, will buy again"
+R854,P007,2,Bad experience
+R855,P015,4,Exactly what I needed
+R856,P001,4,Very useful and good quality
+R857,P012,3,Meh
+R858,P007,4,Loved it
+R859,P015,1,Defective on arrival
+R860,P019,3,Average quality
+R861,P001,1,Very disappointed
+R862,P017,2,Not worth it
+R863,P017,3,Nothing special
+R864,P003,2,Defective on arrival
+R865,P012,3,Nothing special
+R866,P006,5,Great value for money
+R867,P011,4,Excellent product!
+R868,P003,5,Great value for money
+R869,P008,2,Poor quality
+R870,P014,4,Exactly what I needed
+R871,P014,3,Satisfactory
+R872,P010,4,Loved it
+R873,P002,1,Bad experience
+R874,P014,4,Exactly what I needed
+R875,P009,1,One star
+R876,P003,4,Five stars
+R877,P008,1,Defective on arrival
+R878,P016,2,Bad experience
+R879,P002,5,Five stars
+R880,P006,3,Satisfactory
+R881,P012,4,Very useful and good quality
+R882,P005,5,Very useful and good quality
+R883,P002,3,Neither good nor bad
+R884,P016,3,Meh
+R885,P005,1,Won't buy again
+R886,P015,2,Defective on arrival
+R887,P012,2,Terrible product
+R888,P004,5,Five stars
+R889,P015,2,Bad experience
+R890,P011,4,"Fantastic, will buy again"
+R891,P016,2,Defective on arrival
+R892,P006,5,Loved it
+R893,P014,2,Bad experience
+R894,P018,4,Excellent product!
+R895,P012,1,Very disappointed
+R896,P011,5,Five stars
+R897,P013,1,Not worth it
+R898,P011,1,Bad experience
+R899,P016,1,Not worth it
+R900,P015,3,Neither good nor bad
+R901,P015,3,Meh
+R902,P004,1,Terrible product
+R903,P011,5,Loved it
+R904,P019,4,"Fantastic, will buy again"
+R905,P015,4,Loved it
+R906,P004,2,Not worth it
+R907,P013,5,Exactly what I needed
+R908,P019,3,Satisfactory
+R909,P002,1,Poor quality
+R910,P014,2,One star
+R911,P004,4,"Fantastic, will buy again"
+R912,P016,3,Serves the purpose
+R913,P020,3,It's okay
+R914,P014,1,One star
+R915,P015,4,"Fantastic, will buy again"
+R916,P003,5,Five stars
+R917,P008,3,Serves the purpose
+R918,P016,1,Bad experience
+R919,P010,5,Excellent product!
+R920,P004,4,Highly recommended
+R921,P018,3,Average quality
+R922,P002,5,Great value for money
+R923,P017,5,Very useful and good quality
+R924,P013,5,Highly recommended
+R925,P004,3,Meh
+R926,P011,3,It's okay
+R927,P007,2,Not worth it
+R928,P012,4,Exactly what I needed
+R929,P010,1,Very disappointed
+R930,P007,5,Great value for money
+R931,P013,2,Terrible product
+R932,P007,1,Terrible product
+R933,P017,2,One star
+R934,P010,3,Satisfactory
+R935,P010,5,Excellent product!
+R936,P004,1,Poor quality
+R937,P020,1,One star
+R938,P004,1,One star
+R939,P007,1,Defective on arrival
+R940,P001,1,Very disappointed
+R941,P012,2,Won't buy again
+R942,P013,5,"Fantastic, will buy again"
+R943,P010,3,Neither good nor bad
+R944,P015,3,Serves the purpose
+R945,P013,3,Satisfactory
+R946,P009,3,Average quality
+R947,P009,2,Very disappointed
+R948,P015,4,Loved it
+R949,P010,5,Highly recommended
+R950,P010,1,Defective on arrival
+R951,P008,4,Very useful and good quality
+R952,P016,3,Meh
+R953,P017,4,Loved it
+R954,P005,5,Very useful and good quality
+R955,P004,1,Bad experience
+R956,P018,1,Poor quality
+R957,P019,5,Exactly what I needed
+R958,P004,5,Great value for money
+R959,P007,3,Serves the purpose
+R960,P010,1,Terrible product
+R961,P018,4,Exactly what I needed
+R962,P019,2,Poor quality
+R963,P004,2,Very disappointed
+R964,P010,5,Highly recommended
+R965,P001,3,Meh
+R966,P018,2,One star
+R967,P005,1,Poor quality
+R968,P015,5,"Fantastic, will buy again"
+R969,P017,4,Great value for money
+R970,P003,5,Exactly what I needed
+R971,P012,4,Great value for money
+R972,P002,5,Very useful and good quality
+R973,P001,5,"Fantastic, will buy again"
+R974,P017,5,Exactly what I needed
+R975,P016,4,Highly recommended
+R976,P005,4,Very useful and good quality
+R977,P015,5,"Fantastic, will buy again"
+R978,P003,2,One star
+R979,P007,3,Neither good nor bad
+R980,P011,3,Nothing special
+R981,P010,3,Serves the purpose
+R982,P009,4,Great value for money
+R983,P014,4,Excellent product!
+R984,P013,2,Defective on arrival
+R985,P002,3,Nothing special
+R986,P003,3,It's okay
+R987,P007,5,Excellent product!
+R988,P018,4,Exactly what I needed
+R989,P003,3,Satisfactory
+R990,P010,2,Poor quality
+R991,P007,2,Won't buy again
+R992,P009,3,Neither good nor bad
+R993,P017,4,Five stars
+R994,P011,2,Won't buy again
+R995,P007,5,Very useful and good quality
+R996,P014,2,Poor quality
+R997,P019,1,Very disappointed
+R998,P004,1,Not worth it
+R999,P006,4,Excellent product!
+R1000,P010,3,Nothing special
