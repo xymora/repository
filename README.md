@@ -1,19 +1,23 @@
 ## 🌐 Welcome
 
 ### 🇬🇧 English  
-Welcome to my official Data Science, Machine Learning, and Artificial Intelligence portfolio. I specialize in developing intelligent systems with a focus on:
+Welcome to my official Data Science, Machine Learning, and Artificial Intelligence portfolio. I specialize in developing intelligent systems focused on behavior prediction, process automation, and smart data analysis.
 
 ### 🇩🇪 Deutsch  
-Willkommen in meinem offiziellen Portfolio für Data Science, Machine Learning und Künstliche Intelligenz. Ich spezialisiere mich auf die Entwicklung intelligenter Systeme mit Schwerpunkt auf:
+Willkommen in meinem offiziellen Portfolio für Data Science, Machine Learning und Künstliche Intelligenz. Ich spezialisiere mich auf die Entwicklung intelligenter Systeme mit Schwerpunkt auf Verhaltensvorhersage, Prozessautomatisierung und intelligenter Datenanalyse.
+
+### 🇱🇺 Lëtzebuergesch  
+Wëllkomm op mengem offizielle Portfolio fir Datescience, Machine Learning an Konschtlech Intelligenz. Ech si spezialiséiert op d’Entwécklung vu intelligente Systemer mat engem Fokus op Verhalensvirhersage, Automatiséierung vu Prozesser an intelligenter Dateanalys.
 
 ### 🇮🇹 Italiano  
-Benvenuto nel mio portfolio ufficiale di Data Science, Machine Learning e Intelligenza Artificiale. Sono specializzato nello sviluppo di sistemi intelligenti con particolare attenzione a:
+Benvenuto nel mio portfolio ufficiale di Data Science, Machine Learning e Intelligenza Artificiale. Sono specializzato nello sviluppo di sistemi intelligenti con particolare attenzione alla previsione dei comportamenti, all’automazione dei processi e all’analisi intelligente dei dati.
 
 ### 🇫🇷 Français  
-Bienvenue dans mon portfolio officiel en Data Science, Machine Learning et Intelligence Artificielle. Je suis spécialisé dans le développement de systèmes intelligents axés sur :
+Bienvenue dans mon portfolio officiel en Data Science, Machine Learning et Intelligence Artificielle. Je suis spécialisé dans le développement de systèmes intelligents axés sur la prédiction du comportement, l’automatisation des processus et l’analyse intelligente des données.
 
 ### 🇪🇸 Español  
-Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Inteligencia Artificial. Me especializo en el desarrollo de sistemas inteligentes enfocados en:
+Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Inteligencia Artificial. Me especializo en el desarrollo de sistemas inteligentes enfocados en la predicción de comportamiento, automatización de procesos y análisis inteligente de datos.
+
 
 ## 🧩 Systems I've Designed & Developed
 
