@@ -1,0 +1,1001 @@
+TransactionID,CustomerID,ProductID,Category,Quantity,Price,Season
+T1,C052,P002,Personal Care,3,10.51,Autumn
+T2,C093,P015,Personal Care,2,113.15,Spring
+T3,C015,P008,Electronics,3,84.65,Spring
+T4,C072,P008,Electronics,2,13.37,Summer
+T5,C061,P017,Personal Care,2,103.71,Autumn
+T6,C021,P012,Personal Care,3,72.68,Autumn
+T7,C083,P019,Personal Care,1,10.0,Spring
+T8,C087,P010,Beverages,1,145.59,Spring
+T9,C075,P009,Personal Care,4,142.62,Winter
+T10,C075,P005,Household,1,79.37,Winter
+T11,C088,P006,Snacks,4,18.58,Spring
+T12,C100,P020,Personal Care,1,114.42,Winter
+T13,C024,P026,Snacks,1,76.33,Winter
+T14,C003,P002,Beverages,2,48.85,Spring
+T15,C022,P027,Snacks,4,76.26,Spring
+T16,C053,P024,Beverages,1,80.75,Autumn
+T17,C002,P027,Household,4,86.59,Spring
+T18,C088,P013,Beverages,2,68.98,Spring
+T19,C030,P006,Beverages,2,92.83,Summer
+T20,C038,P005,Electronics,4,138.22,Autumn
+T21,C002,P025,Personal Care,2,57.53,Autumn
+T22,C064,P001,Personal Care,3,110.23,Autumn
+T23,C060,P021,Household,3,134.7,Summer
+T24,C021,P022,Household,2,71.12,Spring
+T25,C033,P021,Personal Care,3,69.3,Autumn
+T26,C076,P006,Electronics,1,92.31,Autumn
+T27,C058,P006,Personal Care,4,90.75,Winter
+T28,C022,P023,Electronics,1,121.96,Autumn
+T29,C089,P016,Household,4,74.09,Spring
+T30,C049,P004,Snacks,2,149.44,Spring
+T31,C091,P030,Household,1,13.62,Winter
+T32,C059,P011,Household,2,5.46,Autumn
+T33,C042,P030,Beverages,2,97.83,Autumn
+T34,C092,P030,Beverages,4,48.27,Autumn
+T35,C060,P030,Beverages,4,39.86,Summer
+T36,C080,P024,Beverages,4,50.23,Autumn
+T37,C015,P023,Electronics,1,42.13,Spring
+T38,C062,P009,Personal Care,3,9.46,Spring
+T39,C062,P023,Snacks,4,145.87,Summer
+T40,C047,P003,Household,4,37.01,Summer
+T41,C062,P019,Electronics,1,111.43,Autumn
+T42,C051,P008,Snacks,4,115.58,Winter
+T43,C055,P005,Electronics,1,139.74,Summer
+T44,C064,P004,Electronics,2,9.43,Summer
+T45,C003,P024,Household,4,131.45,Autumn
+T46,C051,P006,Personal Care,4,81.45,Autumn
+T47,C007,P002,Beverages,2,96.72,Summer
+T48,C021,P020,Personal Care,2,98.45,Winter
+T49,C073,P028,Household,2,123.87,Summer
+T50,C039,P011,Household,4,53.34,Autumn
+T51,C018,P004,Household,3,111.29,Autumn
+T52,C004,P015,Snacks,3,81.64,Summer
+T53,C089,P006,Personal Care,3,120.04,Winter
+T54,C060,P022,Personal Care,4,148.63,Summer
+T55,C014,P017,Electronics,2,34.09,Summer
+T56,C009,P030,Electronics,4,149.22,Autumn
+T57,C090,P024,Electronics,2,18.02,Winter
+T58,C053,P006,Household,4,5.34,Spring
+T59,C002,P019,Personal Care,4,11.4,Winter
+T60,C084,P030,Household,2,54.56,Summer
+T61,C092,P025,Snacks,3,96.77,Summer
+T62,C060,P002,Electronics,2,15.01,Summer
+T63,C071,P015,Household,1,5.82,Winter
+T64,C044,P011,Household,1,140.88,Autumn
+T65,C008,P008,Snacks,2,124.18,Summer
+T66,C047,P026,Beverages,4,122.33,Summer
+T67,C035,P019,Personal Care,1,133.24,Winter
+T68,C078,P013,Beverages,1,106.5,Spring
+T69,C081,P012,Electronics,4,20.14,Spring
+T70,C036,P005,Household,4,62.87,Autumn
+T71,C050,P006,Snacks,3,109.86,Autumn
+T72,C004,P026,Snacks,4,45.65,Summer
+T73,C002,P022,Personal Care,2,104.67,Winter
+T74,C006,P004,Beverages,2,8.55,Summer
+T75,C054,P019,Personal Care,3,49.39,Autumn
+T76,C004,P020,Household,1,84.62,Winter
+T77,C054,P001,Personal Care,1,96.65,Winter
+T78,C093,P020,Snacks,4,88.67,Autumn
+T79,C063,P017,Snacks,2,106.17,Spring
+T80,C018,P012,Electronics,1,5.88,Spring
+T81,C090,P015,Electronics,3,19.64,Winter
+T82,C044,P001,Household,3,131.0,Summer
+T83,C034,P026,Beverages,2,103.85,Spring
+T84,C074,P014,Personal Care,3,21.38,Summer
+T85,C062,P006,Household,3,127.1,Spring
+T86,C100,P005,Electronics,2,40.12,Spring
+T87,C014,P030,Personal Care,4,74.35,Summer
+T88,C095,P011,Electronics,4,26.05,Autumn
+T89,C048,P004,Personal Care,3,107.97,Spring
+T90,C015,P013,Beverages,4,101.69,Spring
+T91,C072,P011,Household,4,35.61,Summer
+T92,C078,P003,Personal Care,3,130.19,Autumn
+T93,C087,P001,Snacks,4,63.19,Spring
+T94,C062,P006,Snacks,3,47.41,Spring
+T95,C040,P018,Personal Care,1,27.09,Autumn
+T96,C085,P024,Personal Care,2,43.59,Spring
+T97,C080,P010,Personal Care,2,8.19,Autumn
+T98,C082,P005,Snacks,4,89.57,Autumn
+T99,C053,P023,Snacks,4,127.12,Summer
+T100,C024,P010,Personal Care,4,84.6,Winter
+T101,C026,P012,Electronics,2,36.79,Autumn
+T102,C089,P002,Electronics,1,9.88,Summer
+T103,C060,P013,Beverages,1,36.12,Winter
+T104,C041,P008,Household,2,65.34,Spring
+T105,C029,P002,Electronics,1,115.14,Winter
+T106,C015,P020,Snacks,2,32.24,Autumn
+T107,C045,P001,Electronics,1,109.37,Autumn
+T108,C065,P005,Beverages,3,130.71,Autumn
+T109,C089,P009,Beverages,3,70.82,Autumn
+T110,C071,P017,Household,2,124.11,Autumn
+T111,C009,P009,Electronics,1,85.43,Summer
+T112,C088,P011,Snacks,4,97.38,Autumn
+T113,C001,P015,Snacks,1,81.31,Summer
+T114,C008,P024,Personal Care,3,72.16,Spring
+T115,C088,P006,Snacks,3,39.02,Autumn
+T116,C063,P023,Household,1,48.96,Autumn
+T117,C011,P003,Household,1,47.05,Winter
+T118,C081,P030,Snacks,4,86.68,Spring
+T119,C008,P017,Snacks,4,22.39,Autumn
+T120,C035,P005,Personal Care,1,137.93,Autumn
+T121,C035,P030,Snacks,1,109.49,Spring
+T122,C033,P028,Personal Care,1,63.21,Summer
+T123,C005,P012,Personal Care,1,28.0,Autumn
+T124,C041,P018,Snacks,2,132.89,Winter
+T125,C028,P014,Beverages,1,124.45,Autumn
+T126,C007,P021,Beverages,4,109.65,Winter
+T127,C073,P024,Personal Care,3,44.37,Winter
+T128,C072,P011,Snacks,2,63.35,Autumn
+T129,C012,P009,Beverages,1,19.9,Autumn
+T130,C034,P002,Snacks,3,32.41,Winter
+T131,C033,P012,Snacks,2,118.54,Spring
+T132,C048,P003,Snacks,3,108.68,Spring
+T133,C023,P003,Electronics,1,91.06,Autumn
+T134,C062,P001,Snacks,1,134.88,Summer
+T135,C088,P008,Electronics,4,89.57,Spring
+T136,C037,P022,Personal Care,1,72.71,Autumn
+T137,C099,P028,Beverages,1,54.35,Spring
+T138,C044,P029,Beverages,2,141.37,Summer
+T139,C086,P008,Beverages,4,16.99,Autumn
+T140,C091,P011,Beverages,2,139.98,Summer
+T141,C035,P009,Beverages,3,124.87,Autumn
+T142,C065,P005,Beverages,1,23.84,Summer
+T143,C099,P014,Beverages,3,86.92,Spring
+T144,C047,P028,Personal Care,2,130.65,Spring
+T145,C078,P030,Snacks,1,87.91,Summer
+T146,C003,P003,Household,1,136.54,Summer
+T147,C001,P021,Electronics,2,141.73,Summer
+T148,C005,P005,Household,2,66.25,Autumn
+T149,C090,P005,Household,2,59.71,Spring
+T150,C014,P019,Snacks,2,140.77,Autumn
+T151,C027,P027,Snacks,2,102.9,Spring
+T152,C009,P014,Snacks,1,21.82,Winter
+T153,C079,P026,Beverages,2,11.13,Autumn
+T154,C015,P030,Personal Care,1,86.87,Spring
+T155,C090,P004,Beverages,1,139.87,Spring
+T156,C042,P025,Personal Care,2,127.42,Autumn
+T157,C077,P013,Personal Care,2,103.0,Autumn
+T158,C051,P010,Household,4,25.17,Spring
+T159,C063,P025,Household,1,41.86,Autumn
+T160,C096,P018,Personal Care,2,131.95,Summer
+T161,C052,P008,Personal Care,2,31.51,Autumn
+T162,C096,P008,Beverages,2,45.37,Autumn
+T163,C004,P007,Beverages,4,23.79,Autumn
+T164,C094,P008,Household,4,103.04,Spring
+T165,C023,P014,Snacks,3,141.88,Summer
+T166,C015,P019,Personal Care,1,44.0,Winter
+T167,C043,P029,Beverages,3,73.93,Winter
+T168,C029,P006,Household,2,96.98,Summer
+T169,C036,P001,Beverages,4,149.92,Summer
+T170,C013,P023,Personal Care,4,20.2,Summer
+T171,C032,P015,Personal Care,3,77.29,Spring
+T172,C071,P001,Electronics,4,60.84,Winter
+T173,C059,P025,Snacks,2,130.54,Summer
+T174,C086,P017,Electronics,4,74.02,Spring
+T175,C028,P001,Household,3,21.09,Winter
+T176,C066,P015,Beverages,2,96.99,Autumn
+T177,C042,P023,Household,3,116.76,Spring
+T178,C045,P002,Personal Care,4,5.42,Winter
+T179,C062,P014,Electronics,3,129.55,Spring
+T180,C057,P021,Electronics,3,31.97,Winter
+T181,C006,P008,Electronics,1,85.05,Winter
+T182,C028,P008,Household,4,65.29,Autumn
+T183,C028,P019,Personal Care,4,109.35,Spring
+T184,C044,P007,Beverages,3,58.82,Summer
+T185,C084,P019,Beverages,1,131.12,Autumn
+T186,C030,P006,Household,4,110.92,Autumn
+T187,C062,P006,Electronics,2,98.92,Winter
+T188,C075,P003,Snacks,3,120.45,Summer
+T189,C092,P007,Household,4,114.33,Spring
+T190,C089,P019,Household,2,10.21,Summer
+T191,C062,P008,Personal Care,4,62.24,Summer
+T192,C097,P010,Beverages,2,139.97,Summer
+T193,C001,P020,Household,3,23.23,Summer
+T194,C027,P015,Household,4,111.88,Summer
+T195,C062,P015,Electronics,4,146.32,Winter
+T196,C077,P029,Electronics,1,12.57,Winter
+T197,C003,P001,Snacks,3,103.92,Autumn
+T198,C070,P020,Personal Care,2,72.88,Winter
+T199,C072,P030,Snacks,4,88.98,Autumn
+T200,C027,P007,Electronics,4,17.37,Autumn
+T201,C009,P027,Beverages,2,11.24,Spring
+T202,C062,P004,Electronics,3,101.7,Summer
+T203,C037,P029,Personal Care,1,124.38,Winter
+T204,C097,P006,Electronics,1,118.39,Spring
+T205,C051,P025,Personal Care,4,83.85,Winter
+T206,C044,P001,Personal Care,2,19.48,Autumn
+T207,C024,P029,Personal Care,4,104.77,Winter
+T208,C079,P005,Personal Care,2,40.07,Summer
+T209,C059,P027,Personal Care,1,137.1,Autumn
+T210,C032,P023,Beverages,3,126.55,Autumn
+T211,C096,P001,Snacks,2,107.86,Spring
+T212,C088,P030,Household,1,142.58,Summer
+T213,C052,P004,Snacks,4,9.56,Autumn
+T214,C062,P022,Personal Care,2,111.75,Summer
+T215,C058,P002,Beverages,3,52.89,Winter
+T216,C052,P010,Electronics,4,136.38,Summer
+T217,C012,P005,Beverages,4,43.67,Autumn
+T218,C039,P027,Personal Care,1,110.1,Spring
+T219,C002,P010,Beverages,2,132.26,Autumn
+T220,C003,P001,Beverages,4,11.04,Summer
+T221,C056,P022,Personal Care,3,62.66,Summer
+T222,C081,P006,Beverages,2,115.53,Autumn
+T223,C059,P013,Household,3,70.96,Summer
+T224,C002,P015,Household,4,43.75,Winter
+T225,C002,P004,Beverages,3,36.87,Autumn
+T226,C092,P013,Electronics,1,24.07,Spring
+T227,C054,P024,Personal Care,3,129.28,Autumn
+T228,C087,P020,Household,2,88.43,Winter
+T229,C096,P024,Electronics,3,16.08,Winter
+T230,C097,P015,Beverages,3,60.47,Winter
+T231,C001,P029,Electronics,1,58.32,Winter
+T232,C019,P008,Snacks,3,31.35,Winter
+T233,C002,P005,Household,3,68.15,Spring
+T234,C053,P029,Beverages,4,53.15,Summer
+T235,C044,P015,Personal Care,4,54.56,Winter
+T236,C090,P004,Beverages,2,112.16,Winter
+T237,C032,P012,Personal Care,4,37.37,Autumn
+T238,C070,P013,Beverages,4,98.07,Spring
+T239,C032,P002,Electronics,4,87.74,Spring
+T240,C068,P027,Electronics,4,87.37,Summer
+T241,C055,P019,Electronics,1,101.14,Spring
+T242,C075,P019,Snacks,4,84.52,Autumn
+T243,C056,P004,Personal Care,1,132.49,Autumn
+T244,C017,P004,Electronics,1,102.96,Summer
+T245,C038,P026,Snacks,4,84.31,Autumn
+T246,C024,P011,Personal Care,3,125.32,Winter
+T247,C069,P027,Beverages,1,92.89,Winter
+T248,C098,P005,Snacks,3,47.22,Autumn
+T249,C070,P020,Household,3,35.03,Summer
+T250,C086,P011,Snacks,4,27.09,Spring
+T251,C011,P030,Snacks,2,135.42,Summer
+T252,C016,P010,Personal Care,4,107.97,Spring
+T253,C097,P008,Beverages,2,140.92,Autumn
+T254,C073,P006,Household,2,92.48,Autumn
+T255,C059,P006,Electronics,4,73.64,Winter
+T256,C070,P008,Electronics,4,13.66,Spring
+T257,C080,P023,Snacks,2,102.39,Summer
+T258,C093,P015,Personal Care,4,89.42,Autumn
+T259,C003,P026,Personal Care,2,148.58,Summer
+T260,C020,P014,Electronics,3,39.68,Winter
+T261,C059,P011,Household,4,81.96,Spring
+T262,C036,P012,Beverages,3,99.39,Spring
+T263,C019,P026,Household,1,98.47,Autumn
+T264,C090,P013,Beverages,3,86.39,Spring
+T265,C067,P008,Electronics,3,117.65,Autumn
+T266,C019,P030,Beverages,2,34.72,Winter
+T267,C020,P018,Personal Care,3,110.22,Spring
+T268,C096,P025,Snacks,4,94.86,Autumn
+T269,C071,P001,Snacks,2,134.93,Summer
+T270,C052,P015,Electronics,1,127.84,Autumn
+T271,C033,P008,Personal Care,4,50.7,Spring
+T272,C040,P028,Household,1,45.05,Winter
+T273,C039,P011,Personal Care,3,147.34,Spring
+T274,C082,P012,Snacks,4,81.45,Spring
+T275,C001,P012,Snacks,4,136.43,Autumn
+T276,C011,P004,Personal Care,1,28.76,Summer
+T277,C092,P016,Personal Care,4,98.21,Spring
+T278,C057,P004,Snacks,4,122.43,Summer
+T279,C089,P005,Household,4,142.37,Autumn
+T280,C050,P024,Electronics,3,53.91,Summer
+T281,C023,P005,Electronics,1,110.12,Autumn
+T282,C031,P008,Personal Care,4,83.13,Winter
+T283,C094,P010,Electronics,2,13.79,Summer
+T284,C042,P017,Snacks,2,105.05,Summer
+T285,C099,P028,Snacks,2,105.06,Winter
+T286,C007,P026,Personal Care,2,139.94,Summer
+T287,C016,P009,Personal Care,3,77.11,Winter
+T288,C090,P022,Personal Care,4,38.39,Spring
+T289,C060,P019,Household,1,11.46,Autumn
+T290,C002,P029,Electronics,4,65.27,Winter
+T291,C001,P014,Personal Care,3,48.78,Summer
+T292,C048,P008,Beverages,2,115.36,Winter
+T293,C012,P009,Beverages,3,56.37,Summer
+T294,C069,P022,Snacks,4,142.62,Spring
+T295,C037,P011,Electronics,1,144.53,Winter
+T296,C032,P023,Personal Care,3,95.03,Spring
+T297,C009,P001,Beverages,1,139.66,Autumn
+T298,C099,P014,Electronics,3,115.32,Summer
+T299,C019,P005,Snacks,1,84.29,Summer
+T300,C048,P021,Household,1,31.14,Spring
+T301,C080,P026,Electronics,2,71.5,Autumn
+T302,C003,P014,Electronics,1,86.33,Winter
+T303,C020,P004,Household,2,130.27,Winter
+T304,C024,P022,Electronics,4,74.79,Summer
+T305,C054,P023,Snacks,4,135.16,Spring
+T306,C033,P025,Snacks,2,102.78,Spring
+T307,C024,P001,Household,2,24.86,Winter
+T308,C075,P022,Personal Care,3,149.27,Autumn
+T309,C072,P023,Beverages,3,81.45,Autumn
+T310,C036,P019,Personal Care,3,61.82,Winter
+T311,C038,P008,Electronics,4,100.57,Winter
+T312,C084,P015,Beverages,3,20.79,Spring
+T313,C099,P021,Household,1,97.3,Autumn
+T314,C089,P015,Household,1,77.24,Winter
+T315,C099,P009,Beverages,3,63.97,Winter
+T316,C025,P021,Snacks,1,143.19,Summer
+T317,C093,P009,Beverages,4,80.77,Winter
+T318,C018,P010,Electronics,1,36.77,Winter
+T319,C082,P020,Snacks,4,71.55,Autumn
+T320,C066,P025,Household,2,138.31,Spring
+T321,C054,P021,Beverages,2,30.53,Autumn
+T322,C035,P026,Personal Care,2,36.02,Spring
+T323,C080,P009,Personal Care,2,6.89,Summer
+T324,C061,P003,Electronics,1,7.06,Winter
+T325,C041,P020,Personal Care,3,125.26,Summer
+T326,C100,P025,Beverages,1,111.16,Spring
+T327,C033,P026,Beverages,4,56.48,Autumn
+T328,C068,P011,Personal Care,1,106.26,Autumn
+T329,C033,P006,Beverages,1,62.3,Summer
+T330,C014,P002,Electronics,4,143.17,Spring
+T331,C021,P007,Snacks,2,145.22,Summer
+T332,C048,P018,Electronics,2,61.96,Summer
+T333,C020,P027,Electronics,2,128.86,Winter
+T334,C008,P002,Beverages,3,117.1,Summer
+T335,C007,P027,Snacks,4,49.95,Winter
+T336,C067,P017,Beverages,4,38.65,Winter
+T337,C017,P011,Household,1,71.44,Autumn
+T338,C033,P027,Beverages,3,118.3,Winter
+T339,C048,P012,Beverages,2,144.22,Winter
+T340,C076,P027,Beverages,3,115.72,Autumn
+T341,C059,P019,Snacks,4,129.01,Summer
+T342,C086,P022,Beverages,4,92.44,Spring
+T343,C022,P024,Snacks,1,126.13,Spring
+T344,C030,P025,Personal Care,1,118.74,Spring
+T345,C038,P007,Household,4,59.66,Summer
+T346,C051,P020,Snacks,2,85.04,Winter
+T347,C054,P006,Personal Care,2,121.69,Spring
+T348,C008,P021,Snacks,3,11.68,Summer
+T349,C027,P024,Snacks,4,122.17,Winter
+T350,C027,P001,Household,4,30.79,Autumn
+T351,C098,P017,Electronics,2,79.63,Spring
+T352,C021,P029,Electronics,2,122.2,Winter
+T353,C030,P011,Snacks,4,41.8,Spring
+T354,C097,P022,Beverages,1,40.64,Spring
+T355,C028,P026,Personal Care,4,63.4,Spring
+T356,C064,P028,Beverages,4,134.72,Winter
+T357,C097,P018,Beverages,2,5.06,Summer
+T358,C069,P021,Snacks,2,135.7,Winter
+T359,C061,P017,Snacks,1,27.3,Spring
+T360,C048,P007,Snacks,1,148.56,Winter
+T361,C019,P017,Snacks,3,143.45,Autumn
+T362,C004,P020,Electronics,4,76.73,Summer
+T363,C035,P009,Snacks,2,79.34,Winter
+T364,C064,P017,Electronics,1,74.82,Autumn
+T365,C049,P020,Electronics,3,97.14,Summer
+T366,C017,P022,Snacks,3,18.15,Autumn
+T367,C044,P022,Household,2,9.73,Summer
+T368,C092,P028,Personal Care,2,13.37,Winter
+T369,C030,P029,Beverages,3,69.43,Autumn
+T370,C093,P008,Electronics,1,44.95,Spring
+T371,C046,P017,Personal Care,3,95.2,Autumn
+T372,C006,P007,Household,4,148.9,Summer
+T373,C099,P001,Beverages,4,61.02,Winter
+T374,C037,P013,Beverages,2,88.21,Summer
+T375,C024,P030,Electronics,1,65.26,Autumn
+T376,C093,P023,Snacks,1,127.85,Autumn
+T377,C046,P019,Household,4,135.82,Spring
+T378,C053,P027,Electronics,3,132.22,Winter
+T379,C095,P024,Household,2,146.28,Winter
+T380,C099,P019,Snacks,3,8.99,Autumn
+T381,C060,P030,Snacks,3,126.77,Winter
+T382,C097,P030,Electronics,3,114.01,Spring
+T383,C063,P029,Snacks,1,38.16,Summer
+T384,C085,P017,Personal Care,4,143.67,Winter
+T385,C032,P013,Beverages,1,26.49,Autumn
+T386,C087,P029,Electronics,4,103.53,Summer
+T387,C033,P030,Household,2,37.61,Summer
+T388,C067,P016,Personal Care,2,67.55,Spring
+T389,C018,P008,Electronics,3,109.28,Autumn
+T390,C025,P019,Snacks,4,86.68,Winter
+T391,C095,P018,Snacks,4,66.99,Autumn
+T392,C054,P001,Snacks,4,52.32,Summer
+T393,C058,P014,Snacks,3,126.75,Autumn
+T394,C067,P019,Household,3,25.85,Winter
+T395,C046,P015,Personal Care,2,67.36,Winter
+T396,C024,P018,Beverages,1,136.04,Spring
+T397,C032,P002,Household,4,127.65,Winter
+T398,C047,P022,Household,4,63.14,Winter
+T399,C086,P028,Beverages,1,115.65,Autumn
+T400,C023,P017,Beverages,4,124.36,Autumn
+T401,C066,P018,Snacks,3,133.89,Summer
+T402,C027,P030,Household,3,83.95,Spring
+T403,C002,P006,Electronics,4,34.65,Autumn
+T404,C090,P019,Beverages,3,42.02,Winter
+T405,C017,P004,Beverages,3,47.88,Summer
+T406,C033,P001,Personal Care,4,91.1,Autumn
+T407,C009,P008,Electronics,2,9.76,Spring
+T408,C043,P029,Electronics,1,97.23,Spring
+T409,C048,P023,Beverages,3,57.83,Summer
+T410,C039,P007,Snacks,2,47.81,Summer
+T411,C093,P003,Personal Care,3,132.53,Summer
+T412,C042,P010,Electronics,3,71.7,Summer
+T413,C026,P010,Beverages,1,18.78,Summer
+T414,C099,P019,Electronics,3,124.88,Winter
+T415,C050,P014,Personal Care,1,11.91,Winter
+T416,C025,P002,Personal Care,1,110.38,Autumn
+T417,C024,P028,Household,1,117.22,Spring
+T418,C013,P001,Beverages,2,56.13,Winter
+T419,C060,P023,Personal Care,4,124.59,Winter
+T420,C007,P023,Household,2,79.77,Winter
+T421,C057,P028,Household,4,72.18,Autumn
+T422,C036,P018,Electronics,4,11.58,Summer
+T423,C045,P007,Electronics,1,47.05,Autumn
+T424,C020,P029,Household,3,140.0,Spring
+T425,C065,P008,Electronics,1,61.81,Spring
+T426,C008,P001,Personal Care,3,84.27,Spring
+T427,C016,P025,Snacks,4,82.14,Spring
+T428,C014,P023,Personal Care,1,90.61,Winter
+T429,C076,P003,Household,3,13.89,Winter
+T430,C087,P024,Household,2,57.52,Autumn
+T431,C015,P023,Personal Care,3,109.85,Summer
+T432,C092,P027,Electronics,1,34.08,Spring
+T433,C098,P029,Electronics,2,34.52,Autumn
+T434,C066,P008,Household,3,6.46,Winter
+T435,C032,P022,Beverages,3,68.43,Winter
+T436,C087,P025,Electronics,3,133.0,Summer
+T437,C063,P015,Personal Care,3,12.53,Summer
+T438,C086,P005,Electronics,3,32.71,Summer
+T439,C051,P003,Personal Care,2,49.96,Autumn
+T440,C025,P019,Household,4,111.1,Winter
+T441,C058,P001,Electronics,2,97.89,Winter
+T442,C063,P028,Personal Care,2,65.31,Summer
+T443,C062,P015,Household,2,115.06,Spring
+T444,C022,P008,Beverages,4,93.4,Summer
+T445,C058,P002,Personal Care,1,134.93,Autumn
+T446,C058,P003,Beverages,4,123.61,Summer
+T447,C086,P024,Beverages,2,41.66,Summer
+T448,C049,P014,Snacks,3,44.36,Autumn
+T449,C052,P024,Electronics,3,23.18,Summer
+T450,C042,P014,Personal Care,2,53.86,Winter
+T451,C070,P011,Beverages,3,149.93,Spring
+T452,C015,P016,Snacks,2,63.83,Summer
+T453,C054,P004,Household,3,36.97,Autumn
+T454,C060,P020,Personal Care,4,115.56,Spring
+T455,C097,P005,Beverages,1,83.66,Autumn
+T456,C008,P022,Electronics,1,26.69,Spring
+T457,C053,P021,Snacks,4,60.2,Spring
+T458,C060,P014,Beverages,4,65.1,Summer
+T459,C005,P023,Electronics,2,114.31,Winter
+T460,C068,P016,Beverages,2,8.0,Summer
+T461,C006,P018,Personal Care,2,44.01,Autumn
+T462,C096,P007,Personal Care,3,80.05,Autumn
+T463,C094,P010,Personal Care,2,43.98,Spring
+T464,C047,P007,Snacks,4,96.12,Spring
+T465,C099,P001,Personal Care,1,74.87,Winter
+T466,C055,P023,Electronics,3,57.45,Summer
+T467,C040,P021,Beverages,2,142.64,Autumn
+T468,C052,P019,Household,3,96.66,Spring
+T469,C016,P016,Electronics,3,23.84,Winter
+T470,C013,P029,Electronics,2,86.21,Autumn
+T471,C030,P019,Personal Care,3,118.21,Spring
+T472,C019,P004,Snacks,1,107.73,Autumn
+T473,C017,P029,Beverages,4,29.95,Winter
+T474,C063,P028,Snacks,4,146.0,Winter
+T475,C019,P018,Beverages,1,70.08,Autumn
+T476,C092,P002,Beverages,3,28.06,Summer
+T477,C058,P001,Snacks,2,31.13,Autumn
+T478,C055,P015,Electronics,3,19.24,Spring
+T479,C090,P005,Beverages,1,121.51,Summer
+T480,C090,P020,Snacks,3,22.69,Spring
+T481,C062,P011,Beverages,4,23.14,Autumn
+T482,C023,P010,Household,3,128.32,Summer
+T483,C009,P002,Electronics,1,54.97,Spring
+T484,C012,P003,Personal Care,4,9.47,Autumn
+T485,C001,P023,Beverages,3,12.52,Autumn
+T486,C058,P023,Household,3,25.61,Summer
+T487,C001,P012,Personal Care,4,35.94,Autumn
+T488,C034,P020,Personal Care,2,101.45,Winter
+T489,C096,P005,Beverages,4,27.81,Spring
+T490,C048,P005,Snacks,2,22.24,Spring
+T491,C089,P006,Beverages,1,115.88,Autumn
+T492,C001,P030,Household,1,102.3,Autumn
+T493,C016,P009,Personal Care,4,68.12,Winter
+T494,C061,P002,Beverages,4,84.65,Summer
+T495,C064,P021,Snacks,1,50.24,Autumn
+T496,C063,P012,Beverages,2,74.96,Autumn
+T497,C069,P003,Electronics,1,78.47,Autumn
+T498,C022,P020,Snacks,4,61.15,Autumn
+T499,C093,P026,Household,1,136.45,Spring
+T500,C067,P022,Personal Care,4,7.33,Autumn
+T501,C076,P012,Beverages,4,118.41,Spring
+T502,C026,P024,Snacks,1,23.04,Autumn
+T503,C016,P017,Electronics,2,120.64,Summer
+T504,C051,P010,Snacks,3,94.31,Winter
+T505,C086,P030,Electronics,1,127.28,Summer
+T506,C057,P024,Household,3,19.14,Autumn
+T507,C029,P027,Personal Care,1,86.05,Autumn
+T508,C078,P014,Household,3,77.66,Autumn
+T509,C092,P023,Beverages,2,107.4,Summer
+T510,C069,P017,Snacks,2,82.47,Autumn
+T511,C047,P018,Electronics,1,83.41,Summer
+T512,C094,P019,Electronics,4,67.29,Spring
+T513,C062,P017,Snacks,3,49.78,Winter
+T514,C069,P014,Snacks,4,74.93,Winter
+T515,C076,P009,Beverages,4,22.18,Summer
+T516,C016,P008,Household,4,144.42,Spring
+T517,C090,P002,Electronics,2,108.59,Summer
+T518,C090,P013,Beverages,1,143.11,Spring
+T519,C048,P025,Household,1,37.88,Autumn
+T520,C085,P007,Beverages,2,132.5,Spring
+T521,C039,P009,Electronics,2,122.27,Spring
+T522,C100,P022,Snacks,1,103.19,Spring
+T523,C033,P022,Snacks,4,95.63,Winter
+T524,C094,P011,Household,3,50.9,Spring
+T525,C023,P014,Personal Care,3,123.38,Autumn
+T526,C010,P004,Household,3,77.72,Autumn
+T527,C069,P026,Personal Care,4,15.28,Autumn
+T528,C100,P026,Beverages,1,50.37,Spring
+T529,C034,P029,Beverages,2,140.62,Summer
+T530,C052,P013,Electronics,1,128.35,Summer
+T531,C095,P002,Personal Care,4,147.38,Autumn
+T532,C010,P023,Electronics,2,96.06,Winter
+T533,C019,P005,Snacks,4,40.89,Summer
+T534,C058,P011,Personal Care,3,28.61,Spring
+T535,C096,P006,Household,3,32.1,Summer
+T536,C001,P018,Snacks,4,7.87,Autumn
+T537,C069,P021,Snacks,2,61.65,Winter
+T538,C004,P010,Household,2,32.76,Summer
+T539,C016,P004,Snacks,1,64.69,Summer
+T540,C024,P009,Personal Care,3,140.57,Autumn
+T541,C080,P006,Electronics,1,67.43,Winter
+T542,C002,P002,Snacks,1,132.31,Winter
+T543,C092,P017,Personal Care,4,92.8,Autumn
+T544,C032,P005,Beverages,4,40.83,Spring
+T545,C091,P025,Personal Care,1,56.6,Summer
+T546,C084,P006,Electronics,3,17.17,Spring
+T547,C024,P026,Personal Care,4,53.35,Summer
+T548,C012,P012,Household,1,103.24,Summer
+T549,C050,P023,Electronics,1,15.46,Spring
+T550,C035,P021,Beverages,1,34.78,Autumn
+T551,C033,P010,Household,1,60.31,Autumn
+T552,C033,P022,Personal Care,1,147.4,Summer
+T553,C061,P021,Electronics,1,118.8,Autumn
+T554,C051,P027,Beverages,4,111.36,Summer
+T555,C043,P025,Household,3,21.85,Autumn
+T556,C012,P006,Beverages,1,118.24,Summer
+T557,C067,P027,Personal Care,2,118.86,Autumn
+T558,C065,P008,Beverages,4,92.16,Winter
+T559,C033,P002,Snacks,4,148.6,Spring
+T560,C040,P012,Household,1,52.16,Winter
+T561,C074,P013,Beverages,4,141.48,Spring
+T562,C043,P025,Personal Care,1,137.64,Spring
+T563,C044,P021,Personal Care,3,6.66,Summer
+T564,C029,P007,Beverages,3,70.27,Spring
+T565,C013,P010,Personal Care,4,146.68,Winter
+T566,C012,P013,Electronics,4,19.95,Winter
+T567,C095,P017,Electronics,2,84.43,Autumn
+T568,C046,P026,Electronics,4,146.95,Winter
+T569,C002,P021,Snacks,2,85.55,Autumn
+T570,C035,P028,Beverages,3,32.52,Spring
+T571,C087,P030,Snacks,3,89.42,Winter
+T572,C081,P026,Personal Care,1,34.64,Spring
+T573,C090,P014,Snacks,3,80.36,Winter
+T574,C008,P002,Personal Care,2,15.74,Winter
+T575,C093,P028,Personal Care,4,92.79,Autumn
+T576,C026,P022,Household,1,79.93,Spring
+T577,C074,P011,Electronics,2,112.32,Winter
+T578,C090,P001,Personal Care,4,96.45,Summer
+T579,C034,P019,Household,1,84.69,Spring
+T580,C007,P021,Electronics,3,105.02,Spring
+T581,C068,P004,Personal Care,2,25.87,Spring
+T582,C058,P019,Personal Care,4,91.33,Autumn
+T583,C075,P026,Snacks,1,29.96,Summer
+T584,C029,P029,Snacks,1,139.2,Spring
+T585,C036,P021,Electronics,3,14.91,Winter
+T586,C089,P011,Personal Care,4,67.4,Winter
+T587,C021,P008,Beverages,3,105.89,Autumn
+T588,C036,P011,Snacks,3,71.41,Winter
+T589,C010,P004,Electronics,4,18.35,Spring
+T590,C073,P017,Personal Care,4,85.24,Winter
+T591,C024,P027,Personal Care,4,98.04,Spring
+T592,C064,P007,Beverages,2,107.05,Winter
+T593,C099,P008,Electronics,4,59.12,Summer
+T594,C049,P003,Personal Care,1,86.73,Autumn
+T595,C099,P022,Snacks,3,70.35,Autumn
+T596,C036,P002,Beverages,2,102.45,Summer
+T597,C082,P023,Electronics,4,89.62,Summer
+T598,C096,P015,Beverages,2,81.23,Autumn
+T599,C024,P024,Snacks,4,41.18,Summer
+T600,C023,P022,Electronics,2,5.29,Spring
+T601,C062,P022,Beverages,3,30.24,Winter
+T602,C096,P005,Household,3,21.97,Autumn
+T603,C037,P024,Snacks,1,70.12,Summer
+T604,C012,P001,Snacks,1,93.78,Spring
+T605,C055,P026,Snacks,4,35.9,Autumn
+T606,C013,P004,Household,3,141.16,Summer
+T607,C023,P015,Household,2,5.97,Autumn
+T608,C089,P020,Personal Care,2,116.98,Summer
+T609,C099,P019,Beverages,2,95.65,Autumn
+T610,C030,P003,Personal Care,1,59.17,Spring
+T611,C017,P020,Beverages,2,12.32,Spring
+T612,C062,P011,Household,1,95.99,Winter
+T613,C084,P017,Household,1,60.91,Autumn
+T614,C089,P030,Personal Care,4,140.76,Winter
+T615,C086,P027,Electronics,2,83.59,Autumn
+T616,C013,P013,Personal Care,2,141.25,Summer
+T617,C059,P011,Beverages,3,36.97,Summer
+T618,C019,P002,Personal Care,4,110.23,Winter
+T619,C049,P009,Snacks,3,94.5,Autumn
+T620,C100,P026,Beverages,4,112.21,Winter
+T621,C012,P002,Beverages,2,36.13,Spring
+T622,C061,P021,Electronics,1,101.42,Winter
+T623,C019,P009,Household,1,77.22,Winter
+T624,C076,P009,Beverages,1,112.71,Summer
+T625,C009,P008,Household,1,52.42,Winter
+T626,C071,P017,Personal Care,1,134.06,Autumn
+T627,C028,P001,Snacks,3,17.22,Summer
+T628,C078,P025,Electronics,4,122.04,Winter
+T629,C095,P029,Household,2,129.89,Spring
+T630,C052,P011,Beverages,3,123.5,Winter
+T631,C083,P008,Household,4,79.35,Winter
+T632,C016,P010,Beverages,1,68.57,Winter
+T633,C069,P025,Household,4,149.46,Summer
+T634,C099,P007,Beverages,4,38.23,Autumn
+T635,C012,P003,Personal Care,1,84.3,Spring
+T636,C025,P003,Beverages,1,102.25,Winter
+T637,C052,P018,Beverages,1,106.63,Autumn
+T638,C085,P005,Snacks,2,34.58,Autumn
+T639,C100,P012,Beverages,1,99.83,Summer
+T640,C053,P012,Snacks,2,123.66,Spring
+T641,C023,P019,Electronics,1,12.25,Summer
+T642,C016,P030,Snacks,2,137.17,Autumn
+T643,C057,P006,Personal Care,4,9.28,Autumn
+T644,C039,P002,Snacks,3,56.62,Autumn
+T645,C053,P012,Electronics,4,7.29,Summer
+T646,C042,P019,Personal Care,4,16.19,Spring
+T647,C058,P005,Household,1,137.12,Winter
+T648,C039,P012,Household,2,56.45,Summer
+T649,C014,P027,Snacks,3,66.59,Autumn
+T650,C095,P027,Snacks,1,36.22,Summer
+T651,C005,P017,Electronics,1,91.58,Autumn
+T652,C035,P029,Electronics,1,91.25,Winter
+T653,C087,P017,Beverages,4,58.97,Winter
+T654,C093,P010,Electronics,2,53.29,Spring
+T655,C075,P025,Beverages,2,133.32,Autumn
+T656,C018,P023,Personal Care,3,60.58,Spring
+T657,C076,P017,Snacks,2,76.56,Spring
+T658,C009,P015,Personal Care,2,46.08,Winter
+T659,C074,P012,Electronics,1,119.08,Summer
+T660,C058,P030,Personal Care,1,62.63,Summer
+T661,C017,P016,Personal Care,4,79.47,Spring
+T662,C007,P024,Personal Care,1,41.74,Winter
+T663,C046,P019,Electronics,1,148.21,Autumn
+T664,C013,P008,Personal Care,1,47.27,Summer
+T665,C040,P021,Beverages,1,116.76,Spring
+T666,C042,P017,Electronics,4,66.99,Summer
+T667,C009,P023,Personal Care,1,34.9,Summer
+T668,C050,P005,Electronics,3,120.96,Autumn
+T669,C027,P022,Household,3,53.37,Winter
+T670,C066,P016,Beverages,3,130.45,Autumn
+T671,C005,P006,Personal Care,3,137.71,Winter
+T672,C029,P008,Household,1,129.67,Summer
+T673,C037,P025,Household,3,10.08,Spring
+T674,C038,P018,Electronics,1,119.17,Autumn
+T675,C083,P025,Household,4,64.64,Winter
+T676,C008,P012,Beverages,3,131.69,Summer
+T677,C065,P015,Beverages,2,97.5,Winter
+T678,C086,P027,Snacks,3,125.88,Winter
+T679,C017,P026,Beverages,3,77.42,Winter
+T680,C071,P009,Household,1,82.58,Summer
+T681,C089,P013,Beverages,3,25.94,Spring
+T682,C045,P026,Electronics,2,118.68,Spring
+T683,C004,P015,Snacks,1,65.81,Spring
+T684,C036,P010,Household,1,77.51,Winter
+T685,C070,P016,Snacks,4,118.84,Summer
+T686,C031,P007,Household,4,91.83,Winter
+T687,C019,P017,Electronics,3,34.16,Spring
+T688,C061,P023,Snacks,4,90.58,Spring
+T689,C054,P026,Personal Care,4,64.11,Summer
+T690,C039,P021,Household,4,73.08,Winter
+T691,C091,P022,Personal Care,1,9.11,Autumn
+T692,C074,P026,Snacks,1,35.45,Autumn
+T693,C090,P007,Personal Care,1,45.75,Spring
+T694,C019,P014,Personal Care,4,108.38,Summer
+T695,C039,P015,Snacks,1,6.67,Winter
+T696,C067,P021,Electronics,4,64.27,Winter
+T697,C045,P007,Personal Care,1,138.98,Spring
+T698,C013,P009,Personal Care,1,21.22,Spring
+T699,C092,P019,Electronics,2,79.88,Winter
+T700,C058,P016,Personal Care,3,119.05,Winter
+T701,C020,P008,Personal Care,4,141.67,Spring
+T702,C092,P018,Personal Care,2,113.28,Winter
+T703,C072,P027,Beverages,1,109.48,Autumn
+T704,C061,P023,Electronics,4,124.84,Spring
+T705,C039,P029,Personal Care,1,69.7,Winter
+T706,C001,P018,Electronics,3,121.85,Spring
+T707,C003,P030,Household,2,6.15,Summer
+T708,C077,P020,Household,3,139.06,Spring
+T709,C092,P007,Personal Care,2,69.28,Spring
+T710,C062,P003,Electronics,1,85.24,Summer
+T711,C063,P018,Electronics,3,41.96,Autumn
+T712,C025,P027,Electronics,3,112.67,Winter
+T713,C056,P010,Beverages,1,16.11,Summer
+T714,C033,P007,Household,3,131.53,Spring
+T715,C038,P017,Electronics,4,125.08,Winter
+T716,C006,P014,Electronics,2,36.33,Summer
+T717,C058,P024,Beverages,2,122.35,Winter
+T718,C044,P003,Beverages,2,119.02,Winter
+T719,C045,P012,Electronics,4,96.67,Summer
+T720,C032,P028,Snacks,2,59.16,Winter
+T721,C045,P013,Electronics,1,44.37,Autumn
+T722,C061,P002,Electronics,3,38.61,Summer
+T723,C047,P003,Beverages,4,51.2,Autumn
+T724,C021,P005,Beverages,2,136.02,Spring
+T725,C080,P011,Electronics,1,16.26,Winter
+T726,C085,P008,Electronics,3,125.19,Spring
+T727,C075,P026,Electronics,3,55.59,Spring
+T728,C036,P023,Beverages,4,80.63,Winter
+T729,C099,P023,Electronics,4,120.2,Summer
+T730,C019,P012,Electronics,4,133.23,Winter
+T731,C020,P007,Personal Care,1,54.99,Spring
+T732,C057,P015,Snacks,1,71.97,Spring
+T733,C018,P024,Household,4,65.1,Summer
+T734,C047,P017,Snacks,2,6.92,Winter
+T735,C049,P004,Personal Care,3,47.91,Spring
+T736,C014,P029,Household,3,71.58,Autumn
+T737,C015,P022,Electronics,1,64.61,Spring
+T738,C031,P025,Personal Care,3,109.68,Spring
+T739,C001,P013,Electronics,2,60.8,Summer
+T740,C054,P018,Beverages,3,75.96,Autumn
+T741,C003,P001,Personal Care,1,67.29,Spring
+T742,C016,P016,Beverages,1,112.39,Spring
+T743,C087,P013,Personal Care,2,130.13,Autumn
+T744,C057,P010,Personal Care,2,82.12,Winter
+T745,C075,P012,Beverages,3,119.47,Winter
+T746,C012,P030,Household,3,48.03,Spring
+T747,C074,P002,Snacks,1,83.5,Spring
+T748,C096,P023,Electronics,2,55.06,Winter
+T749,C016,P003,Personal Care,2,65.06,Summer
+T750,C072,P010,Electronics,2,111.2,Autumn
+T751,C076,P002,Beverages,3,132.84,Autumn
+T752,C024,P030,Electronics,2,22.62,Summer
+T753,C028,P027,Beverages,1,97.02,Summer
+T754,C008,P023,Electronics,1,89.41,Summer
+T755,C092,P013,Snacks,3,22.17,Summer
+T756,C036,P013,Snacks,4,35.72,Summer
+T757,C090,P018,Snacks,3,50.1,Summer
+T758,C008,P003,Snacks,4,29.21,Autumn
+T759,C058,P027,Snacks,2,40.34,Summer
+T760,C060,P007,Snacks,3,43.8,Winter
+T761,C050,P014,Beverages,1,53.67,Summer
+T762,C028,P020,Personal Care,2,113.66,Summer
+T763,C092,P029,Electronics,1,87.93,Autumn
+T764,C041,P030,Snacks,2,148.01,Autumn
+T765,C100,P017,Beverages,3,65.14,Summer
+T766,C064,P029,Beverages,4,114.31,Autumn
+T767,C027,P030,Beverages,2,131.36,Spring
+T768,C063,P021,Personal Care,4,103.45,Autumn
+T769,C017,P012,Electronics,2,64.72,Autumn
+T770,C073,P025,Personal Care,1,114.27,Autumn
+T771,C033,P016,Household,1,34.53,Autumn
+T772,C084,P024,Beverages,2,52.5,Winter
+T773,C077,P012,Household,4,84.27,Winter
+T774,C092,P015,Snacks,3,88.43,Winter
+T775,C029,P025,Snacks,3,8.21,Summer
+T776,C013,P010,Personal Care,1,142.04,Summer
+T777,C046,P030,Electronics,3,106.01,Spring
+T778,C035,P025,Household,1,76.88,Winter
+T779,C006,P007,Electronics,3,140.3,Summer
+T780,C082,P020,Personal Care,2,68.67,Autumn
+T781,C069,P005,Snacks,1,147.16,Autumn
+T782,C047,P001,Electronics,1,79.28,Winter
+T783,C025,P030,Electronics,2,21.57,Spring
+T784,C066,P017,Snacks,1,115.9,Spring
+T785,C010,P003,Household,3,103.44,Autumn
+T786,C056,P013,Snacks,3,117.08,Spring
+T787,C030,P014,Electronics,1,142.96,Winter
+T788,C005,P024,Household,3,117.59,Autumn
+T789,C033,P030,Household,4,93.64,Summer
+T790,C065,P018,Snacks,1,129.31,Summer
+T791,C018,P004,Electronics,2,102.62,Spring
+T792,C096,P018,Personal Care,4,64.18,Autumn
+T793,C049,P030,Electronics,1,133.41,Autumn
+T794,C011,P005,Beverages,2,37.18,Summer
+T795,C085,P025,Personal Care,3,108.62,Autumn
+T796,C026,P016,Household,2,132.83,Autumn
+T797,C063,P001,Personal Care,4,111.04,Autumn
+T798,C089,P021,Household,3,106.1,Spring
+T799,C086,P014,Household,1,114.13,Autumn
+T800,C059,P015,Personal Care,3,72.43,Winter
+T801,C027,P009,Household,1,131.75,Spring
+T802,C049,P015,Household,1,34.5,Autumn
+T803,C077,P017,Beverages,2,23.47,Autumn
+T804,C033,P025,Electronics,2,46.4,Winter
+T805,C098,P024,Electronics,2,82.08,Spring
+T806,C099,P004,Beverages,4,79.03,Summer
+T807,C001,P012,Personal Care,4,123.99,Summer
+T808,C021,P027,Snacks,2,63.66,Spring
+T809,C055,P026,Snacks,4,75.23,Autumn
+T810,C006,P005,Snacks,3,6.94,Autumn
+T811,C092,P029,Beverages,3,64.41,Summer
+T812,C081,P005,Beverages,4,98.93,Summer
+T813,C069,P011,Household,4,7.25,Summer
+T814,C095,P028,Snacks,3,45.73,Winter
+T815,C005,P006,Personal Care,1,35.15,Summer
+T816,C003,P007,Personal Care,3,11.09,Winter
+T817,C053,P024,Snacks,3,74.49,Spring
+T818,C023,P014,Snacks,4,31.35,Autumn
+T819,C053,P024,Snacks,3,112.75,Summer
+T820,C037,P011,Beverages,4,127.95,Autumn
+T821,C074,P030,Beverages,4,84.11,Autumn
+T822,C074,P013,Beverages,2,147.35,Summer
+T823,C083,P002,Electronics,3,70.32,Summer
+T824,C017,P025,Personal Care,1,79.44,Spring
+T825,C085,P007,Personal Care,2,148.44,Winter
+T826,C078,P020,Household,4,38.57,Winter
+T827,C073,P004,Beverages,4,141.67,Autumn
+T828,C001,P027,Electronics,1,11.21,Summer
+T829,C051,P008,Electronics,4,69.73,Spring
+T830,C045,P020,Personal Care,3,15.15,Spring
+T831,C077,P029,Beverages,2,110.74,Spring
+T832,C004,P022,Household,4,93.22,Spring
+T833,C062,P021,Beverages,4,107.46,Spring
+T834,C065,P019,Snacks,1,59.3,Winter
+T835,C032,P013,Beverages,3,58.57,Winter
+T836,C034,P014,Snacks,4,11.57,Winter
+T837,C092,P010,Snacks,1,55.74,Summer
+T838,C095,P011,Household,4,139.75,Autumn
+T839,C072,P002,Personal Care,1,59.99,Spring
+T840,C039,P025,Beverages,1,125.55,Summer
+T841,C026,P026,Snacks,3,127.14,Spring
+T842,C034,P009,Beverages,4,59.12,Winter
+T843,C054,P017,Personal Care,3,96.64,Summer
+T844,C003,P026,Personal Care,1,18.83,Winter
+T845,C050,P003,Electronics,2,20.03,Spring
+T846,C012,P024,Personal Care,4,12.06,Spring
+T847,C065,P006,Household,2,89.25,Autumn
+T848,C054,P005,Snacks,4,66.78,Spring
+T849,C005,P005,Electronics,3,84.46,Winter
+T850,C094,P022,Household,3,80.56,Spring
+T851,C094,P015,Beverages,3,55.78,Autumn
+T852,C057,P023,Snacks,3,103.23,Autumn
+T853,C017,P017,Personal Care,3,114.98,Winter
+T854,C047,P009,Snacks,2,7.12,Summer
+T855,C023,P003,Beverages,3,35.05,Spring
+T856,C079,P020,Electronics,1,108.42,Autumn
+T857,C085,P026,Electronics,1,61.06,Spring
+T858,C014,P017,Electronics,2,101.06,Spring
+T859,C066,P029,Personal Care,4,55.31,Summer
+T860,C075,P027,Household,1,61.66,Autumn
+T861,C051,P010,Household,4,28.01,Spring
+T862,C038,P003,Snacks,2,42.44,Autumn
+T863,C064,P018,Personal Care,4,92.78,Winter
+T864,C098,P018,Electronics,4,67.81,Winter
+T865,C038,P030,Electronics,4,117.27,Spring
+T866,C050,P017,Beverages,4,128.62,Autumn
+T867,C098,P024,Beverages,2,83.54,Spring
+T868,C082,P003,Electronics,1,114.95,Autumn
+T869,C030,P003,Electronics,3,49.5,Autumn
+T870,C079,P006,Personal Care,4,65.17,Summer
+T871,C091,P013,Household,1,108.35,Summer
+T872,C051,P024,Beverages,1,61.0,Summer
+T873,C063,P029,Household,2,90.33,Spring
+T874,C098,P015,Personal Care,1,31.88,Summer
+T875,C052,P025,Electronics,2,91.97,Summer
+T876,C038,P009,Household,4,129.92,Winter
+T877,C097,P004,Electronics,4,130.95,Autumn
+T878,C088,P014,Electronics,3,110.03,Autumn
+T879,C079,P005,Snacks,3,113.13,Summer
+T880,C030,P002,Household,3,85.9,Autumn
+T881,C051,P011,Household,1,89.78,Winter
+T882,C081,P009,Electronics,4,24.38,Winter
+T883,C005,P024,Personal Care,2,69.36,Summer
+T884,C029,P003,Snacks,3,70.36,Winter
+T885,C004,P027,Electronics,2,143.98,Autumn
+T886,C010,P028,Beverages,2,67.51,Spring
+T887,C056,P029,Beverages,3,84.65,Autumn
+T888,C017,P009,Snacks,4,82.32,Spring
+T889,C074,P003,Personal Care,3,97.33,Summer
+T890,C017,P025,Electronics,2,113.49,Spring
+T891,C084,P002,Household,3,37.63,Winter
+T892,C088,P012,Snacks,2,81.67,Autumn
+T893,C069,P010,Personal Care,2,124.76,Spring
+T894,C034,P009,Household,3,72.15,Autumn
+T895,C006,P015,Beverages,1,45.38,Summer
+T896,C053,P008,Beverages,3,99.93,Summer
+T897,C066,P025,Household,1,124.45,Winter
+T898,C077,P005,Snacks,2,14.16,Summer
+T899,C043,P011,Beverages,2,117.63,Spring
+T900,C075,P027,Electronics,1,124.14,Summer
+T901,C023,P002,Household,2,71.92,Winter
+T902,C055,P024,Household,1,147.58,Autumn
+T903,C080,P028,Beverages,1,119.07,Autumn
+T904,C095,P015,Snacks,2,117.18,Summer
+T905,C075,P006,Electronics,4,113.44,Spring
+T906,C016,P008,Snacks,1,26.84,Winter
+T907,C008,P027,Personal Care,3,36.5,Spring
+T908,C004,P005,Personal Care,3,72.28,Winter
+T909,C004,P016,Beverages,2,43.28,Summer
+T910,C056,P026,Beverages,4,65.21,Winter
+T911,C025,P018,Beverages,2,133.83,Winter
+T912,C067,P006,Personal Care,4,124.53,Summer
+T913,C096,P005,Snacks,1,96.36,Spring
+T914,C067,P028,Snacks,1,129.43,Summer
+T915,C027,P016,Beverages,1,118.65,Winter
+T916,C093,P013,Electronics,1,67.2,Summer
+T917,C032,P028,Snacks,3,34.15,Winter
+T918,C050,P005,Personal Care,3,79.56,Summer
+T919,C061,P013,Household,2,111.75,Autumn
+T920,C051,P017,Household,4,68.28,Autumn
+T921,C019,P018,Household,1,101.68,Summer
+T922,C021,P008,Electronics,1,18.68,Spring
+T923,C005,P013,Beverages,4,113.46,Winter
+T924,C082,P030,Personal Care,4,122.84,Autumn
+T925,C092,P029,Electronics,2,107.49,Spring
+T926,C042,P019,Personal Care,4,145.25,Winter
+T927,C061,P026,Personal Care,1,124.86,Autumn
+T928,C022,P003,Beverages,1,135.95,Autumn
+T929,C021,P024,Household,1,140.37,Summer
+T930,C070,P008,Beverages,1,121.2,Winter
+T931,C001,P002,Electronics,1,102.77,Spring
+T932,C005,P008,Electronics,2,5.83,Spring
+T933,C012,P027,Electronics,1,72.54,Spring
+T934,C090,P013,Beverages,2,87.82,Winter
+T935,C046,P013,Personal Care,1,49.08,Spring
+T936,C034,P001,Personal Care,3,51.13,Spring
+T937,C049,P006,Snacks,3,144.37,Spring
+T938,C078,P024,Electronics,3,134.3,Summer
+T939,C090,P019,Personal Care,3,128.13,Summer
+T940,C045,P016,Snacks,2,63.87,Winter
+T941,C027,P008,Personal Care,2,6.99,Winter
+T942,C073,P028,Electronics,4,16.63,Spring
+T943,C026,P001,Household,1,50.27,Summer
+T944,C047,P027,Electronics,3,7.28,Autumn
+T945,C086,P027,Beverages,2,7.49,Autumn
+T946,C056,P016,Personal Care,1,137.91,Spring
+T947,C094,P009,Personal Care,1,107.39,Spring
+T948,C063,P013,Beverages,2,49.8,Summer
+T949,C048,P011,Beverages,3,24.23,Summer
+T950,C061,P013,Household,4,79.19,Summer
+T951,C081,P025,Personal Care,1,5.78,Winter
+T952,C026,P021,Personal Care,4,141.07,Winter
+T953,C036,P010,Household,3,65.15,Spring
+T954,C001,P004,Snacks,3,63.34,Winter
+T955,C008,P027,Household,4,61.64,Summer
+T956,C099,P006,Electronics,3,15.05,Summer
+T957,C052,P028,Personal Care,1,97.56,Winter
+T958,C079,P007,Beverages,4,111.29,Autumn
+T959,C047,P005,Electronics,3,103.04,Spring
+T960,C056,P011,Personal Care,4,25.07,Autumn
+T961,C086,P013,Household,1,88.93,Spring
+T962,C014,P026,Electronics,3,87.58,Autumn
+T963,C090,P025,Personal Care,1,130.92,Winter
+T964,C028,P019,Snacks,3,59.97,Spring
+T965,C087,P023,Snacks,2,58.87,Spring
+T966,C078,P010,Beverages,3,94.69,Spring
+T967,C088,P010,Personal Care,4,96.8,Summer
+T968,C002,P011,Snacks,3,73.05,Summer
+T969,C026,P021,Household,1,69.24,Autumn
+T970,C014,P030,Personal Care,1,76.65,Winter
+T971,C059,P007,Household,3,129.85,Summer
+T972,C056,P018,Household,4,71.87,Spring
+T973,C007,P004,Snacks,2,141.29,Summer
+T974,C003,P002,Personal Care,4,78.08,Winter
+T975,C023,P014,Electronics,2,142.63,Summer
+T976,C018,P013,Snacks,1,125.76,Spring
+T977,C038,P029,Snacks,4,57.55,Autumn
+T978,C099,P012,Personal Care,2,130.23,Spring
+T979,C015,P007,Personal Care,3,20.96,Winter
+T980,C064,P002,Household,1,139.13,Autumn
+T981,C089,P013,Personal Care,3,96.59,Summer
+T982,C028,P014,Household,1,12.89,Summer
+T983,C074,P027,Snacks,4,98.42,Summer
+T984,C039,P017,Beverages,4,146.27,Autumn
+T985,C057,P009,Electronics,1,15.12,Spring
+T986,C017,P017,Snacks,1,85.43,Autumn
+T987,C086,P008,Personal Care,1,113.43,Autumn
+T988,C090,P002,Electronics,4,122.49,Winter
+T989,C044,P028,Beverages,2,65.0,Autumn
+T990,C025,P024,Beverages,3,34.6,Summer
+T991,C017,P013,Household,3,11.14,Spring
+T992,C013,P003,Electronics,4,89.06,Spring
+T993,C084,P016,Household,3,70.67,Spring
+T994,C025,P006,Snacks,1,142.57,Summer
+T995,C068,P019,Electronics,2,13.79,Summer
+T996,C010,P030,Snacks,3,104.38,Summer
+T997,C067,P007,Household,2,8.62,Summer
+T998,C018,P010,Electronics,1,29.86,Summer
+T999,C100,P009,Household,3,70.77,Autumn
+T1000,C086,P002,Electronics,4,70.96,Summer
