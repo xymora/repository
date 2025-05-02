@@ -1,0 +1,101 @@
+Gene,EditType,TargetPathway,PredictedEffect
+Gene_1,CRISPR-KO,Inflammatory,Decreased Activation
+Gene_2,CRISPRa,Adaptive,Neutral
+Gene_3,CRISPR-KO,Adaptive,Increased Resistance
+Gene_4,CRISPR-KO,Inflammatory,Decreased Activation
+Gene_5,BaseEdit,Inflammatory,Neutral
+Gene_6,CRISPR-KO,Adaptive,Neutral
+Gene_7,BaseEdit,Inflammatory,Increased Resistance
+Gene_8,CRISPRa,Innate,Increased Resistance
+Gene_9,CRISPR-KO,Innate,Increased Resistance
+Gene_10,BaseEdit,Adaptive,Decreased Activation
+Gene_11,BaseEdit,Adaptive,Increased Resistance
+Gene_12,CRISPRa,Adaptive,Neutral
+Gene_13,CRISPR-KO,Innate,Neutral
+Gene_14,CRISPR-KO,Inflammatory,Increased Resistance
+Gene_15,BaseEdit,Innate,Increased Resistance
+Gene_16,CRISPR-KO,Inflammatory,Neutral
+Gene_17,BaseEdit,Innate,Decreased Activation
+Gene_18,CRISPR-KO,Inflammatory,Increased Resistance
+Gene_19,BaseEdit,Innate,Increased Resistance
+Gene_20,CRISPR-KO,Adaptive,Neutral
+Gene_21,CRISPRa,Innate,Increased Resistance
+Gene_22,CRISPR-KO,Inflammatory,Decreased Activation
+Gene_23,CRISPR-KO,Innate,Neutral
+Gene_24,CRISPRa,Innate,Increased Resistance
+Gene_25,CRISPR-KO,Innate,Neutral
+Gene_26,CRISPRa,Adaptive,Increased Resistance
+Gene_27,CRISPR-KO,Innate,Increased Resistance
+Gene_28,BaseEdit,Adaptive,Increased Resistance
+Gene_29,BaseEdit,Adaptive,Decreased Activation
+Gene_30,CRISPR-KO,Innate,Decreased Activation
+Gene_31,CRISPR-KO,Innate,Neutral
+Gene_32,CRISPR-KO,Innate,Increased Resistance
+Gene_33,BaseEdit,Inflammatory,Increased Resistance
+Gene_34,CRISPR-KO,Innate,Decreased Activation
+Gene_35,BaseEdit,Adaptive,Increased Resistance
+Gene_36,CRISPRa,Innate,Decreased Activation
+Gene_37,BaseEdit,Inflammatory,Increased Resistance
+Gene_38,BaseEdit,Innate,Neutral
+Gene_39,CRISPRa,Inflammatory,Increased Resistance
+Gene_40,BaseEdit,Inflammatory,Increased Resistance
+Gene_41,CRISPR-KO,Innate,Decreased Activation
+Gene_42,CRISPR-KO,Adaptive,Increased Resistance
+Gene_43,BaseEdit,Inflammatory,Increased Resistance
+Gene_44,CRISPR-KO,Innate,Decreased Activation
+Gene_45,BaseEdit,Innate,Neutral
+Gene_46,CRISPR-KO,Adaptive,Neutral
+Gene_47,CRISPR-KO,Inflammatory,Decreased Activation
+Gene_48,BaseEdit,Inflammatory,Decreased Activation
+Gene_49,CRISPR-KO,Innate,Decreased Activation
+Gene_50,BaseEdit,Innate,Decreased Activation
+Gene_51,CRISPR-KO,Adaptive,Decreased Activation
+Gene_52,CRISPR-KO,Adaptive,Neutral
+Gene_53,CRISPRa,Inflammatory,Neutral
+Gene_54,CRISPRa,Inflammatory,Decreased Activation
+Gene_55,BaseEdit,Innate,Increased Resistance
+Gene_56,CRISPRa,Inflammatory,Decreased Activation
+Gene_57,BaseEdit,Adaptive,Increased Resistance
+Gene_58,CRISPRa,Adaptive,Decreased Activation
+Gene_59,CRISPR-KO,Innate,Decreased Activation
+Gene_60,BaseEdit,Adaptive,Neutral
+Gene_61,BaseEdit,Adaptive,Increased Resistance
+Gene_62,CRISPR-KO,Adaptive,Increased Resistance
+Gene_63,BaseEdit,Adaptive,Neutral
+Gene_64,BaseEdit,Innate,Neutral
+Gene_65,CRISPRa,Innate,Neutral
+Gene_66,BaseEdit,Inflammatory,Neutral
+Gene_67,CRISPR-KO,Adaptive,Increased Resistance
+Gene_68,CRISPRa,Inflammatory,Increased Resistance
+Gene_69,CRISPRa,Innate,Decreased Activation
+Gene_70,CRISPR-KO,Innate,Decreased Activation
+Gene_71,CRISPR-KO,Innate,Neutral
+Gene_72,CRISPRa,Innate,Neutral
+Gene_73,BaseEdit,Innate,Neutral
+Gene_74,CRISPRa,Innate,Decreased Activation
+Gene_75,CRISPR-KO,Innate,Decreased Activation
+Gene_76,CRISPRa,Adaptive,Decreased Activation
+Gene_77,CRISPR-KO,Inflammatory,Decreased Activation
+Gene_78,CRISPRa,Innate,Decreased Activation
+Gene_79,BaseEdit,Adaptive,Decreased Activation
+Gene_80,CRISPRa,Adaptive,Decreased Activation
+Gene_81,CRISPRa,Inflammatory,Neutral
+Gene_82,CRISPR-KO,Innate,Neutral
+Gene_83,CRISPR-KO,Inflammatory,Neutral
+Gene_84,CRISPR-KO,Innate,Neutral
+Gene_85,CRISPRa,Adaptive,Decreased Activation
+Gene_86,BaseEdit,Adaptive,Increased Resistance
+Gene_87,CRISPR-KO,Adaptive,Decreased Activation
+Gene_88,CRISPR-KO,Adaptive,Increased Resistance
+Gene_89,CRISPRa,Inflammatory,Neutral
+Gene_90,CRISPR-KO,Innate,Decreased Activation
+Gene_91,BaseEdit,Innate,Neutral
+Gene_92,BaseEdit,Inflammatory,Decreased Activation
+Gene_93,CRISPR-KO,Innate,Neutral
+Gene_94,CRISPR-KO,Adaptive,Increased Resistance
+Gene_95,CRISPRa,Innate,Increased Resistance
+Gene_96,BaseEdit,Adaptive,Increased Resistance
+Gene_97,BaseEdit,Inflammatory,Decreased Activation
+Gene_98,CRISPR-KO,Innate,Increased Resistance
+Gene_99,CRISPRa,Inflammatory,Decreased Activation
+Gene_100,BaseEdit,Innate,Increased Resistance
