@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 # Cargar datos
-df = pd.read_csv('data/customers.csv')
+df = pd.read_csv('customers.csv')
 
 # Seleccionar características numéricas para el clustering
 features = ['Age', 'AnnualIncome', 'SpendingScore', 'Recency', 'Frequency', 'TotalSpent']
@@ -26,10 +26,12 @@ for k in range(2, 11):
 
 plt.figure(figsize=(8, 4))
 plt.plot(range(2, 11), wcss, marker='o')
-plt.title('Elbow Method')
+plt.title('Elbow Method for Optimal k')
 plt.xlabel('Number of clusters')
 plt.ylabel('WCSS')
 plt.grid(True)
+plt.tight_layout()
+plt.savefig('elbow_plot.png')
 plt.show()
 
 # Seleccionar número óptimo y entrenar modelo final
@@ -41,5 +43,13 @@ clusters = kmeans.fit_predict(X_scaled)
 df['Cluster'] = clusters
 
 # Guardar resultados
-df.to_csv('outputs/clustered_customers.csv', index=False)
-print("Clustered data saved to 'outputs/clustered_customers.csv'")
+df.to_csv('clustered_customers.csv', index=False)
+print("Clustered data saved to 'clustered_customers.csv'")
+
+# Visualizar clústeres en 2D (usando dos dimensiones clave)
+plt.figure(figsize=(8,6))
+sns.scatterplot(x='AnnualIncome', y='SpendingScore', hue='Cluster', data=df, palette='Set2')
+plt.title('Customer Segments: Income vs Spending Score')
+plt.tight_layout()
+plt.savefig('clusters_income_spending.png')
+plt.show()
