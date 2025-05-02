@@ -1,0 +1,501 @@
+ClientID,Segment,Region,Sales,Profit,Orders
+C0001,Home Office,South,5924.16,327.83,5
+C0002,Consumer,South,4206.91,360.68,4
+C0003,Home Office,East,3079.56,102.06,8
+C0004,Home Office,South,3047.6,846.38,10
+C0005,Consumer,West,5076.26,63.97,8
+C0006,Consumer,North,4267.04,1089.6,5
+C0007,Home Office,West,1781.21,1088.85,1
+C0008,Corporate,North,5769.41,384.48,3
+C0009,Home Office,North,3172.27,598.55,5
+C0010,Home Office,West,3259.51,478.31,4
+C0011,Home Office,West,4937.56,770.55,6
+C0012,Home Office,West,3649.83,882.4,5
+C0013,Consumer,West,5183.76,577.4,5
+C0014,Home Office,East,7960.19,640.74,4
+C0015,Corporate,South,4431.41,313.82,9
+C0016,Consumer,North,3410.63,631.01,6
+C0017,Corporate,West,5272.26,548.83,7
+C0018,Corporate,West,3837.15,226.46,3
+C0019,Corporate,West,5035.63,495.79,2
+C0020,Corporate,East,5473.45,385.05,3
+C0021,Consumer,West,4947.2,317.15,2
+C0022,Consumer,West,5084.84,156.05,7
+C0023,Corporate,West,5288.14,518.75,2
+C0024,Corporate,South,7395.67,265.86,5
+C0025,Consumer,East,4620.62,358.67,5
+C0026,Consumer,West,5191.15,822.54,7
+C0027,Consumer,North,6300.27,689.63,5
+C0028,Home Office,North,5706.56,206.37,6
+C0029,Home Office,North,4462.69,605.57,7
+C0030,Home Office,East,6352.8,539.83,3
+C0031,Corporate,East,3693.13,1010.51,6
+C0032,Home Office,North,4659.88,914.94,8
+C0033,Corporate,West,3843.37,39.88,3
+C0034,Corporate,East,5864.26,758.34,6
+C0035,Home Office,North,6784.4,879.56,5
+C0036,Corporate,North,5335.0,667.81,3
+C0037,Home Office,West,5112.9,399.38,4
+C0038,Home Office,South,3687.49,1224.02,6
+C0039,Consumer,East,3946.17,695.42,6
+C0040,Home Office,West,3210.11,1092.96,7
+C0041,Consumer,North,1734.98,905.44,6
+C0042,Home Office,North,4413.45,639.24,5
+C0043,Home Office,West,4552.84,326.09,2
+C0044,Consumer,East,8259.26,492.77,5
+C0045,Consumer,South,7344.22,433.43,9
+C0046,Home Office,South,5833.46,135.64,3
+C0047,Corporate,North,8126.72,695.08,9
+C0048,Consumer,East,7086.36,970.21,2
+C0049,Corporate,South,1988.65,410.51,1
+C0050,Corporate,East,6601.18,1149.1,4
+C0051,Corporate,East,6067.18,32.73,3
+C0052,Consumer,North,4565.93,816.31,4
+C0053,Corporate,South,2877.2,1001.46,5
+C0054,Consumer,West,5893.1,438.79,1
+C0055,Corporate,North,1881.31,444.18,3
+C0056,Home Office,South,4967.79,812.83,5
+C0057,Home Office,South,4074.36,651.8,3
+C0058,Consumer,South,3111.74,-99.22,12
+C0059,Home Office,South,6783.2,246.99,2
+C0060,Home Office,South,4938.04,495.94,3
+C0061,Corporate,East,5260.95,89.09,4
+C0062,Consumer,North,6361.81,357.75,9
+C0063,Corporate,East,4986.81,96.59,5
+C0064,Corporate,West,5677.12,388.95,3
+C0065,Corporate,South,6223.78,399.01,3
+C0066,Corporate,North,5850.13,605.53,4
+C0067,Corporate,South,5428.97,472.47,4
+C0068,Corporate,North,7674.67,650.84,7
+C0069,Corporate,East,6862.96,615.06,6
+C0070,Consumer,North,4871.36,809.4,3
+C0071,Home Office,West,3635.46,762.13,6
+C0072,Corporate,West,5957.94,730.44,6
+C0073,Corporate,North,5323.79,1431.46,4
+C0074,Corporate,North,7563.49,604.22,7
+C0075,Corporate,North,6481.24,1278.07,4
+C0076,Corporate,North,6146.31,623.67,7
+C0077,Corporate,West,5019.43,475.14,3
+C0078,Home Office,South,3686.45,388.05,4
+C0079,Home Office,North,4703.06,952.92,7
+C0080,Corporate,North,5715.24,992.15,8
+C0081,Home Office,West,2405.63,679.94,2
+C0082,Consumer,West,6862.57,840.06,9
+C0083,Corporate,East,8100.57,116.83,6
+C0084,Consumer,North,2082.59,35.37,4
+C0085,Consumer,East,2899.68,873.9,7
+C0086,Corporate,West,5344.49,461.96,2
+C0087,Home Office,West,4126.13,724.79,2
+C0088,Consumer,South,5391.36,284.81,3
+C0089,Corporate,North,4892.49,997.1,5
+C0090,Consumer,East,3464.27,37.87,7
+C0091,Consumer,West,6932.61,84.32,4
+C0092,Consumer,West,5696.77,933.29,4
+C0093,Consumer,East,4160.39,-282.95,5
+C0094,Home Office,South,7257.54,613.57,5
+C0095,Consumer,West,4237.39,467.8,4
+C0096,Consumer,North,3137.24,279.21,5
+C0097,Consumer,West,5275.27,440.02,6
+C0098,Home Office,North,5529.74,245.74,5
+C0099,Consumer,East,5797.88,962.68,7
+C0100,Consumer,North,6044.53,1041.35,8
+C0101,Home Office,East,5774.19,294.28,4
+C0102,Home Office,North,5713.24,582.66,5
+C0103,Home Office,East,4139.37,102.48,6
+C0104,Consumer,North,3978.88,821.92,9
+C0105,Home Office,South,6113.55,814.1,6
+C0106,Home Office,North,5365.18,411.42,0
+C0107,Consumer,North,6230.37,505.07,4
+C0108,Home Office,South,2439.08,471.87,2
+C0109,Consumer,West,4248.82,14.46,6
+C0110,Corporate,West,7860.53,963.8,9
+C0111,Home Office,North,5828.8,269.91,0
+C0112,Corporate,South,5443.33,271.96,3
+C0113,Consumer,North,6061.89,454.87,0
+C0114,Home Office,East,8312.68,798.66,8
+C0115,Consumer,East,7997.07,322.61,2
+C0116,Corporate,North,2630.72,-85.66,4
+C0117,Consumer,West,3184.25,233.9,4
+C0118,Home Office,West,2579.88,627.24,5
+C0119,Home Office,North,3879.34,1156.93,4
+C0120,Corporate,North,5082.38,122.02,3
+C0121,Consumer,East,5363.02,111.05,2
+C0122,Home Office,West,2704.28,46.22,8
+C0123,Corporate,North,2198.97,8.98,4
+C0124,Home Office,East,3852.81,861.71,5
+C0125,Home Office,West,6374.26,948.41,5
+C0126,Consumer,South,6635.54,553.33,7
+C0127,Home Office,East,7558.74,359.69,5
+C0128,Consumer,West,4951.5,1037.34,8
+C0129,Home Office,West,6242.23,552.17,5
+C0130,Corporate,East,6514.84,826.83,4
+C0131,Home Office,South,4254.71,345.07,6
+C0132,Consumer,East,5581.77,513.27,5
+C0133,Consumer,West,5988.06,128.8,1
+C0134,Corporate,North,3636.26,688.77,7
+C0135,Home Office,North,7463.14,557.28,4
+C0136,Home Office,East,4941.78,231.63,4
+C0137,Corporate,West,5130.55,235.67,4
+C0138,Home Office,North,3578.99,984.79,6
+C0139,Home Office,West,3830.86,1091.5,6
+C0140,Consumer,East,1705.23,436.06,4
+C0141,Home Office,North,5082.73,520.33,5
+C0142,Home Office,West,8758.53,620.03,4
+C0143,Corporate,North,3472.07,544.41,4
+C0144,Corporate,East,9464.3,-2.29,8
+C0145,Consumer,West,7121.38,628.36,4
+C0146,Home Office,North,4289.62,-126.37,7
+C0147,Home Office,East,5040.9,280.19,7
+C0148,Home Office,North,4797.35,651.63,9
+C0149,Consumer,North,7559.25,680.0,6
+C0150,Consumer,South,5775.52,256.98,5
+C0151,Corporate,South,6772.96,362.47,10
+C0152,Consumer,East,5537.26,321.85,8
+C0153,Home Office,South,4832.04,469.15,5
+C0154,Home Office,East,5489.64,491.96,6
+C0155,Consumer,South,4389.58,700.54,1
+C0156,Home Office,North,2821.69,344.93,10
+C0157,Home Office,East,6220.53,612.02,10
+C0158,Consumer,East,2748.25,652.1,3
+C0159,Consumer,North,4596.75,559.49,6
+C0160,Home Office,East,4340.2,422.12,8
+C0161,Home Office,East,5965.03,554.19,1
+C0162,Home Office,South,7347.06,725.52,7
+C0163,Corporate,East,6807.46,751.76,6
+C0164,Corporate,West,6008.64,1044.61,5
+C0165,Corporate,North,4055.19,202.99,5
+C0166,Consumer,South,4724.8,368.0,8
+C0167,Corporate,South,4506.09,15.96,2
+C0168,Consumer,West,4294.58,779.3,5
+C0169,Consumer,North,4396.32,399.65,5
+C0170,Corporate,North,4356.29,561.86,3
+C0171,Corporate,South,4289.86,318.7,5
+C0172,Corporate,East,6427.82,401.99,4
+C0173,Home Office,South,3418.04,866.96,3
+C0174,Corporate,North,3905.79,708.27,8
+C0175,Home Office,West,2624.89,466.54,4
+C0176,Consumer,South,7123.22,730.34,4
+C0177,Home Office,North,3805.25,736.97,2
+C0178,Corporate,South,5991.16,382.57,5
+C0179,Consumer,East,5712.98,59.28,6
+C0180,Consumer,South,6978.26,230.25,4
+C0181,Consumer,South,4684.97,97.84,4
+C0182,Home Office,North,3578.69,849.33,1
+C0183,Corporate,North,2666.38,901.43,3
+C0184,Consumer,North,823.05,975.91,5
+C0185,Consumer,South,5242.03,-105.87,4
+C0186,Consumer,East,6163.21,821.42,5
+C0187,Home Office,West,5707.53,1163.66,7
+C0188,Home Office,West,2705.35,833.6,8
+C0189,Corporate,North,6558.24,-145.37,4
+C0190,Home Office,North,3952.68,1030.49,6
+C0191,Consumer,South,3639.64,512.51,2
+C0192,Corporate,West,3919.05,430.28,7
+C0193,Consumer,North,5117.61,635.33,3
+C0194,Consumer,East,2772.95,185.3,9
+C0195,Home Office,East,4944.45,500.83,3
+C0196,Corporate,North,5644.17,986.13,5
+C0197,Home Office,North,6660.99,686.72,3
+C0198,Home Office,West,5263.93,517.52,7
+C0199,Corporate,West,2990.56,526.88,3
+C0200,Consumer,South,5223.34,145.58,6
+C0201,Consumer,West,3409.61,455.0,6
+C0202,Corporate,East,3323.08,9.71,3
+C0203,Consumer,East,2955.94,806.73,2
+C0204,Corporate,North,2133.12,-155.71,4
+C0205,Corporate,West,4149.26,756.47,8
+C0206,Home Office,South,6693.33,793.82,5
+C0207,Corporate,East,8384.73,895.63,10
+C0208,Home Office,East,4139.62,526.06,4
+C0209,Consumer,South,6629.16,774.99,1
+C0210,Consumer,South,4408.13,452.08,4
+C0211,Consumer,East,2523.9,143.99,7
+C0212,Consumer,East,6051.41,959.22,7
+C0213,Home Office,South,5352.22,470.93,6
+C0214,Consumer,East,7727.03,77.15,7
+C0215,Corporate,North,2697.98,359.96,7
+C0216,Corporate,North,9194.05,371.8,2
+C0217,Corporate,South,7387.58,638.51,2
+C0218,Home Office,West,4973.11,1204.11,9
+C0219,Consumer,South,4552.04,656.73,1
+C0220,Consumer,South,3926.29,562.05,5
+C0221,Consumer,West,5164.6,1236.73,7
+C0222,Home Office,West,4724.1,793.67,3
+C0223,Corporate,West,5770.69,576.27,8
+C0224,Corporate,North,4558.45,356.18,6
+C0225,Consumer,East,7122.45,594.86,7
+C0226,Corporate,North,5187.57,480.08,5
+C0227,Corporate,East,4614.77,527.43,3
+C0228,Home Office,North,6536.43,894.32,9
+C0229,Home Office,East,2566.21,337.9,5
+C0230,Home Office,North,5511.48,654.06,8
+C0231,Home Office,West,5038.36,784.68,12
+C0232,Consumer,South,2883.72,301.37,5
+C0233,Home Office,North,2437.25,253.21,6
+C0234,Corporate,East,6515.52,454.9,2
+C0235,Consumer,West,6444.19,361.51,2
+C0236,Corporate,North,5258.84,845.7,8
+C0237,Corporate,North,7574.99,199.47,3
+C0238,Corporate,West,5661.45,520.54,5
+C0239,Home Office,North,6874.71,1263.81,3
+C0240,Home Office,South,5630.49,623.92,5
+C0241,Consumer,North,4586.29,673.79,3
+C0242,Consumer,South,3413.7,848.2,4
+C0243,Home Office,South,4094.85,361.12,5
+C0244,Corporate,West,4614.32,175.57,6
+C0245,Consumer,North,7044.73,552.95,6
+C0246,Home Office,West,6154.88,579.62,8
+C0247,Home Office,North,5495.48,14.54,7
+C0248,Home Office,North,6305.01,612.52,6
+C0249,Corporate,East,5791.08,820.96,8
+C0250,Home Office,North,5392.91,226.12,9
+C0251,Home Office,West,2752.01,630.67,6
+C0252,Home Office,South,6708.74,767.68,7
+C0253,Home Office,North,4312.23,676.0,8
+C0254,Consumer,East,6632.81,704.3,2
+C0255,Consumer,West,6777.82,426.56,3
+C0256,Home Office,North,3994.94,161.75,2
+C0257,Corporate,West,6424.57,365.86,4
+C0258,Consumer,East,4458.52,324.18,7
+C0259,Home Office,East,4467.45,475.92,7
+C0260,Consumer,West,5386.21,827.98,9
+C0261,Consumer,North,5426.71,106.45,6
+C0262,Corporate,South,5057.83,543.28,2
+C0263,Home Office,East,2998.57,180.98,4
+C0264,Home Office,North,4817.83,277.99,9
+C0265,Corporate,North,8417.72,667.62,3
+C0266,Corporate,South,823.99,143.02,3
+C0267,Home Office,East,6304.61,720.27,9
+C0268,Home Office,East,6585.69,94.35,3
+C0269,Corporate,North,2962.48,700.09,7
+C0270,Consumer,North,4295.84,35.14,7
+C0271,Consumer,South,3498.92,314.66,3
+C0272,Corporate,South,7780.95,1068.95,4
+C0273,Consumer,East,6654.54,1012.56,1
+C0274,Corporate,West,6727.14,376.24,3
+C0275,Consumer,East,5180.97,616.99,5
+C0276,Consumer,North,6968.14,861.22,5
+C0277,Home Office,East,4987.65,704.39,6
+C0278,Home Office,West,7038.74,417.96,1
+C0279,Consumer,South,4776.96,275.41,6
+C0280,Consumer,West,3981.14,760.43,6
+C0281,Home Office,West,7716.43,839.21,1
+C0282,Home Office,West,4968.73,1014.71,3
+C0283,Home Office,South,3651.8,-6.17,6
+C0284,Corporate,West,3635.55,124.06,8
+C0285,Consumer,West,3640.13,848.58,8
+C0286,Home Office,West,6266.66,34.54,8
+C0287,Consumer,North,4851.71,871.56,8
+C0288,Corporate,West,8446.94,435.52,2
+C0289,Corporate,South,6779.27,343.73,6
+C0290,Home Office,West,5385.71,561.63,4
+C0291,Corporate,West,7105.85,96.39,8
+C0292,Consumer,South,4256.74,747.2,11
+C0293,Home Office,West,2217.82,1006.89,2
+C0294,Consumer,South,3515.63,761.17,5
+C0295,Consumer,West,5220.81,426.05,10
+C0296,Corporate,South,4666.19,38.59,4
+C0297,Corporate,West,6236.62,50.12,8
+C0298,Corporate,West,4813.08,101.11,4
+C0299,Corporate,North,6122.05,496.32,3
+C0300,Corporate,North,7251.46,534.02,6
+C0301,Home Office,West,4808.46,760.53,7
+C0302,Consumer,West,5832.72,-38.81,4
+C0303,Consumer,East,2367.82,893.36,7
+C0304,Consumer,South,4814.16,708.32,4
+C0305,Consumer,East,3152.06,401.95,3
+C0306,Corporate,North,5217.84,143.07,4
+C0307,Consumer,North,5354.0,874.74,6
+C0308,Home Office,North,5349.01,409.97,6
+C0309,Home Office,North,4279.82,493.99,8
+C0310,Consumer,West,8447.7,615.08,7
+C0311,Consumer,North,3097.97,226.04,2
+C0312,Home Office,West,3006.28,415.35,6
+C0313,Home Office,West,7482.47,759.6,4
+C0314,Corporate,North,3943.58,729.23,2
+C0315,Home Office,North,3582.96,731.93,9
+C0316,Corporate,South,8454.37,153.45,5
+C0317,Corporate,East,6478.58,429.03,3
+C0318,Corporate,North,4108.3,381.08,2
+C0319,Corporate,South,5326.26,627.55,6
+C0320,Corporate,South,7918.81,600.7,3
+C0321,Consumer,East,6037.43,546.63,6
+C0322,Home Office,West,6929.22,1239.72,5
+C0323,Corporate,North,6207.2,412.76,2
+C0324,Home Office,East,6395.38,377.65,7
+C0325,Home Office,North,5059.61,152.98,6
+C0326,Corporate,South,5017.02,38.65,5
+C0327,Consumer,South,5400.58,133.9,8
+C0328,Corporate,West,6101.68,284.4,3
+C0329,Consumer,South,4575.03,893.02,5
+C0330,Home Office,South,5183.08,511.75,5
+C0331,Consumer,East,4534.48,558.0,4
+C0332,Consumer,North,5173.53,471.12,3
+C0333,Consumer,North,3123.51,609.59,3
+C0334,Home Office,East,8908.97,920.62,5
+C0335,Home Office,West,3900.59,-98.18,5
+C0336,Consumer,North,4457.81,865.5,6
+C0337,Consumer,South,3771.1,-254.51,6
+C0338,Corporate,North,5923.56,508.46,6
+C0339,Consumer,South,4706.0,1157.57,6
+C0340,Corporate,West,3554.29,704.2,7
+C0341,Consumer,East,5985.33,611.92,2
+C0342,Corporate,North,6187.47,1100.58,5
+C0343,Home Office,East,4899.69,289.08,3
+C0344,Consumer,North,4004.56,630.19,1
+C0345,Consumer,South,8286.6,673.44,8
+C0346,Consumer,East,5510.1,343.28,0
+C0347,Consumer,North,3088.9,369.77,4
+C0348,Corporate,South,7121.06,336.87,3
+C0349,Consumer,East,3716.34,526.19,3
+C0350,Home Office,East,9112.82,664.01,2
+C0351,Home Office,North,5119.49,536.97,3
+C0352,Consumer,North,6519.97,712.84,8
+C0353,Home Office,North,1879.97,-90.74,6
+C0354,Consumer,South,3073.79,434.52,4
+C0355,Consumer,North,7000.79,192.97,6
+C0356,Home Office,East,5476.72,590.52,5
+C0357,Consumer,East,8063.59,586.08,1
+C0358,Home Office,North,5727.76,465.31,3
+C0359,Corporate,North,5217.94,653.08,3
+C0360,Consumer,West,7570.36,799.34,3
+C0361,Corporate,East,6515.21,481.84,9
+C0362,Home Office,South,4705.61,184.49,2
+C0363,Corporate,West,3358.84,25.62,3
+C0364,Corporate,North,1442.58,510.83,5
+C0365,Home Office,North,4343.5,572.56,4
+C0366,Corporate,East,3220.5,209.14,3
+C0367,Corporate,North,8896.56,717.73,3
+C0368,Home Office,South,4024.44,362.31,0
+C0369,Corporate,East,3983.44,3.07,2
+C0370,Home Office,North,2718.13,876.93,7
+C0371,Corporate,East,4600.52,843.2,4
+C0372,Home Office,North,4003.2,-104.68,3
+C0373,Home Office,North,7606.59,331.22,11
+C0374,Corporate,North,5252.71,319.52,2
+C0375,Corporate,South,4986.7,991.85,6
+C0376,Corporate,South,4797.99,470.21,11
+C0377,Consumer,East,6179.26,51.24,3
+C0378,Consumer,North,4321.51,764.63,5
+C0379,Consumer,North,6000.81,130.77,6
+C0380,Home Office,South,7420.95,421.9,4
+C0381,Corporate,North,5690.11,269.07,3
+C0382,Home Office,South,4625.4,331.86,10
+C0383,Consumer,North,3569.81,781.18,2
+C0384,Corporate,East,4587.31,956.4,4
+C0385,Home Office,North,5844.62,117.69,7
+C0386,Corporate,North,2701.21,687.82,6
+C0387,Home Office,West,6247.31,280.17,7
+C0388,Corporate,South,5311.42,289.5,5
+C0389,Consumer,North,4776.22,647.19,7
+C0390,Consumer,North,4010.88,191.63,1
+C0391,Corporate,West,4285.43,641.18,6
+C0392,Home Office,West,5895.96,719.03,5
+C0393,Consumer,South,4807.68,370.24,15
+C0394,Consumer,West,4248.29,898.12,6
+C0395,Consumer,East,5702.85,118.15,3
+C0396,Corporate,West,5762.28,903.62,2
+C0397,Corporate,East,3126.24,-83.2,5
+C0398,Home Office,South,5857.22,1309.91,7
+C0399,Home Office,South,8752.55,378.14,3
+C0400,Home Office,South,5704.43,151.31,3
+C0401,Corporate,South,2451.49,430.2,4
+C0402,Corporate,South,5266.06,186.06,2
+C0403,Home Office,East,2253.78,616.09,3
+C0404,Home Office,East,9751.06,910.3,5
+C0405,Corporate,South,8353.51,201.96,7
+C0406,Home Office,West,4001.09,673.82,5
+C0407,Consumer,North,1631.5,40.18,7
+C0408,Corporate,South,3682.44,809.89,2
+C0409,Home Office,West,4728.51,624.87,6
+C0410,Corporate,North,2357.2,822.85,4
+C0411,Consumer,South,4896.47,463.3,2
+C0412,Corporate,South,4718.63,369.45,6
+C0413,Corporate,East,5187.73,744.84,3
+C0414,Corporate,North,5344.47,107.59,3
+C0415,Corporate,North,3551.57,-22.85,4
+C0416,Consumer,West,3719.88,498.51,4
+C0417,Corporate,East,5068.39,383.12,5
+C0418,Corporate,East,4053.51,666.15,4
+C0419,Home Office,East,6361.24,827.47,6
+C0420,Corporate,East,5053.84,659.9,4
+C0421,Home Office,North,7797.5,803.57,7
+C0422,Consumer,North,6230.72,596.32,9
+C0423,Consumer,South,6655.57,648.38,3
+C0424,Consumer,South,5198.85,465.0,4
+C0425,Consumer,East,5236.04,639.51,3
+C0426,Home Office,East,7596.98,550.0,4
+C0427,Corporate,East,4432.56,597.55,5
+C0428,Consumer,South,5820.17,449.98,2
+C0429,Corporate,West,4600.64,742.68,5
+C0430,Home Office,West,4597.05,286.86,10
+C0431,Home Office,South,3246.66,494.5,5
+C0432,Home Office,South,3886.23,893.54,5
+C0433,Consumer,South,3607.6,215.38,7
+C0434,Corporate,South,5891.55,-148.55,5
+C0435,Corporate,South,6560.31,609.94,7
+C0436,Corporate,South,4857.87,422.91,3
+C0437,Home Office,East,5344.44,803.26,3
+C0438,Consumer,East,4771.29,460.85,6
+C0439,Home Office,East,3783.84,318.7,4
+C0440,Home Office,East,6293.39,477.25,4
+C0441,Corporate,South,5978.8,827.92,2
+C0442,Home Office,West,2161.18,672.61,2
+C0443,Corporate,North,4575.34,-230.17,3
+C0444,Consumer,South,3676.96,555.73,4
+C0445,Corporate,North,4413.59,570.73,6
+C0446,Consumer,West,3994.35,494.53,4
+C0447,Corporate,East,4930.37,316.73,5
+C0448,Home Office,West,4505.13,858.36,4
+C0449,Home Office,South,4473.29,873.21,5
+C0450,Consumer,East,6661.08,-160.95,8
+C0451,Consumer,South,5835.77,260.61,4
+C0452,Consumer,East,3944.16,456.58,2
+C0453,Corporate,North,4166.68,784.55,2
+C0454,Corporate,North,5737.69,510.46,3
+C0455,Consumer,North,5735.63,294.92,6
+C0456,Home Office,West,4094.33,712.86,4
+C0457,Corporate,South,4649.01,436.6,3
+C0458,Corporate,West,7770.21,464.78,4
+C0459,Corporate,North,4120.18,491.85,3
+C0460,Consumer,South,7866.21,672.29,8
+C0461,Consumer,North,6655.5,407.44,4
+C0462,Consumer,West,7588.12,706.08,8
+C0463,Consumer,West,4056.39,478.08,4
+C0464,Consumer,West,4747.17,179.9,4
+C0465,Home Office,North,4326.25,488.97,1
+C0466,Home Office,South,6690.13,195.44,3
+C0467,Consumer,South,4148.47,512.3,8
+C0468,Corporate,North,6096.82,748.84,6
+C0469,Consumer,South,6017.45,177.91,6
+C0470,Home Office,North,4927.96,609.28,9
+C0471,Home Office,South,6947.99,251.29,4
+C0472,Corporate,East,5161.52,560.51,3
+C0473,Home Office,East,6251.13,758.06,8
+C0474,Consumer,West,4257.94,-138.85,3
+C0475,Corporate,East,3914.84,165.66,2
+C0476,Consumer,East,6096.72,389.31,2
+C0477,Consumer,East,5646.26,594.51,7
+C0478,Corporate,North,5364.96,450.09,5
+C0479,Consumer,East,4484.47,486.24,6
+C0480,Home Office,East,7323.81,1112.9,5
+C0481,Consumer,West,3325.12,136.26,9
+C0482,Corporate,East,3242.99,840.65,4
+C0483,Corporate,East,6413.25,395.01,5
+C0484,Corporate,South,6290.14,664.84,7
+C0485,Consumer,West,5530.64,1138.68,3
+C0486,Corporate,West,4568.07,706.6,8
+C0487,Corporate,West,5753.63,611.75,5
+C0488,Consumer,West,7581.25,979.74,5
+C0489,Home Office,West,8773.32,837.44,2
+C0490,Consumer,West,2515.38,260.18,8
+C0491,Corporate,North,4371.62,588.36,9
+C0492,Corporate,East,4277.34,-15.25,3
+C0493,Consumer,West,7439.78,337.95,4
+C0494,Home Office,East,1278.06,594.22,4
+C0495,Corporate,East,5770.75,319.37,4
+C0496,Corporate,North,4614.78,582.01,9
+C0497,Corporate,West,7457.17,495.98,5
+C0498,Consumer,South,7251.56,660.93,6
+C0499,Corporate,North,5548.26,372.74,7
+C0500,Home Office,South,2630.42,217.96,11
