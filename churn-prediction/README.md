@@ -1,25 +1,24 @@
 # 🔄 Churn Prediction Model
 
-This project focuses on building a supervised machine learning model to identify customers at high risk of churn in subscription-based services. The goal is to anticipate client attrition and enable proactive retention strategies.
+This project builds a supervised machine learning system to identify high-risk clients and trigger retention actions, reducing customer loss in subscription-based services.
 
 ## 🎯 Objective
 
-To accurately predict which customers are most likely to cancel their subscription using historical behavioral, transactional, and demographic data.
+To accurately predict which customers are likely to cancel their subscription, using behavioral, financial, and support-related features, and to compare two classification algorithms to select the most effective one.
 
-## 🧠 Key Techniques
+## 🧠 Techniques Used
 
-- Data preprocessing and feature engineering
-- Model training using Logistic Regression and XGBoost
-- Evaluation with metrics like ROC-AUC, Precision, Recall, and F1 Score
-- Feature importance and interpretability with SHAP
-- Exporting predictions and scoring outputs
+- Logistic Regression and XGBoost Classifiers
+- Feature scaling, encoding, and engineering
+- Model evaluation: ROC-AUC, precision, recall, F1-score
+- Visualizations: confusion matrices and ROC curves
+- Result export: churn probabilities and predicted labels
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
 - Python 3.x
 - pandas, numpy, matplotlib, seaborn
 - scikit-learn, xgboost
-- shap (model interpretability)
 
 ## 📁 Project Structure
 
