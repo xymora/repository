@@ -1,0 +1,4 @@
+,C,solver,n_estimators,max_depth,learning_rate
+LogisticRegression,1.0,liblinear,,,
+RandomForest,,,100.0,5.0,
+XGBoost,,,100.0,,0.1
