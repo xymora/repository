@@ -1,0 +1,1 @@
+Simulated model file (e.g., config, weights, vocab)
