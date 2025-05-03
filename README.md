@@ -19,73 +19,83 @@ Bienvenue dans mon portfolio officiel en Data Science, Machine Learning et Intel
 Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Inteligencia Artificial. Me especializo en el desarrollo de sistemas inteligentes enfocados en la predicción de comportamiento, automatización de procesos y análisis inteligente de datos.
 
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Docker](https://img.shields.io/badge/Docker-enabled-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-ready-green)
+![ML Projects](https://img.shields.io/badge/Projects-40%2B-orange)
+
+
+
 ## 🧩 Systems I've Designed & Developed
 
-💼 Customer segmentation system using unsupervised learning to optimize targeted marketing strategies and improve client retention.
-→ customer-segmentation
+🟠 Payroll management system for small businesses...  
+[`payroll-cobol-system`](https://github.com/xymora/payroll-cobol-system)
 
-📊 Churn prediction model to identify high-risk clients and trigger retention actions, reducing customer loss in subscription-based services.
-→ churn-prediction
+🟠 Inventory management system for retail stores...  
+[`inventory-management-cobol`](https://github.com/xymora/inventory-management-cobol)
 
-🛒 Recommendation engine for retail product placement based on purchase history, seasonal trends, and collaborative filtering.
-→ product-recommendation-engine
+🔵 Contact management application in C...  
+[`contact-agenda-c`](https://github.com/xymora/contact-agenda-c)
 
-📦 Supply chain demand sensing system leveraging real-time data to adjust inventory levels and reduce holding costs in logistics operations.
-→ supply-chain-demand-sensing
+🔵 ATM simulator in C...  
+[`atm-simulator-c`](https://github.com/xymora/atm-simulator-c)
 
-🏷️ Dynamic pricing model for online retail that adjusts prices in real-time based on demand elasticity, competitor pricing, and inventory levels.
-→ dynamic-pricing-model
+🤖 Text generation system using Transformer models...  
+[`modular-ai-framework`](https://github.com/xymora/modular-ai-framework)
 
-💳 Fraud detection system for digital transactions using anomaly detection and behavioral modeling to reduce financial risk in e-commerce platforms.
-→ fraud-detection-system
+🧠 GAN implementation for synthetic image generation...  
+[`gan-image-generator`](https://github.com/xymora/gan-image-generator)
 
-🗣️ Sentiment analysis engine applied to customer reviews to assess product perception and guide inventory and marketing strategies.
-→ sentiment-analysis-engine
+✍️ Personalized text generation system...  
+[`llm-text-generator`](https://github.com/xymora/llm-text-generator)
 
-🧾 Customer lifetime value (CLV) prediction model to support strategic investment in high-value users and retention campaigns.
-→ customer-lifetime-value
+⚙️ ML classification model deployed as a REST API...  
+[`classification-api-fastapi`](https://github.com/xymora/classification-api-fastapi)
 
-📉 Customer churn survival analysis model using Kaplan-Meier estimators and Cox regression to understand time-to-attrition patterns in subscription services.
-→ churn-survival-analysis
+🔄 Full CI/CD pipeline for ML projects...  
+[`ml-cicd-pipeline`](https://github.com/xymora/ml-cicd-pipeline)
 
-📊 Business intelligence dashboard built with Shiny to visualize KPIs, client segmentation, and regional sales performance in real time.
-→ business-intelligence-dashboard
+📡 Scalable inference system with Docker Compose...  
+[`scalable-inference-system`](https://github.com/xymora/scalable-inference-system)
 
-🧪 Bioinformatics pipeline in R for gene expression analysis using microarray and RNA-seq datasets, supporting diagnostic research decisions.
-→ bioinformatics-gene-analysis
+📈 ML classification pipeline with GridSearchCV...  
+[`classification-gridsearch-notebook`](https://github.com/xymora/classification-gridsearch-notebook)
 
-💰 Predictive credit risk scoring model using logistic regression, ROC analysis, and AUC evaluation tailored to small business loan applications.
-→ credit-risk-scoring
+📊 Comparative study of multiple classifiers...  
+[`model-comparison-randomizedsearch`](https://github.com/xymora/model-comparison-randomizedsearch)
 
-📊 Multidimensional data analytics system for pattern detection, visualization, and insight generation using structured datasets.
-→ multidimensional-analytics-system
+📌 Hyperparameter optimization with Optuna...  
+[`lgbm-optuna-hyperparameter-tuning`](https://github.com/xymora/lgbm-optuna-hyperparameter-tuning)
 
-📈 Time-series forecasting model for operational metrics and strategic planning in data-rich environments.
-→ timeseries-forecasting-model
+🤝 Simulated collaboration among product, DS, and eng...  
+[`collaborative-ml-project`](https://github.com/xymora/collaborative-ml-project)
 
-🗃️ Scalable data ingestion and transformation pipeline for high-volume datasets using distributed storage and parallel processing.
-→ scalable-ingestion-pipeline
+📡 ML API with documented OpenAPI endpoints...  
+[`ml-api-collaboration`](https://github.com/xymora/ml-api-collaboration)
 
-🌐 Unified data architecture integrating diverse sources through ETL and stream processing for real-time decision systems.
-→ unified-data-architecture
+📊 Churn prediction/product recommendation collaboration...  
+[`churn-collaboration-project`](https://github.com/xymora/churn-collaboration-project)
 
-🧠 Supervised learning engine designed to classify high-dimensional data with embedded noise and uncertainty.
-→ supervised-learning-engine
+🌡️ Environmental monitoring with embedded ML...  
+[`environmental-monitoring-system`](https://github.com/xymora/environmental-monitoring-system)
 
-🤖 Adaptive simulation framework utilizing reinforcement logic for behavior optimization across dynamic environments.
-→ adaptive-simulation-framework
+🌐 IoT anomaly detection dashboard...  
+[`iot-anomaly-detection`](https://github.com/xymora/iot-anomaly-detection)
 
-🔥 Functional prototype of a smart fire suppression network using mist and directional foam for perimeter defense in residential zones.
-→ smart-fire-suppression-network
+📟 Edge computing system on Raspberry Pi...  
+[`edge-computing-raspberrypi`](https://github.com/xymora/edge-computing-raspberrypi)
 
-🧬 Molecular modeling tool to simulate gene-editing therapies based on immune resistance pathways.
-→ molecular-modeling-tool
+🗣️ Sentiment analysis engine...  
+[`sentiment-analysis-nlp`](https://github.com/xymora/sentiment-analysis-nlp)
 
-🛠️ Modular automation framework enabling intelligent agents to reconfigure and optimize workflows in response to environmental inputs.
-→ modular-automation-framework
+🔍 Named Entity Recognition (NER) project...  
+[`ner-specialized-nlp`](https://github.com/xymora/ner-specialized-nlp)
 
-🔍 Profile-based inference engine combining multi-source datasets for rule-based analysis and risk assessment.
-→ profile-inference-engine
+📚 Multiclass text classification project...  
+[`text-multiclass-classifier`](https://github.com/xymora/text-multiclass-classifier)
+
+📝 GPT-2 or T5-based creative text generation...  
+[`text-generation-gpt2`](https://github.com/xymora/text-generation-gpt2)
 
 
 ## 🚀 Featured Projects
@@ -114,8 +124,24 @@ Implementation of a reinforcement learning model to train drones for real-time p
 
 ## 🧰 Technologies
 
-`Python` `Pandas` `NumPy` `TensorFlow` `Scikit-learn` `R` `SQL` `Power BI`  
-`FastAPI` `Linux` `Git` `Docker` `Matplotlib` `OpenCV` `VS Code`
+### 🔤 Languages and Frameworks  
+'Python' 'R' 'COBOL' 'C' 'SQL'
+
+### 🧪 Data Science and ML  
+'Pandas' 'NumPy' 'Scikit-learn' 'TensorFlow' 'XGBoost' 'LightGBM' 'Transformers (Hugging Face)'  
+'spaCy' 'Optuna' 'joblib' 'Classification' 'Regression' 'Clustering' 'NER' 'Sentiment Analysis'
+
+### 🔧 DevOps and Deployment  
+'Docker' 'Docker Compose' 'Git' 'GitHub Actions' 'FastAPI' 'CI/CD Pipelines' 'Flask'
+
+### 🛰️ Hardware and IoT  
+'MQTT' 'HTTP Protocols' 'Raspberry Pi' 'ESP32' 'Arduino'
+
+### 📊 Visualization and BI  
+'Matplotlib' 'Seaborn' 'Plotly' 'Power BI' 'Shiny (R)'
+
+### 🛠️ Tools and Environment  
+'Linux Shell Scripting' 'VS Code' 'Jupyter Notebook'
 
 ---
 
