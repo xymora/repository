@@ -1,0 +1,1 @@
+# Aplicación para visualizar datos del sensor
