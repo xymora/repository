@@ -29,73 +29,73 @@ Bienvenido a mi portafolio oficial de Ciencia de Datos, Machine Learning e Intel
 ## 🧩 Systems I've Designed & Developed
 
 🟠 Payroll management system for small businesses...  
-[`payroll-cobol-system`](https://github.com/xymora/payroll-cobol-system)
+[payroll-cobol-system](https://github.com/xymora/repository/tree/main/payroll-cobol-system)
 
 🟠 Inventory management system for retail stores...  
-[`inventory-management-cobol`](https://github.com/xymora/inventory-management-cobol)
+[inventory-management-cobol](https://github.com/xymora/repository/tree/main/inventory-management-cobol)
 
 🔵 Contact management application in C...  
-[`contact-agenda-c`](https://github.com/xymora/contact-agenda-c)
+[contact-agenda-c](https://github.com/xymora/repository/tree/main/contact-agenda-c)
 
 🔵 ATM simulator in C...  
-[`atm-simulator-c`](https://github.com/xymora/atm-simulator-c)
+[atm-simulator-c](https://github.com/xymora/repository/tree/main/atm-simulator-c)
 
 🤖 Text generation system using Transformer models...  
-[`modular-ai-framework`](https://github.com/xymora/modular-ai-framework)
+[modular-ai-framework](https://github.com/xymora/repository/tree/main/modular-ai-framework)
 
 🧠 GAN implementation for synthetic image generation...  
-[`gan-image-generator`](https://github.com/xymora/gan-image-generator)
+[gan-image-generator](https://github.com/xymora/repository/tree/main/gan-image-generator)
 
 ✍️ Personalized text generation system...  
-[`llm-text-generator`](https://github.com/xymora/llm-text-generator)
+[llm-text-generator](https://github.com/xymora/repository/tree/main/llm-text-generator)
 
 ⚙️ ML classification model deployed as a REST API...  
-[`classification-api-fastapi`](https://github.com/xymora/classification-api-fastapi)
+[classification-api-fastapi](https://github.com/xymora/repository/tree/main/classification-api-fastapi)
 
 🔄 Full CI/CD pipeline for ML projects...  
-[`ml-cicd-pipeline`](https://github.com/xymora/ml-cicd-pipeline)
+[ml-cicd-pipeline](https://github.com/xymora/repository/tree/main/ml-cicd-pipeline)
 
 📡 Scalable inference system with Docker Compose...  
-[`scalable-inference-system`](https://github.com/xymora/scalable-inference-system)
+[scalable-inference-system](https://github.com/xymora/repository/tree/main/scalable-inference-system)
 
 📈 ML classification pipeline with GridSearchCV...  
-[`classification-gridsearch-notebook`](https://github.com/xymora/classification-gridsearch-notebook)
+[classification-gridsearch-notebook](https://github.com/xymora/repository/tree/main/classification-gridsearch-notebook)
 
 📊 Comparative study of multiple classifiers...  
-[`model-comparison-randomizedsearch`](https://github.com/xymora/model-comparison-randomizedsearch)
+[model-comparison-randomizedsearch](https://github.com/xymora/repository/tree/main/model-comparison-randomizedsearch)
 
 📌 Hyperparameter optimization with Optuna...  
-[`lgbm-optuna-hyperparameter-tuning`](https://github.com/xymora/lgbm-optuna-hyperparameter-tuning)
+[lgbm-optuna-hyperparameter-tuning](https://github.com/xymora/repository/tree/main/lgbm-optuna-hyperparameter-tuning)
 
 🤝 Simulated collaboration among product, DS, and eng...  
-[`collaborative-ml-project`](https://github.com/xymora/collaborative-ml-project)
+[collaborative-ml-project](https://github.com/xymora/repository/tree/main/collaborative-ml-project)
 
 📡 ML API with documented OpenAPI endpoints...  
-[`ml-api-collaboration`](https://github.com/xymora/ml-api-collaboration)
+[ml-api-collaboration](https://github.com/xymora/repository/tree/main/ml-api-collaboration)
 
 📊 Churn prediction/product recommendation collaboration...  
-[`churn-collaboration-project`](https://github.com/xymora/churn-collaboration-project)
+[churn-collaboration-project](https://github.com/xymora/repository/tree/main/churn-collaboration-project)
 
 🌡️ Environmental monitoring with embedded ML...  
-[`environmental-monitoring-system`](https://github.com/xymora/environmental-monitoring-system)
+[environmental-monitoring-system](https://github.com/xymora/repository/tree/main/environmental-monitoring-system)
 
 🌐 IoT anomaly detection dashboard...  
-[`iot-anomaly-detection`](https://github.com/xymora/iot-anomaly-detection)
+[iot-anomaly-detection](https://github.com/xymora/repository/tree/main/iot-anomaly-detection)
 
 📟 Edge computing system on Raspberry Pi...  
-[`edge-computing-raspberrypi`](https://github.com/xymora/edge-computing-raspberrypi)
+[edge-computing-raspberrypi](https://github.com/xymora/repository/tree/main/edge-computing-raspberrypi)
 
 🗣️ Sentiment analysis engine...  
-[`sentiment-analysis-nlp`](https://github.com/xymora/sentiment-analysis-nlp)
+[sentiment-analysis-nlp](https://github.com/xymora/repository/tree/main/sentiment-analysis-nlp)
 
 🔍 Named Entity Recognition (NER) project...  
-[`ner-specialized-nlp`](https://github.com/xymora/ner-specialized-nlp)
+[ner-specialized-nlp](https://github.com/xymora/repository/tree/main/ner-specialized-nlp)
 
 📚 Multiclass text classification project...  
-[`text-multiclass-classifier`](https://github.com/xymora/text-multiclass-classifier)
+[text-multiclass-classifier](https://github.com/xymora/repository/tree/main/text-multiclass-classifier)
 
 📝 GPT-2 or T5-based creative text generation...  
-[`text-generation-gpt2`](https://github.com/xymora/text-generation-gpt2)
+[text-generation-gpt2](https://github.com/xymora/repository/tree/main/text-generation-gpt2)
 
 
 ## 🚀 Featured Projects
