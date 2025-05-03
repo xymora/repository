@@ -1,0 +1,1 @@
+# Script para recibir datos vía MQTT
