@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  inference:
+    build: .
+    ports:
+      - "8000:80"
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "512M"
+  locust:
+    image: locustio/locust
+    volumes:
+      - ./load_test:/mnt/locust
+    ports:
+      - "8089:8089"
+    command: -f /mnt/locust/locustfile.py --host=http://inference
