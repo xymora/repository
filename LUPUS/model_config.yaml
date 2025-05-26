@@ -1,0 +1,37 @@
+# Archivo: model_config.yaml
+# Descripción: Configuración externa para el modelo LUPUS SIM
+
+simulation_days: 30
+
+initial_values:
+  IFNA: 500         # Interferón alfa tipo I (pg/mL)
+  BAFF: 1000        # B-cell Activating Factor (ng/mL)
+  IL10: 10          # Interleucina 10 (pg/mL)
+  IL6: 300          # Interleucina 6 (pg/mL)
+  Treg_Th17_ratio: 0.8
+  M1_M2_ratio: 3.0
+  C3: 90            # mg/dL
+  C4: 20            # mg/dL
+
+therapy_parameters:
+  vaccine:
+    activation_day: 0
+    effect_curve: logistic
+    IL10_max: 25
+    growth_rate: 0.2
+    midpoint_day: 5
+
+  sirna:
+    decay_rate: 0.1
+    target: BAFF
+    min_value: 50
+
+  ifna_blockade:
+    decay_rate: 0.15
+    target: IFNA
+    min_value: 20
+
+  exosomes:
+    IL10_boost: 20
+    M1_M2_decay_rate: 0.15
+    M1_M2_min: 0.5
