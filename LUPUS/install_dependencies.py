@@ -4,18 +4,25 @@
 import subprocess
 import sys
 
-# Lista de paquetes requeridos por los módulos
-required_packages = [
-    "pandas",
-    "matplotlib",
-    "pyyaml"
-]
+# Mapeo: nombre pip => nombre módulo
+required_packages = {
+    "pandas": "pandas",
+    "matplotlib": "matplotlib",
+    "pyyaml": "yaml"
+}
 
-# Instala cada paquete usando pip
-for package in required_packages:
+print("📦 Iniciando verificación e instalación de dependencias...\n")
+
+for pip_name, import_name in required_packages.items():
     try:
-        __import__(package)
-        print(f"[✔] {package} ya está instalado.")
+        __import__(import_name)
+        print(f"[✔] {pip_name} ya está instalado.")
     except ImportError:
-        print(f"[→] Instalando {package}...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+        print(f"[→] Instalando {pip_name}...")
+        try:
+            subprocess.check_call([sys.executable, "-m", "pip", "install", pip_name])
+            print(f"[✓] {pip_name} instalado correctamente.\n")
+        except subprocess.CalledProcessError:
+            print(f"[✖] Error al instalar {pip_name}. Intenta instalarlo manualmente.")
+
+print("\n✅ Proceso de instalación finalizado.")
