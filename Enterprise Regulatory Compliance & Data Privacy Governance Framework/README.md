@@ -1,18 +1,18 @@
-# 📊 Framework de Gobernanza de Datos: Indicadores de Salud Global (2005-2021)
+# 📊 Data Governance Framework: Global Economic Indicators (2005-2021)
 
-## 📁 Descripción del Proyecto
-Este proyecto implementa un ecosistema de **Gobernanza de Datos** diseñado para auditar, limpiar y visualizar la calidad de los datos de salud pública mundial. Se enfoca en el periodo 2005-2021 para garantizar la trazabilidad y la toma de decisiones basada en datos confiables (Data-Driven).
+## 📁 Project Overview
+This project implements a comprehensive **Data Governance Ecosystem** designed to audit, clean, and visualize the quality of global public health and economic data. It focuses on the 2005-2021 period to ensure traceability and Data-Driven executive decision-making.
 
-## 🛠️ Pilares de Gobernanza Implementados
-* **Integridad:** Verificación de valores nulos y consistencia histórica.
-* **Validez:** Aseguramiento de rangos lógicos en indicadores de salud.
-* **Disponibilidad:** Automatización de la extracción vía fuentes públicas.
-* **Usabilidad:** Dashboard ejecutivo para la interpretación de KPIs.
+## 🛠️ Implemented Governance Pillars
+* **Accuracy:** Validation of logical ranges for economic indicators.
+* **Completeness:** Comprehensive audit of missing values and historical gaps.
+* **Consistency:** Standardizing formats across multi-year datasets.
+* **Timeliness:** Verification of data availability within the 2005-2021 window.
 
-## 🚀 Estructura del Repositorio
-* `governance_audit.py`: Script principal de auditoría y visualización.
-* `requirements.txt`: Dependencias del entorno.
-* `LICENSE`: Términos de uso MIT.
+## 🚀 Repository Structure
+* `governance_engine.py`: Core audit and visualization engine.
+* `requirements.txt`: Environment dependencies.
+* `LICENSE`: MIT License terms.
 
-## 📈 Dashboard Ejecutivo
-El script genera una interfaz visual que permite a los Stakeholders identificar "puntos ciegos" en la captura de datos y tendencias críticas de salud por región.
+## 📈 Executive Dashboard
+The script generates a high-fidelity visual interface allowing Stakeholders to identify "blind spots" in data capture and recognize critical regional trends.
