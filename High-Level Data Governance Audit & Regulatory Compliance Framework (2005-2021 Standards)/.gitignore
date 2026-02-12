@@ -1,0 +1,14 @@
+# Local Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data Audits & Reports
+*.csv
+*.xlsx
+/audit_reports/
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
