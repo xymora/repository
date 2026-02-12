@@ -65,7 +65,7 @@
 * 🔬 [ML classification pipeline with GridSearchCV...](https://github.com/xymora/repository/tree/main/classification-gridsearch-notebook)
 * 📊 [Comparative study of multiple classifiers...](https://github.com/xymora/repository/tree/main/model-comparison-randomizedsearch)
 * 📌 [Hyperparameter optimization with Optuna...](https://github.com/xymora/repository/tree/main/lgbm-optuna-hyperparameter-tuning)
-* 🤝 [Simulated collaboration among product, DS, and eng...](https://github.com/xymora/repository/tree/main/collaborative-ml-project)
+* 📌 [Simulated collaboration among product, DS, and eng...](https://github.com/xymora/repository/tree/main/collaborative-ml-project)
 * 📉 [Churn prediction/product recommendation collaboration...](https://github.com/xymora/repository/tree/main/churn-collaboration-project)
 
 ### 📡 IoT & Edge Computing
@@ -128,7 +128,7 @@
 
 ## 🎓 About Me
 
-I am a **dual master's candidate in Big Data and Data Science**, with prior degrees in **Financial Administration and Nursing**.  
+I am a **Data Governance Engineer and dual master's candidate in Big Data and Data Science**, with prior degrees in **Financial Administration and Nursing**.  
 My interdisciplinary background allows me to integrate technical systems, applied research, and ethical innovation in domains such as health, security, and environmental resilience.
 
 ---
