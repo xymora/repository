@@ -1,0 +1,7 @@
+pandas
+ydata-profiling
+sweetviz
+scikit-learn
+imbalanced-learn
+joblib
+git+https://github.com/pycaret/pycaret.git@master
