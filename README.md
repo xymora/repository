@@ -16,7 +16,7 @@
 
 | 🇮🇹 Italiano | 🇫🇷 Français | 🇪🇸 Español |
 | :--- | :--- | :--- |
-| Benvenuto nel mio portfolio. Sono specializzato nella previsione dei comportamenti e nell’automazione dei processi. | Bienvenue dans mon portfolio. Je suis spécialisé dans la prédiction du comportement et l’automatisation des processus. | Bienvenido a mi portafolio. Me especializo en predicción de comportamiento y automatización de procesos. |
+| Benvenuto nel mio portfolio. Sono specializzato nella previsione dei comportamenti e nell’automazione dei procesos. | Bienvenue dans mon portfolio. Je suis spécialisé dans la prédiction du comportement et l’automatisation des processus. | Bienvenido a mi portafolio. Me especializo en predicción de comportamiento y automatización de procesos. |
 
 ---
 
@@ -27,6 +27,27 @@
 * `COBOL` 🟠 [Inventory management system for retail stores...](https://github.com/xymora/repository/tree/main/inventory-management-cobol)
 * `C` 🔵 [Contact management application in C...](https://github.com/xymora/repository/tree/main/contact-agenda-c)
 * `C` 🔵 [ATM simulator in C...](https://github.com/xymora/repository/tree/main/atm-simulator-c)
+
+### 🛡️ Data Governance & Integrity Frameworks
+* 🏛️ [Enterprise Data Governance Framework: Quality & Integrity Audit...](https://github.com/xymora/repository/tree/main/enterprise-data-governance-framework)
+* 📑 [High-Level Data Governance Audit & Regulatory Compliance (2005-2021)...](https://github.com/xymora/repository/tree/main/high-level-governance-audit)
+* 📦 [Tesla Supply Chain Data Integrity & Governance (SC-DIG)...](https://github.com/xymora/repository/tree/main/tesla-supply-chain-governance)
+* 🏦 [EuroWealth Dynamics: Interactive Socio-Economic Governance...](https://github.com/xymora/repository/tree/main/eurowealth-dynamics-governance)
+* 🛒 [Amazon Sales Strategic Insights: Governance Framework (2005-2021)...](https://github.com/xymora/repository/tree/main/amazon-sales-governance)
+* 🎵 [Spotify Metadata Integrity & Governance Framework...](https://github.com/xymora/repository/tree/main/spotify-metadata-governance)
+* 🏥 [BlueShield Governance Framework...](https://github.com/xymora/repository/tree/main/blueshield-governance-framework)
+* ✈️ [AeroGovernance Pro: Strategic Analytics Framework...](https://github.com/xymora/repository/tree/main/aerogovernance-pro)
+* 🔗 [Enterprise Data Lineage & Integrity Framework...](https://github.com/xymora/repository/tree/main/enterprise-data-lineage)
+* 📈 [Project Phoenix: Revenue Growth Management (RGM) Governance...](https://github.com/xymora/repository/tree/main/project-phoenix-governance)
+* 🛡️ [Data Shield Compliance Suite: Regulatory Governance...](https://github.com/xymora/repository/tree/main/data-shield-compliance)
+* 🕵️ [Project Sentinel: Advanced Data Anonymization Engine...](https://github.com/xymora/repository/tree/main/project-sentinel)
+* ⚡ [Enterprise Energy Metadata & Lineage Framework...](https://github.com/xymora/repository/tree/main/enterprise-energy-metadata)
+* 💎 [Advanced Governance & Data Quality Assurance Engine (AG-DQA)...](https://github.com/xymora/repository/tree/main/advanced-governance-dqa)
+* 🧹 [Automated Data Cleaning Pipeline: Governance Framework...](https://github.com/xymora/repository/tree/main/automated-data-cleaning-governance)
+* 👁️ [Enterprise-Grade Data Observability & Risk Assessment...](https://github.com/xymora/repository/tree/main/enterprise-data-observability)
+* 🥇 [Enterprise MDM & Golden Record Resolution...](https://github.com/xymora/repository/tree/main/enterprise-mdm-golden-record)
+* 📉 [Employee Promotion Prediction System with AutoML & Governance...](https://github.com/xymora/repository/tree/main/employee-promotion-automl)
+* 🔄 [Data Governance & Versioning: Complete Project Code (DVC)...](https://github.com/xymora/repository/tree/main/data-governance-versioning)
 
 ### 🤖 Generative AI & LLMs
 * 🧠 [Text generation system using Transformer models...](https://github.com/xymora/repository/tree/main/modular-ai-framework)
