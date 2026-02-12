@@ -1,0 +1,12 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Data & Notebooks
+.ipynb_checkpoints/
+data/raw_heavy_files.csv
+
+# IDEs
+.vscode/
+.idea/
