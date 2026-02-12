@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Datos y Salidas (Gobierno de Datos)
+# Nota: Subimos carpetas vacías con .gitkeep, pero ignoramos archivos pesados
+data/*.csv
+!data/.gitkeep
+outputs/*.png
+outputs/*.html
+!outputs/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+
+# Ejecutables de PyInstaller
+build/
+dist/
+*.spec
