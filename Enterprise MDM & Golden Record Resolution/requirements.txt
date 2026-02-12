@@ -1,0 +1,5 @@
+pandas==2.2.0
+numpy==1.26.0
+recordlinkage==0.16.0
+scikit-learn==1.4.0
+requests==2.31.0
