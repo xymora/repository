@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+env/
+venv/
+
+# Data Files (Never commit real data!)
+data/raw/
+*.csv
+*.xlsx
+.env
