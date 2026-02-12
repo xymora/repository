@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data and Reports
+*.xlsx
+*.csv
+*.html
+
+# Environments
+.venv/
+env/
+venv/
