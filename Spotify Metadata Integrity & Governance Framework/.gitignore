@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+venv/
+env/
+.env
+
+# Data files (Sensitive or Large)
+data/*.csv
+*.zip
+
+# IDEs
+.vscode/
+.idea/
