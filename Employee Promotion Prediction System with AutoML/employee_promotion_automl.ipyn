@@ -1,0 +1,177 @@
+# ┌────────────────────────────────────────────────────────────────────────────────────┐
+# │  Reto: SISTEMA DE PREDICCIÓN DE CANDIDATOS ELEGIBLES PARA PROMOCIÓN LABORAL        │
+# │  Desarrollado por: Álvaro Rodrigo Moctezuma Rampirez                               │
+# └────────────────────────────────────────────────────────────────────────────────────┘
+
+# ──── SECCIÓN 1 ─────────────────────────────────────────────────────────────────
+# GESTIÓN DE DEPENDENCIAS Y ENTORNO DE EJECUCIÓN
+# ────────────────────────────────────────────────────────────────────────────────
+
+import importlib.util
+import os
+import subprocess
+import sys
+import shlex
+
+def manage_dependencies(packages: dict):
+    """
+    Verifica módulos y los instala si faltan.
+    Mantiene un log limpio en consola para mejorar la experiencia de usuario.
+    """
+    print("» INICIALIZANDO VERIFICACIÓN DE ENTORNO...")
+    for package, install_cmd in packages.items():
+        if importlib.util.find_spec(package) is None:
+            print(f"  [ INSTALANDO ] : {package}...")
+            cmd = [sys.executable, "-m", "pip", "install", *shlex.split(install_cmd)]
+            subprocess.check_call(cmd)
+        else:
+            print(f"  [ VERIFICADO ] : {package}")
+    print("» ENTORNO LISTO.\n")
+
+dependencies = {
+    "ydata_profiling": "ydata_profiling --upgrade",
+    "sweetviz": "sweetviz",
+    "pycaret": "git+https://github.com/pycaret/pycaret.git@master",
+    "imblearn": "imblearn"
+}
+manage_dependencies(dependencies)
+
+# ──── SECCIÓN 2 ─────────────────────────────────────────────────────────────────
+# ADQUISICIÓN E INGESTA DE DATOS
+# ────────────────────────────────────────────────────────────────────────────────
+
+import pandas as pd
+import sweetviz as sv
+from ydata_profiling import ProfileReport
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from imblearn.over_sampling import SMOTE
+from pycaret.classification import setup, compare_models, tune_model, evaluate_model, predict_model
+
+dataset_url = "https://firebasestorage.googleapis.com/v0/b/tlg-prod.appspot.com/o/assets%2Ffile%2F0.ytdcvnnbhzn0.aoosypzpwlqEmployeePromotion.csv?alt=media&token=b9f7a694-cd1a-419d-867b-a3abd311849c"
+dataset_path = "EmployeePromotion.csv"
+
+if not os.path.exists(dataset_path):
+    print("» DESCARGANDO DATASET DESDE ORIGEN REMOTO...")
+    os.system(f"wget -O {dataset_path} '{dataset_url}'")
+
+info = pd.read_csv(dataset_path)
+
+# ──── SECCIÓN 3 ─────────────────────────────────────────────────────────────────
+# ANÁLISIS EXPLORATORIO DE DATOS AUTOMATIZADO (AutoEDA)
+# ────────────────────────────────────────────────────────────────────────────────
+
+print("» GENERANDO REPORTES DE INTELIGENCIA DE DATOS...")
+
+profile = ProfileReport(
+    info,
+    title="Análisis de Promoción Laboral",
+    dataset={
+        "description": "Dataset para modelado predictivo de elegibilidad promocional.",
+        "author": "Mtro. Álvaro Rodrigo Moctezuma Ramírez"
+    },
+    variables={
+        "descriptions": {
+            "employee_id": "ID único para el empleado",
+            "department": "Departamento de empleado",
+            "region": "Región de empleo",
+            "education": "Nivel educativo",
+            "gender": "Género del empleado",
+            "recruitment_channel": "Canal de reclutamiento para el empleado",
+            "no_of_trainings": "Número de capacitaciones completadas el año anterior",
+            "age": "Edad",
+            "previous_year_rating": "Calificación del empleado en el año previo",
+            "length_of_service": "Años de servicio",
+            "awards_won?": "1: Ganó premio, 0: No",
+            "avg_training_score": "Promedio de las evaluaciones de formación actuales",
+            "is_promoted": "1: Promovido, 0: No promovido"
+        }
+    }
+)
+profile.to_notebook_iframe()
+
+report = sv.compare(
+    [info[info["gender"] == "f"], "Female"],
+    [info[info["gender"] == "m"], "Male"],
+    target_feat="is_promoted"
+)
+report.show_notebook()
+
+# ──── SECCIÓN 4 ─────────────────────────────────────────────────────────────────
+# ETL Y PIPELINE DE PREPROCESAMIENTO MANUAL
+# ────────────────────────────────────────────────────────────────────────────────
+
+print("» EJECUTANDO PIPELINE DE LIMPIEZA Y CODIFICACIÓN...")
+
+info = info.dropna().copy()
+info = info.drop(columns=["employee_id"])
+
+encoder = LabelEncoder()
+categorical_features = info.select_dtypes(include=["object"]).columns
+for feature in categorical_features:
+    info[feature] = encoder.fit_transform(info[feature].astype(str))
+
+X = info.drop("is_promoted", axis=1)
+y = info["is_promoted"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.20, random_state=1
+)
+
+dist = y_train.value_counts(normalize=True).sort_index()
+
+print("\n---------------------------------------------------------")
+print("  ESTADO DE BALANCEO DE CLASES (is_promoted)")
+print("---------------------------------------------------------")
+print(dist)
+print("---------------------------------------------------------\n")
+
+apply_smote = dist.min() < 0.40
+
+if apply_smote:
+    print("» ACCIÓN: Aplicando técnica SMOTE para balanceo de carga...")
+    smote_engine = SMOTE(random_state=1)
+    X_train_resampled, y_train_resampled = smote_engine.fit_resample(X_train, y_train)
+else:
+    print("» ACCIÓN: Distribución óptima. Se mantiene el set original.")
+    X_train_resampled, y_train_resampled = X_train.copy(), y_train.copy()
+
+train_payload = pd.concat([X_train_resampled, y_train_resampled], axis=1).reset_index(drop=True)
+test_payload  = pd.concat([X_test, y_test], axis=1).reset_index(drop=True)
+
+test_payload.index = range(len(train_payload), len(train_payload) + len(test_payload))
+
+# ──── SECCIÓN 5 ─────────────────────────────────────────────────────────────────
+# AUTOMATED MACHINE LEARNING (PYCARET)
+# ────────────────────────────────────────────────────────────────────────────────
+
+print("\n» INICIANDO PROCESO DE ENTRENAMIENTO AUTOMATIZADO...")
+
+classification_setup = setup(
+    data=train_payload,
+    target="is_promoted",
+    session_id=1,
+    preprocess=False,
+    test_data=test_payload,
+    index=False,
+    verbose=True
+)
+
+print("» COMPARANDO MODELOS DE ALTO RENDIMIENTO...")
+initial_best_model = compare_models()
+
+print("» OPTIMIZANDO HIPERPARÁMETROS DEL MEJOR CANDIDATO...")
+optimized_model = tune_model(
+    initial_best_model,
+    optimize="Accuracy",
+    n_iter=1
+)
+
+print("» GENERANDO MATRIZ DE EVALUACIÓN FINAL...")
+evaluate_model(optimized_model)
+
+print("» VALIDACIÓN FINAL SOBRE DATOS NO VISTOS:")
+model_performance_validation = predict_model(optimized_model, data=test_payload)
+print(model_performance_validation.head())
+
+print("\n» PROCESO FINALIZADO EXITOSAMENTE.")
