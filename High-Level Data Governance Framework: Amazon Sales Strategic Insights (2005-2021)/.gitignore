@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data files
+*.csv
+*.json
+*.xlsx
+
+# Visualization exports
+*.png
+*.pdf
+
+# Environments
+.venv/
+env/
+venv/
