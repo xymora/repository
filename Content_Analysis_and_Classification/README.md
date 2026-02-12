@@ -22,16 +22,13 @@ To transform raw streaming data into actionable insights by:
 * **Plotly & Seaborn** (Advanced Visualization)
 * **Jupyter Notebook**
 
-📁 Project Structure
-──────────────────────────────────────────────────────────────────────────────────
-content-analysis-classification/
+## 📁 Project Structure
+Content_Analysis_and_Classification/
 ├── data/
-│   └── netflix_titles.csv           # Original Dataset (Raw)
+│   └── netflix_titles.csv           # Original Dataset
 ├── notebooks/
-│   └── content_analysis.ipynb       # Main Analysis & NLP Model
+│   └── content_analysis_and_classification.ipynb
 ├── outputs/
-│   ├── content_distribution.png     # Visual Insights
-│   └── data_quality_report.html     # Data Governance Report
-├── requirements.txt                 # Project Dependencies
+│   └── data_quality_report.html     # (Optional) Exported report
+├── requirements.txt                 # Project dependencies
 └── README.md                        # Documentation
-──────────────────────────────────────────────────────────────────────────────────
