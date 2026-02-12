@@ -1,15 +1,19 @@
-# Python Web Dashboard con Tabulate
+# Python Web Dashboard with Tabulate
 
-Este proyecto es una herramienta de visualización local diseñada para transformar reportes de consola (generados con la librería `tabulate`) en una interfaz web dinámica utilizando Flask.
+A lightweight local web interface designed to transform Python console reports (generated with the `tabulate` library) into a dynamic, clean HTML dashboard using Flask.
 
-## Características
-* Renderizado automático de tablas HTML desde estructuras de datos Python.
-* Diseño responsivo con CSS integrado.
-* Modo Debug activado para desarrollo ágil.
+## 🚀 Features
+* **Dynamic Rendering:** Automatically converts Python lists and dictionaries into styled HTML5 tables.
+* **Modern UI:** Minimalist dashboard design with responsive CSS.
+* **Isolated Environment:** Fully compatible with virtual environments for clean dependency management.
+* **Developer Friendly:** Debug mode enabled for real-time updates.
 
-## Instalación
-1. Clonar el repositorio.
-2. Crear y activar un entorno virtual:
-   ```bash
-   python -m venv .venv
-   .\.venv\Scripts\activate
+## 📂 Project Structure
+```text
+D:\PYTHON\
+├── .venv\               # Virtual environment (ignored by Git)
+├── .gitignore           # Git ignore rules
+├── LICENSE              # MIT License
+├── README.md            # Project documentation
+├── requirements.txt     # System dependencies
+└── app.py               # Main Flask server & logic
