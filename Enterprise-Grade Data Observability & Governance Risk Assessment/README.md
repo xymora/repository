@@ -1,15 +1,15 @@
-# Enterprise Data Governance: Observability & Risk Assessment Framework
+# DataGov-Sentinel: Professional Observability Framework
 
-This repository contains a high-level Data Governance framework (Core Standards 2021-2025) designed to automate data quality auditing and strategic decision-making through statistical observability.
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+![Governance-Level](https://img.shields.io/badge/Governance-Tier--3-blue)
 
-## Overview
-In high-stakes environments, data governance must transcend simple validation. This framework implements "Quality Gates" based on statistical drift and anomaly detection to protect downstream BI and ML assets.
+## 🎯 Executive Overview
+This framework represents a high-level approach to Data Governance (2021-2025 standards). It automates the "Quality Gate" process, ensuring that only data meeting strict statistical and integrity thresholds reaches downstream systems.
 
-## Key Performance Indicators (KPIs)
-* **Data Completeness**: Monitoring missing values across critical dimensions.
-* **Statistical Integrity**: Identifying outliers that could bias financial forecasting.
-* **Governance Decision Logic**: Automated status reporting (Pass/Warning/Fail).
+## 🛠️ Key Capabilities
+* **Statistical Profiling**: Detection of financial outliers using Z-Score methodology.
+* **Integrity Enforcement**: Automated rejection of datasets with Primary Key violations.
+* **Drift Analysis**: Temporal visualization of data stability to inform business leaders.
 
-## Technical Stack
-- **Language**: Python 3.x
-- **Core Libraries**: Pandas, Seaborn, Scipy, Matplotlib.
+## 🚀 Strategic Decision Making
+The module doesn't just log errors; it generates a **Governance Decision Output** (PASS/FAIL) based on risk tolerance parameters defined by Data Stewards.
