@@ -1,0 +1,11 @@
+# Data Processing
+pandas>=1.3.5
+numpy>=1.21.6
+
+# Advanced Analytics & Decision Support
+scipy>=1.7.3
+scikit-learn>=1.0.2
+
+# Professional Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.2
