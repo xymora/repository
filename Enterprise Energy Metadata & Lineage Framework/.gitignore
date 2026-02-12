@@ -1,0 +1,16 @@
+# Data files
+*.csv
+*.xlsx
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Generated Reports
+governance_report.html
+
+# IDEs
+.vscode/
+.idea/
