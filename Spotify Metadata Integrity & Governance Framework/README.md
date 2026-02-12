@@ -1,7 +1,7 @@
 # Spotify Metadata Integrity & Governance Framework (2021 Edition)
 
 ## Overview
-This project implements a high-level Data Governance workflow focused on **Data Quality Assurance (DQA)** and **Metadata Management** for streaming services. Based on industry standards established between 2015-2021, it ensures that data assets are reliable, traceable, and ready for strategic decision-making.
+This project implements a high-level Data Governance workflow focused on **Data Quality Assurance (DQA)** and **Metadata Management** for streaming services. Based on industry standards established between 2015-2021, it ensures that data assets are reliable, traceability, and ready for strategic decision-making.
 
 ## Governance Objectives
 * **Data Consistency:** Validate audio features across different genres.
