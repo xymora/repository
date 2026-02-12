@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+venv/
+env/
+
+# Data & Notebooks
+.ipynb_checkpoints
+data/*.csv
+outputs/*.pdf
+outputs/*.png
+
+# Distribution
+dist/
+build/
+*.spec
