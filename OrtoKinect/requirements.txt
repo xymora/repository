@@ -1,0 +1,7 @@
+numpy
+opencv-python
+libusb1
+libusb-package
+mediapipe==0.10.11
+matplotlib
+reportlab
