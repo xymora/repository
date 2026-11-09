@@ -1,0 +1,75 @@
+{
+ "nombre": "Feliz Navidad",
+ "drones": 500,
+ "separacion": 2.2,
+ "altura": 55.0,
+ "vel_max": 7.0,
+ "escenas": [
+  {
+   "duracion": 10,
+   "movimiento": "fija",
+   "efecto": "destellos",
+   "ancho": 0,
+   "tipo": "texto",
+   "nombre": "Feliz",
+   "texto": "FELIZ\nNAVIDAD",
+   "fuente": "Arial Black",
+   "trazo": "relleno",
+   "capas": 1,
+   "color": "tres",
+   "colores": [
+    "#2bd16b",
+    "#ffffff",
+    "#ff2b3d"
+   ]
+  },
+  {
+   "duracion": 16,
+   "movimiento": "girar",
+   "efecto": "destellos",
+   "ancho": 0,
+   "tipo": "figura",
+   "nombre": "Árbol",
+   "figura": "arbol",
+   "color": "figura",
+   "colores": [
+    "#ff2b4b",
+    "#ffd23b",
+    "#3dd6f5"
+   ]
+  },
+  {
+   "duracion": 10,
+   "movimiento": "vaiven",
+   "efecto": "respirar",
+   "ancho": 0,
+   "tipo": "figura",
+   "nombre": "Estrella",
+   "figura": "estrella",
+   "color": "figura",
+   "colores": [
+    "#ff2b4b",
+    "#ffd23b",
+    "#3dd6f5"
+   ]
+  },
+  {
+   "duracion": 14,
+   "movimiento": "girar",
+   "efecto": "arcoiris",
+   "ancho": 0,
+   "tipo": "texto",
+   "nombre": "2027",
+   "texto": "2027",
+   "fuente": "Bahnschrift",
+   "trazo": "relleno",
+   "capas": 2,
+   "color": "arcoiris",
+   "colores": [
+    "#ff3b6b",
+    "#ffd23b",
+    "#3bd1ff"
+   ]
+  }
+ ]
+}

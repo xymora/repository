@@ -1,0 +1,94 @@
+{
+ "nombre": "Noche de drones 2026",
+ "drones": 400,
+ "separacion": 2.2,
+ "altura": 55.0,
+ "vel_max": 7.0,
+ "escenas": [
+  {
+   "duracion": 9,
+   "movimiento": "fija",
+   "efecto": "destellos",
+   "ancho": 0,
+   "tipo": "texto",
+   "nombre": "Bienvenida",
+   "texto": "HOLA",
+   "fuente": "Arial Black",
+   "trazo": "relleno",
+   "capas": 1,
+   "color": "por_letra",
+   "colores": [
+    "#ff3b6b",
+    "#ffd23b",
+    "#3bd1ff"
+   ]
+  },
+  {
+   "duracion": 14,
+   "movimiento": "girar",
+   "efecto": "respirar",
+   "ancho": 0,
+   "tipo": "figura",
+   "nombre": "Corazón",
+   "figura": "corazon",
+   "color": "figura",
+   "colores": [
+    "#ff2b4b",
+    "#ffd23b",
+    "#3dd6f5"
+   ]
+  },
+  {
+   "duracion": 9,
+   "movimiento": "fija",
+   "efecto": "ninguno",
+   "ancho": 0,
+   "tipo": "imagen",
+   "nombre": "Logo",
+   "ruta": "ejemplos/logo_estrella.png",
+   "umbral": 60,
+   "invertir": false,
+   "trazo": "relleno",
+   "capas": 1,
+   "color": "imagen",
+   "colores": [
+    "#ffffff",
+    "#f5b400",
+    "#3dd6f5"
+   ]
+  },
+  {
+   "duracion": 14,
+   "movimiento": "girar",
+   "efecto": "ninguno",
+   "ancho": 0,
+   "tipo": "figura",
+   "nombre": "Planeta",
+   "figura": "planeta",
+   "color": "figura",
+   "colores": [
+    "#ff2b4b",
+    "#ffd23b",
+    "#3dd6f5"
+   ]
+  },
+  {
+   "duracion": 11,
+   "movimiento": "ola",
+   "efecto": "barrido",
+   "ancho": 0,
+   "tipo": "texto",
+   "nombre": "Despedida",
+   "texto": "GRACIAS",
+   "fuente": "Arial Black",
+   "trazo": "relleno",
+   "capas": 1,
+   "color": "degradado",
+   "colores": [
+    "#3dd6f5",
+    "#ff3df0",
+    "#ffffff"
+   ]
+  }
+ ]
+}
