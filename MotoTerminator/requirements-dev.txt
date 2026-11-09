@@ -1,0 +1,4 @@
+# Desarrollo y CI (no las necesita el usuario final ni el .bat)
+-r requirements.txt
+pytest>=7.4
+ruff>=0.5

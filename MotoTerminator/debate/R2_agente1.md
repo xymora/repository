@@ -1,0 +1,37 @@
+# R2: Agente 1 (dinámica de vehículos), réplica
+
+## (a) Coincidencias
+
+- **Agente 4, P1 (suite reservada) + P8 (reporte), y Agente 2, P1 (campeona validada).** Coincido sin reservas. Sin pistas reservadas e intervalos de confianza, ninguna mejora física mía se puede medir. Es la condición previa para atribuir efectos. Hay que unificar las dos propuestas en un solo `evaluacion.py`, con semillas disjuntas (2³¹ + 1000·nivel + j) y `MAX_REINTENTOS=0` **solo en evaluación**.
+- **Agente 4, "llegada limpia" como métrica (P2a).** Es correcto que `llegadas` (evolucion.py:172) ignore `reintentos`, y además es inocuo: se agrega una columna y no cambia el entrenamiento.
+- **Agente 3, Fase 0 (regresión dorada y determinismo) y checkpoints atómicos.** Mis tests físicos (P0) encajan en su `tests/`. Su hallazgo de que el costo está dominado por el overhead de Python (≈330 µs por subpaso con N=1) confirma que subir SUBPASOS a 12 solo será barato con numba.
+- **Agente 2, P5 (desagregar la aptitud sin cambiarla).** Es la forma correcta de respetar la decisión del usuario y aun así analizar el compromiso velocidad contra seguridad.
+- **Agente 5, honestidad del modelo.** Hay que llamarlo "modelo de orden reducido". Coincide con mi diagnóstico D1–D4: la dinámica lateral es fenomenológica y el equilibrio no depende de la red. Su dato de Yamaha MOTOROiD/AMCES legitima el lastre activo, y lo voy a citar.
+- **Agentes 2, 3 y 4: ruido común.** Los números aleatorios compartidos se mantienen en el entrenamiento, y en evaluación se usa ruido por moto (`ruido_por_moto=True`). Es lo mismo que pedí en mi P8.
+
+## (b) Objeciones técnicas
+
+1. **Agente 4, P2c (castigo 50 y rapidez solo si la llegada es limpia) contra Agente 2 (no tocar la aptitud).** Le doy la razón al Agente 2 en el *default*. El incentivo que señala el Agente 4 existe en teoría, pero su cuenta lo sobreestima: cada rebobinado cuesta además 2 s de reloj y eso ya baja el premio de rapidez. A 15 m/s en una pista de 300 m son ≈10 % del tiempo, unos 10–15 puntos de rapidez además de los 20 del castigo. La aptitud es decisión explícita del usuario. Propuesta: `APTITUD_ESTRICTA=False` como flag y reportar la tasa de llegada limpia en la suite. Si la suite muestra que la campeona *sí* cambia choques por velocidad, la evidencia justificará el cambio más adelante. Tampoco cambiaría hoy el criterio de subir de nivel a "llegadas limpias": altera la dinámica del currículo y no podemos validarlo sin entrenamientos largos.
+2. **Mi P4 (lateral Whipple/Sharp) contra "métricas antes que fidelidad" (Agentes 4 y 5).** Lo concedo para hoy: P4 rompe los pesos y exige reentrenar, y eso está fuera de la restricción del usuario. Sostengo dos cosas:
+   - (i) El módulo de **validación** del benchmark de Meijaard (matrices y eigenvalores, ya reproducidos a 10⁻⁶) no tiene riesgo y sirve para cuantificar, en el reporte, cuánto se aparta el modelo actual.
+   - (ii) P4 debe quedar en el roadmap como trabajo doctoral central. Sin contradirección, cualquier afirmación sim-to-real sobre dirección es inválida, y eso refuerza el argumento del propio Agente 4.
+3. **Agente 4, "ABS, TCS y CMG tal como están".** Objeto en un punto concreto. Un **frenazo total en asfalto plano voltea la moto aunque el ABS esté activo** (cabeceo de más de 200°, medido). Eso es una incoherencia con "ayudas como moto real", no una cuestión de fidelidad. La mitigación del levantamiento trasero (Bosch MSC) **solo hace la tarea más fácil**: una política que ya evitaba el freno a fondo no pierde nada. Riesgo casi nulo, y se verifica con la regresión de la campeona en la suite.
+4. **Agente 2, P3 (quitar el cruce, sep-CMA, ES de Salimans) y sigma decreciente.** Son técnicamente correctas, pero cambian la dinámica del GA y solo se validan con varias semillas y entrenamientos largos. No van hoy. Hoy solo se *guardan* `sigma` y `racha` en el checkpoint (Agente 3), sin cambiar su regla.
+5. **Agente 3, numba (3–4 días) y Gymnasium.** Valiosos, pero no caben en una sesión con garantía de equivalencia estadística. Para hoy solo cachear `p.indice(self.px)`, que es idéntico bit a bit.
+6. **Agentes 4 y 2: randomización de dinámica durante el entrenamiento.** Hoy solo en evaluación (curvas de fragilidad). Entrenar con DR cambia los resultados del usuario sin consultarlo.
+7. **Agente 5: renombrar el proyecto y cambiar el tema visual.** Son decisiones del usuario, no técnicas. Quedan como recomendación en el reporte, no como cambio.
+
+## (c) TOP-8 para implementar HOY (una sesión, sin entrenamientos largos, defaults del usuario intactos)
+
+| # | Mejora | Archivo(s) | Est. |
+|---|---|---|---|
+| 1 | **Tests físicos y de regresión:** determinismo, lote igual a individual, equilibrio estático de la suspensión, caída libre, convergencia SUBPASOS 6/12/24, simetría izquierda/derecha y aptitud dorada de `mejor_moto.json` en pistas fijas. Más `validacion_fisica.py`, que reproduce el benchmark de Meijaard (weave 4.2924, capsize 6.0243 m/s) y calcula los eigenvalores del lazo lateral actual contra v. | `pruebas/test_fisica.py`, `validacion_fisica.py` (nuevos) | 1.5 h |
+| 2 | **Suite de evaluación reservada** (`python main.py --evaluar`): semillas disjuntas, `MAX_REINTENTOS=0` y ruido por moto solo en evaluación, tasa de llegada limpia con IC de Clopper-Pearson, fallas por km, desglose por motivo y material, TLC mínimo. | `evaluacion.py` (nuevo), `main.py`, `fisica.py` (parámetros opcionales del constructor) | 2 h |
+| 3 | **Métricas sin cambiar la aptitud:** columnas `llegadas_limpias` y componentes desagregados de la aptitud en `historial.csv`, más el flag `APTITUD_ESTRICTA=False` (apagado). | `fisica.py:aptitud`, `evolucion.py`, `config.py` | 45 min |
+| 4 | **Checkpoints robustos:** escritura atómica (`.tmp` + `os.replace` + `.bak`), guardar `sigma`, `racha`, estado del RNG y `config_hash`, lectura compatible con el formato actual, aviso si cambió la física. | `evolucion.py` | 1 h |
+| 5 | **MSC tipo Bosch dentro del ABS y el TCS** (flag `MSC_ACTIVO=True`): mitigación del levantamiento trasero (recortar el freno delantero si Fn trasera < 0.1·m·g o si la tasa de cabeceo pasa un umbral) y antiwheelie (recortar el par si `th` u `om` pasan un umbral). Se verifica que frenar a fondo ya no voltee la moto y que la campeona no empeore en la suite. | `fisica.py:275-286`, `config.py` | 1 h |
+| 6 | **Flags físicos apagados por defecto, listos para experimentar:** elipse de fricción por rueda con carga `fn` (`FRICCION_COMBINADA=False`) y ruido escalado por √dt usando `v` (idéntico con los valores actuales). | `fisica.py:192, 326-331`, `config.py` | 1 h |
+| 7 | **Sensores y latencia realistas + curvas de fragilidad, solo en evaluación:** ruido y sesgo de IMU y `lat`, error en el μ percibido, latencia de 0 a 3 pasos, multiplicadores de masa, μ, `CMG_MAX` y `PAR_FRENO`. `SENSORES="ideal"` por defecto. | `sensores.py` (nuevo), `evaluacion.py`, gancho en `fisica.py:observar` | 1.5 h |
+| 8 | **Reporte técnico automático y README honesto:** ODD declarado, tabla de KPIs con IC, figuras (eigenvalores del benchmark contra el modelo reducido, fragilidad, frenada), sección "Modelo de orden reducido: limitaciones" (sin contradirección, equilibrio automático, sensores ideales) y roadmap (P4 Whipple/Sharp con LQR interno, numba, ES). | `reporte.py` (nuevo), `README.md` | 1.5 h |
+
+**Total ≈ 10 h.** Orden de dependencias: 1 → 4 → 3 → 2 → 5 → 6 → 7 → 8. Antes de 5 y 6 hay que medir la campeona en la suite (paso 2), para demostrar que no se rompió lo aprendido.

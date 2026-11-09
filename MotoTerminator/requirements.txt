@@ -1,0 +1,9 @@
+# MT-Bench / Moto autónoma evolutiva: dependencias de ejecución.
+# Obligatoria (lo único que necesita la simulación, la evolución y la ventana tkinter):
+numpy>=1.24,<3
+# Opcionales (el programa funciona sin ellas):
+pillow>=9        # imagen satelital de las calles reales
+scipy>=1.10      # IC exactos de Clopper-Pearson / Garwood (sin scipy se usa Wilson)
+matplotlib>=3.7  # figuras de reporte.py
+numba>=0.58     # física acelerada en CPU con todos los núcleos (~9x); sin numba se usa numpy
+numba-cuda[cu12]  # sólo con tarjeta NVIDIA: física en la GPU para poblaciones grandes
