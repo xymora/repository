@@ -1,0 +1,12 @@
+# Environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# DVC Governance: Exclude large files (tracked via .dvc)
+data/raw_enterprise_data.csv
+data/processed_enterprise_data.csv
+models/risk_model_v1.joblib
+
+# OS
+.DS_Store
