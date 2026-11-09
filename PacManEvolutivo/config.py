@@ -1,0 +1,87 @@
+
+DT = 1 / 30
+SUBPASOS = 2
+
+ANCHO, ALTO = 28, 31
+VEL_BASE = 9.47
+
+VIDAS = 3
+PUNTOS_PUNTO = 10
+PUNTOS_ENERGIZANTE = 50
+PUNTOS_FANTASMA = (200, 400, 800, 1600)
+FRUTA_EN_PUNTOS = (70, 170)
+FRUTA_DURA = 9.5
+MUERTE_ESPERA = 1.6
+INICIO_ESPERA = 0.0
+DIST_CHOQUE = 0.55
+PARPADEO = 2.0
+SALIDA_SEG = (0.0, 1.0, 5.0, 9.0)
+SALIDA_PUNTOS = (0, 0, 30, 60)
+VEL_OJOS = 1.6
+VEL_CASA = 0.45
+
+HORARIOS = (
+    (7, 20, 7, 20, 5, 20, 5),
+    (7, 20, 7, 20, 5, 1033, 1 / 60),
+    (5, 20, 5, 20, 5, 1037, 1 / 60),
+)
+
+NOMBRES_FANTASMAS = ("Blinky", "Pinky", "Inky", "Clyde")
+ESQUINAS = ((-3, 25), (-3, 2), (33, 27), (33, 0))
+CLYDE_RADIO = 8.0
+
+NIVELES = (
+    ("Primer bocado", 11, 0, 2, 0.80, 0.90, 0.70, 0.50, 0.40, 6.0, 20, 0),
+    ("Cuatro sombras", 11, 0, 4, 0.80, 0.90, 0.75, 0.50, 0.40, 6.0, 20, 0),
+    ("Jardín rosa", 23, 1, 4, 0.90, 0.95, 0.85, 0.55, 0.45, 4.0, 30, 1),
+    ("Noche rosa", 23, 1, 4, 0.90, 0.95, 0.85, 0.55, 0.45, 3.0, 40, 1),
+    ("Ciudad naranja", 37, 2, 4, 1.00, 1.00, 0.95, 0.60, 0.50, 2.0, 50, 2),
+    ("Cripta cian", 41, 3, 4, 1.00, 1.00, 0.95, 0.60, 0.50, 1.0, 60, 2),
+    ("Volcán", 52, 4, 4, 1.00, 1.00, 0.95, 0.60, 0.50, 1.0, 80, 2),
+    ("Laberinto infinito", None, 5, 4, 1.00, 1.00, 0.95, 0.60, 0.50, 2.0, 60, 2),
+)
+NIVEL_MAX = len(NIVELES)
+QUITAR_PASILLOS = 0.42
+
+SENSORES_DIR = 8
+N_ENTRADAS = 4 * SENSORES_DIR + 4 + 4
+OCULTAS_REC = 24
+OCULTAS_2 = 16
+SALIDAS = 4
+OCULTAS_COMPARTIDA = 8
+DIST_ESCALA = 20.0
+DIST_MAX = 3.0
+RADIO_DENSIDAD = 8
+
+PUNTOS_A_APTITUD = 0.1
+PREMIO_META = 300.0
+PREMIO_RAPIDEZ = 200.0
+VIDA_SOBRANTE = 40.0
+PREMIO_PERFECTO = 400.0
+CASTIGO_MUERTE = 5.0
+SEG_ATASCADO = 12.0
+T_MAX = 240.0
+T_REFERENCIA_POR_PUNTO = 0.22
+
+ALGORITMO = "es"
+ES_SIGMA = 0.05
+ES_LR = 0.03
+ES_DECAIMIENTO = 0.005
+ES_BETAS = (0.9, 0.999)
+MUESTRA_NORMALIZADOR = 6
+
+POBLACION = 80
+ELITE = 4
+TORNEO = 3
+PROB_CRUCE = 0.7
+PROB_MUTACION = 0.10
+SIGMA_MUTACION = 0.20
+SIGMA_MAX = 0.45
+INMIGRANTES = 0.04
+RACHA_PARA_SUBIR = 3
+
+CARPETA_DATOS = "datos"
+ARCHIVO_MEJOR = "mejor_comecocos.json"
+ARCHIVO_POBLACION = "poblacion.npz"
+ARCHIVO_HISTORIAL = "historial.csv"
+ARCHIVO_SALON = "salon_de_la_fama.npz"
