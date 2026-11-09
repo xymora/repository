@@ -1,0 +1,29 @@
+@echo off
+chcp 65001 >nul
+title Domo de Defensa Movil - entrenamiento rapido
+cd /d "%~dp0"
+set "PYTHONIOENCODING=utf-8"
+
+where python >nul 2>nul
+if %errorlevel%==0 (
+    set "PY=python"
+) else (
+    where py >nul 2>nul
+    if errorlevel 1 (
+        echo No se encontro Python. Instalalo desde https://www.python.org/downloads/
+        pause
+        exit /b 1
+    )
+    set "PY=py -3"
+)
+
+for %%M in (numpy pygame imageio_ffmpeg) do (
+    %PY% -c "import %%M" >nul 2>nul
+    if errorlevel 1 (
+        echo Instalando %%M...
+        if "%%M"=="imageio_ffmpeg" (%PY% -m pip install imageio-ffmpeg) else (%PY% -m pip install %%M)
+    )
+)
+
+%PY% "%~dp0main.py" --rapido %*
+if errorlevel 1 pause
