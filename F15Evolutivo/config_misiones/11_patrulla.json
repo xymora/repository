@@ -1,0 +1,33 @@
+{
+  "numero": 11,
+  "id": "patrulla",
+  "nombre": "Patrulla aérea (CAP)",
+  "descripcion": "Circuito de patrulla a 5 500 m sobre el centro de la isla e interceptar al intruso que aparece en el radar.",
+  "duracion": 620,
+  "ia": true,
+  "curriculo": true,
+  "orden": 11,
+  "fases": [
+    {
+      "tipo": "inicio_aire",
+      "pista": "BASE",
+      "s": 6000,
+      "altura": 2500,
+      "vel": 220,
+      "ruido": 200
+    },
+    {
+      "tipo": "patrulla",
+      "centro": [
+        0,
+        -5000
+      ],
+      "altura": 5500,
+      "rumbo_grados": 90,
+      "largo": 14000,
+      "ancho": 5000,
+      "vueltas": 1,
+      "intruso": true
+    }
+  ]
+}

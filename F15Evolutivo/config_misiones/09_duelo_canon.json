@@ -1,0 +1,17 @@
+{
+  "numero": 9,
+  "id": "duelo_canon",
+  "nombre": "Duelo con cañón",
+  "descripcion": "Sin misiles: alcanzar al dron, ponerse detrás a menos de 1500 m y derribarlo con el cañón apuntando con anticipación.",
+  "duracion": 300,
+  "ia": true,
+  "curriculo": true,
+  "orden": 9,
+  "misiles": 0,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 8
+    }
+  ]
+}

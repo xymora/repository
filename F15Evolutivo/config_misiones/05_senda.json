@@ -1,0 +1,16 @@
+{
+  "numero": 5,
+  "id": "senda",
+  "nombre": "Aproximación por senda",
+  "descripcion": "Seguir la senda de 3°, tocar en la zona de toma y detenerse en la pista.",
+  "duracion": 260,
+  "ia": true,
+  "curriculo": true,
+  "orden": 5,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 5
+    }
+  ]
+}

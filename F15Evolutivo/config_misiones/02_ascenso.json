@@ -1,0 +1,16 @@
+{
+  "numero": 2,
+  "id": "ascenso",
+  "nombre": "Ascenso y crucero",
+  "descripcion": "Subir a 4 000 m, nivelar y mantener rumbo y velocidad.",
+  "duracion": 150,
+  "ia": true,
+  "curriculo": true,
+  "orden": 2,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 2
+    }
+  ]
+}

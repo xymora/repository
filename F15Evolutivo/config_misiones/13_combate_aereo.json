@@ -1,0 +1,16 @@
+{
+  "numero": 13,
+  "id": "combate_aereo",
+  "nombre": "Combate aéreo",
+  "descripcion": "3 cazas enemigos al norte que persiguen y disparan misiles y cañón.",
+  "duracion": 900,
+  "ia": false,
+  "curriculo": false,
+  "orden": 13,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 13
+    }
+  ]
+}

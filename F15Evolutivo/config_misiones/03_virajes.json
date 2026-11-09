@@ -1,0 +1,16 @@
+{
+  "numero": 3,
+  "id": "virajes",
+  "nombre": "Virajes",
+  "descripcion": "Seguir puntos que exigen virajes de 90° y 180°.",
+  "duracion": 220,
+  "ia": true,
+  "curriculo": true,
+  "orden": 3,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 3
+    }
+  ]
+}

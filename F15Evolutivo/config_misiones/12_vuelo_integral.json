@@ -1,0 +1,63 @@
+{
+  "numero": 12,
+  "id": "vuelo_integral",
+  "nombre": "Vuelo integral",
+  "descripcion": "Misión completa: arranque en frío, despegue, valles entre montañas, patrulla aérea con intercepción y aterrizaje en la Base Halcón.",
+  "duracion": 1500,
+  "ia": true,
+  "curriculo": true,
+  "orden": 12,
+  "fases": [
+    {
+      "tipo": "arranque",
+      "pista": "BASE"
+    },
+    {
+      "tipo": "despegue",
+      "pista": "BASE",
+      "altura": 600,
+      "distancia": 4500
+    },
+    {
+      "tipo": "ruta",
+      "puntos": [
+        [
+          -4500,
+          1500,
+          900
+        ],
+        [
+          -6000,
+          -4500,
+          1300
+        ],
+        [
+          -1000,
+          -9500,
+          1500
+        ]
+      ],
+      "radio": 500,
+      "vel": 190,
+      "despeje": 500
+    },
+    {
+      "tipo": "patrulla",
+      "centro": [
+        0,
+        -6000
+      ],
+      "altura": 4500,
+      "rumbo_grados": 90,
+      "largo": 10000,
+      "ancho": 4000,
+      "vueltas": 1,
+      "intruso": true
+    },
+    {
+      "tipo": "aterrizaje",
+      "pista": "BASE",
+      "circuito": true
+    }
+  ]
+}

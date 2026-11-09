@@ -1,0 +1,16 @@
+{
+  "numero": 7,
+  "id": "circuito",
+  "nombre": "Circuito completo",
+  "descripcion": "Despegar, circuito de tránsito y aterrizar de nuevo.",
+  "duracion": 440,
+  "ia": true,
+  "curriculo": true,
+  "orden": 7,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 7
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "numero": 8,
+  "id": "intercepcion",
+  "nombre": "Intercepción",
+  "descripcion": "Interceptar y derribar un dron blanco con misiles o cañón.",
+  "duracion": 260,
+  "ia": true,
+  "curriculo": true,
+  "orden": 8,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 8
+    }
+  ]
+}

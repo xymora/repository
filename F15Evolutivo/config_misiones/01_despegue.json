@@ -1,0 +1,16 @@
+{
+  "numero": 1,
+  "id": "despegue",
+  "nombre": "Despegue",
+  "descripcion": "Carrera en la pista 34, rotar y subir con el tren arriba.",
+  "duracion": 120,
+  "ia": true,
+  "curriculo": true,
+  "orden": 1,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 1
+    }
+  ]
+}

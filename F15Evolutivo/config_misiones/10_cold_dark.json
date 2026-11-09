@@ -1,0 +1,22 @@
+{
+  "numero": 10,
+  "id": "cold_dark",
+  "nombre": "Arranque en frío y despegue",
+  "descripcion": "Cold & Dark: carlinga, JFS, bombas, motor derecho, motor izquierdo, aviónica y SAS, controles, autorización y despegue con postquemador.",
+  "duracion": 300,
+  "ia": true,
+  "curriculo": true,
+  "orden": 10,
+  "fases": [
+    {
+      "tipo": "arranque",
+      "pista": "BASE"
+    },
+    {
+      "tipo": "despegue",
+      "pista": "BASE",
+      "altura": 450,
+      "distancia": 4500
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "numero": 6,
+  "id": "aterrizaje",
+  "nombre": "Aterrizaje",
+  "descripcion": "Aproximación final, tocar en la zona de toma y detenerse.",
+  "duracion": 170,
+  "ia": true,
+  "curriculo": true,
+  "orden": 6,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 6
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "numero": 4,
+  "id": "montanas",
+  "nombre": "Navegación entre montañas",
+  "descripcion": "Cruzar la isla por los valles hasta el Aeródromo Cumbre Norte.",
+  "duracion": 460,
+  "ia": true,
+  "curriculo": true,
+  "orden": 4,
+  "fases": [
+    {
+      "tipo": "leccion",
+      "numero": 4
+    }
+  ]
+}
