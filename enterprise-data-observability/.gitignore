@@ -1,0 +1,12 @@
+# Local Environment
+.venv/
+__pycache__/
+
+# Governance Artifacts (Sensitive Data)
+logs/*.log
+exports/*.csv
+previews/*.png
+
+# System specific
+.DS_Store
+.env
