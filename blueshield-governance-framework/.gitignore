@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+env/
+
+# Data & Sensitive Info
+*.csv
+.env
+
+# IDEs
+.vscode/
+.idea/
