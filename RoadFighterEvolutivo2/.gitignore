@@ -1,0 +1,4 @@
+__pycache__/
+datos/
+datos_respaldo_*/
+*.tmp
