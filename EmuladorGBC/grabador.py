@@ -1,0 +1,235 @@
+import ctypes
+import datetime
+import os
+import shutil
+import subprocess
+import threading
+import time
+import tkinter as tk
+from ctypes import wintypes
+
+CARPETA_GRABACIONES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "grabaciones")
+FPS = 30
+CRF = 16
+PW_CLIENTONLY, PW_RENDERFULLCONTENT = 1, 2
+
+
+def ruta_ffmpeg():
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        return shutil.which("ffmpeg")
+
+
+class _BITMAPINFOHEADER(ctypes.Structure):
+    _fields_ = [("biSize", wintypes.DWORD), ("biWidth", wintypes.LONG),
+                ("biHeight", wintypes.LONG), ("biPlanes", wintypes.WORD),
+                ("biBitCount", wintypes.WORD), ("biCompression", wintypes.DWORD),
+                ("biSizeImage", wintypes.DWORD), ("biXPelsPerMeter", wintypes.LONG),
+                ("biYPelsPerMeter", wintypes.LONG), ("biClrUsed", wintypes.DWORD),
+                ("biClrImportant", wintypes.DWORD)]
+
+
+class _Captura:
+    def __init__(self, hwnd):
+        u, g = ctypes.windll.user32, ctypes.windll.gdi32
+        firmas = (
+            (u.GetDC, wintypes.HDC, [wintypes.HWND]),
+            (u.ReleaseDC, ctypes.c_int, [wintypes.HWND, wintypes.HDC]),
+            (u.PrintWindow, wintypes.BOOL, [wintypes.HWND, wintypes.HDC, wintypes.UINT]),
+            (g.CreateCompatibleDC, wintypes.HDC, [wintypes.HDC]),
+            (g.CreateCompatibleBitmap, wintypes.HBITMAP, [wintypes.HDC, ctypes.c_int, ctypes.c_int]),
+            (g.SelectObject, wintypes.HGDIOBJ, [wintypes.HDC, wintypes.HGDIOBJ]),
+            (g.DeleteObject, wintypes.BOOL, [wintypes.HGDIOBJ]),
+            (g.DeleteDC, wintypes.BOOL, [wintypes.HDC]),
+            (g.GetDIBits, ctypes.c_int, [wintypes.HDC, wintypes.HBITMAP, wintypes.UINT,
+                                         wintypes.UINT, ctypes.c_void_p, ctypes.c_void_p,
+                                         wintypes.UINT]),
+        )
+        for funcion, resultado, argumentos in firmas:
+            funcion.restype, funcion.argtypes = resultado, argumentos
+        self.u, self.g, self.hwnd = u, g, hwnd
+        r = wintypes.RECT()
+        u.GetClientRect(hwnd, ctypes.byref(r))
+        self.ancho, self.alto = r.right - r.left, r.bottom - r.top
+        if self.ancho < 2 or self.alto < 2:
+            raise RuntimeError("la ventana está minimizada")
+        dc = u.GetDC(hwnd)
+        self.mem = g.CreateCompatibleDC(dc)
+        self.bmp = g.CreateCompatibleBitmap(dc, self.ancho, self.alto)
+        u.ReleaseDC(hwnd, dc)
+        self.info = _BITMAPINFOHEADER(ctypes.sizeof(_BITMAPINFOHEADER), self.ancho,
+                                      -self.alto, 1, 32, 0, 0, 0, 0, 0, 0)
+        self.bufer = ctypes.create_string_buffer(self.ancho * self.alto * 4)
+
+    def cuadro(self):
+        viejo = self.g.SelectObject(self.mem, self.bmp)
+        ok = self.u.PrintWindow(self.hwnd, self.mem, PW_CLIENTONLY | PW_RENDERFULLCONTENT)
+        self.g.SelectObject(self.mem, viejo)
+        if not ok:
+            return None
+        self.g.GetDIBits(self.mem, self.bmp, 0, self.alto, self.bufer, ctypes.byref(self.info), 0)
+        return self.bufer.raw
+
+    def cerrar(self):
+        self.g.DeleteObject(self.bmp)
+        self.g.DeleteDC(self.mem)
+
+
+class Grabador:
+    def __init__(self, raiz):
+        self.raiz = raiz
+        self.archivo = None
+        self.error = None
+        self.inicio = 0.0
+        self._parar = threading.Event()
+        self._sin_captura = threading.Event()
+        self._hilo = None
+
+    @property
+    def grabando(self):
+        return self.ocupado and not self._parar.is_set()
+
+    @property
+    def ocupado(self):
+        return self._hilo is not None and self._hilo.is_alive()
+
+    def iniciar(self):
+        exe = ruta_ffmpeg()
+        if not exe:
+            raise RuntimeError("falta ffmpeg: ejecuta  python -m pip install imageio-ffmpeg")
+        self.raiz.update_idletasks()
+        captura = _Captura(int(self.raiz.wm_frame(), 16))
+        os.makedirs(CARPETA_GRABACIONES, exist_ok=True)
+        sello = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        self.archivo = os.path.join(CARPETA_GRABACIONES, f"grabacion_{sello}.mp4")
+        cmd = [exe, "-y", "-loglevel", "error",
+               "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{captura.ancho}x{captura.alto}",
+               "-framerate", str(FPS), "-i", "-",
+               "-vf", "crop=trunc(iw/2)*2:trunc(ih/2)*2",
+               "-c:v", "libx264", "-preset", "fast", "-crf", str(CRF), "-tune", "animation",
+               "-pix_fmt", "yuv420p", "-movflags", "+faststart", self.archivo]
+        proceso = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL,
+                                   stderr=subprocess.PIPE,
+                                   creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        self.error = None
+        self._parar.clear()
+        self._sin_captura.clear()
+        self.inicio = time.perf_counter()
+        self._hilo = threading.Thread(target=self._bucle, args=(captura, proceso), daemon=False)
+        self._hilo.start()
+
+    def _escribir_debidos(self, proceso, datos, escritos):
+        debidos = max(int((time.perf_counter() - self.inicio) * FPS) + 1 - escritos, 0)
+        for _ in range(debidos):
+            proceso.stdin.write(datos)
+        return escritos + debidos
+
+    def _bucle(self, captura, proceso):
+        escritos = 0
+        datos = None
+        try:
+            while not self._parar.is_set():
+                datos = captura.cuadro()
+                if datos is None:
+                    break
+                escritos = self._escribir_debidos(proceso, datos, escritos)
+                espera = self.inicio + escritos / FPS - time.perf_counter()
+                if espera > 0:
+                    self._parar.wait(espera)
+            if datos is not None:
+                escritos = self._escribir_debidos(proceso, datos, escritos)
+        except OSError:
+            pass
+        finally:
+            self._sin_captura.set()
+            captura.cerrar()
+            try:
+                proceso.stdin.close()
+            except OSError:
+                pass
+            error = proceso.stderr.read().decode("utf-8", "replace").strip()
+            if proceso.wait() != 0 or escritos == 0:
+                self.error = error or "ffmpeg no pudo crear el video"
+
+    def detener(self, esperar=False):
+        self._parar.set()
+        if esperar and self._hilo is not None:
+            limite = time.perf_counter() + 3
+            while not self._sin_captura.is_set() and time.perf_counter() < limite:
+                try:
+                    self.raiz.update()
+                except tk.TclError:
+                    break
+                time.sleep(0.01)
+
+
+class BotonGrabar:
+    def __init__(self, padre, raiz, avisar=None, fuente=("Segoe UI", 9, "bold")):
+        self.raiz = raiz
+        self.avisar = avisar or (lambda texto: None)
+        self.grabador = Grabador(raiz)
+        self._sesion = False
+        self.boton = tk.Button(padre, command=self.alternar, fg="#111", font=fuente,
+                               relief="flat", bd=0, padx=10, pady=5, cursor="hand2",
+                               takefocus=0)
+        self._estilo(False)
+
+    def pack(self, **kw):
+        self.boton.pack(**kw)
+        return self
+
+    def _estilo(self, grabando, texto=None):
+        color = "#ef5350" if grabando else "#ffab91"
+        self.boton.configure(text=texto or ("⏹ Stop" if grabando else "⏺ Grabar pantalla"),
+                             bg=color, activebackground=color)
+
+    def alternar(self):
+        g = self.grabador
+        if g.grabando:
+            g.detener()
+            self._guardando()
+            return
+        if g.ocupado:
+            return
+        try:
+            g.iniciar()
+        except Exception as e:
+            self.avisar(f"No se pudo grabar: {e}")
+            return
+        self._sesion = True
+        self.avisar("Grabando la pantalla…")
+        self._reloj()
+
+    def _reloj(self):
+        g = self.grabador
+        if g.grabando:
+            s = int(time.perf_counter() - g.inicio)
+            self._estilo(True, f"⏹ Stop  ● {s // 60:02d}:{s % 60:02d}")
+            self.raiz.after(500, self._reloj)
+        else:
+            self._guardando()
+
+    def _guardando(self):
+        if not self._sesion:
+            return
+        self._sesion = False
+        self._estilo(False, "Guardando…")
+        self.boton.configure(state="disabled")
+        self._esperar_guardado()
+
+    def _esperar_guardado(self):
+        g = self.grabador
+        if g.ocupado:
+            self.raiz.after(150, self._esperar_guardado)
+            return
+        self.boton.configure(state="normal")
+        self._estilo(False)
+        if g.error:
+            self.avisar(f"Error al guardar el video: {g.error}")
+        else:
+            self.avisar(f"Video guardado: grabaciones\\{os.path.basename(g.archivo)}")
+
+    def cerrar(self):
+        self.grabador.detener(esperar=True)
