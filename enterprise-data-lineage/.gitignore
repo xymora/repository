@@ -1,0 +1,18 @@
+# Logs and Audit Trails
+*.log
+data_audit_trail.log
+
+# Generated Reports
+*.png
+governance_dashboard_premium.png
+governance_report.png
+
+# Python Environment
+__pycache__/
+.venv/
+env/
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
