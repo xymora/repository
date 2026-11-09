@@ -1,0 +1,24 @@
+{
+  "arquitectura": "efficientnet_b0",
+  "clases": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "tam_entrada": [
+    256,
+    384
+  ],
+  "umbral_higado_graso": 0.5,
+  "epocas": 25,
+  "semilla": 42,
+  "datos_entrenamiento": "Byra et al. 2018, doi:10.5281/zenodo.1009146 (55 pacientes, 550 imágenes)",
+  "desempeno_validacion_cruzada_paciente": {
+    "auc_graso": 0.9071207430340558,
+    "sensibilidad_graso": 0.8947368421052632,
+    "especificidad_graso": 0.7058823529411765,
+    "exactitud_grado": 0.5272727272727272,
+    "kappa_cuadratica_grado": 0.6474358974358974
+  }
+}
