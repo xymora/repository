@@ -1,0 +1,7 @@
+# Modelo YOLO descargado (no se versiona; usar descargar_modelo.py)
+modelos/
+*.weights
+
+# Imagenes de referencia locales
+sem.png
+*.mp4
